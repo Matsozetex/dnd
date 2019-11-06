@@ -711,7 +711,6 @@
 			}]
 		},
 		{
-<<<<<<< HEAD
 			"abbreviation": "STK",
 			"source": "GAG",
 			"entries": [{
@@ -719,37 +718,6 @@
 				"name": "Stock",
 				"entries": [
 					"Ranged weapons with the Stock property can improve your aim when set on firm ground. If you lay prone and make a ranged attack with it, you can ignore disadvantage when shooting at long range (but no further than 1000 feet), but you suffer disadvantage if you shoot at targets within close range."
-=======
-			"abbreviation": "DMP",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Damage - Piercing",
-				"entries": [
-					"This weapon may do piercing damage if you wish."
-				]
-			}]
-		},
-		{
-			"abbreviation": "DMS",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Damage - Slashing",
-				"entries": [
-					"This weapon may do slashing damage if you wish."
-				]
-			}]
-		},
-		{
-			"abbreviation": "DMB",
-			"source": "GAG",
-			"entries": [{
-				"type": "entries",
-				"name": "Damage - Bludgeoning",
-				"entries": [
-					"This weapon may do bludgeoning damage if you wish."
->>>>>>> 2fd1aa5d879c8d2f031f4bb19cb8cb0365d69b87
 				]
 			}]
 		}
