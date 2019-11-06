@@ -50,6 +50,22 @@
 			]
 		},
 		{
+			"name": "Long Sword",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 3,
+			"dmg1": "{@dice 1d10}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"PAR",
+				"2H",
+				"DMS"
+			]
+		},
+		{
 			"name": "Bastard Sword",
 			"type": "M",
 			"weapon": true,
@@ -85,16 +101,17 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"rarity": "None",
-			"weight": 7,
+			"weight": 6,
 			"dmg1": "{@dice 3d4}",
-			"dmgType": "S",
+			"dmgType": "P",
 			"source": "GAG",
 			"property": [
 				"H",
 				"PAR",
 				"SLO",
 				"WOUS",
-				"2H"
+				"2H",
+				"DMS"
 			]
 		},
 		{
@@ -138,7 +155,7 @@
 			"rarity": "None",
 			"range": "20/60",
 			"weight": 1,
-			"dmg1": "{@dice 1d8}",
+			"dmg1": "{@dice 1d4}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
@@ -362,6 +379,25 @@
 			]
 		},
 		{
+			"name": "Epee",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 2,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"DEF1",
+				"PAR"
+			],
+			"entries": [
+				"This weapon is explicitly a dexterity weapon. -Jorim"
+			]
+		},
+		{
 			"name": "Flintlock Musket",
 			"type": "R",
 			"weapon": true,
@@ -369,7 +405,7 @@
 			"rarity": "None",
 			"range": "150/500",
 			"weight": 10,
-			"dmg1": "{@dice 2d10}",
+			"dmg1": "{@dice 2d12}",
 			"dmgType": "P",
 			"source": "GAG",
 			"property": [
@@ -378,6 +414,24 @@
 				"MIS1",
 				"VEL",
 				"CAL2"
+			]
+		},
+		{
+			"name": "Breachloading Carbine",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"range": "75/750",
+			"weight": 9,
+			"dmg1": "{@dice 2d10}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"2H",
+				"LD1",
+				"MIS1",
+				"VEL"
 			]
 		}
 	],
@@ -421,7 +475,7 @@
 				"type": "entries",
 				"name": "Parrying",
 				"entries": [
-					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combataction (see pg. 13) even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
+					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combat action (see pg. 13) even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
 				]
 			}]
 		},
@@ -657,6 +711,7 @@
 			}]
 		},
 		{
+<<<<<<< HEAD
 			"abbreviation": "STK",
 			"source": "GAG",
 			"entries": [{
@@ -664,9 +719,41 @@
 				"name": "Stock",
 				"entries": [
 					"Ranged weapons with the Stock property can improve your aim when set on firm ground. If you lay prone and make a ranged attack with it, you can ignore disadvantage when shooting at long range (but no further than 1000 feet), but you suffer disadvantage if you shoot at targets within close range."
+=======
+			"abbreviation": "DMP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Piercing",
+				"entries": [
+					"This weapon may do piercing damage if you wish."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DMS",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Slashing",
+				"entries": [
+					"This weapon may do slashing damage if you wish."
+				]
+			}]
+		},
+		{
+			"abbreviation": "DMB",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Damage - Bludgeoning",
+				"entries": [
+					"This weapon may do bludgeoning damage if you wish."
+>>>>>>> 2fd1aa5d879c8d2f031f4bb19cb8cb0365d69b87
 				]
 			}]
 		}
+
 	]
 
 }
