@@ -416,6 +416,26 @@
 			]
 		},
 		{
+			"name": "Armored Glove",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"weight": 1,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "B",
+			"source": "GAG",
+			"property": [
+				"F",
+				"L",
+				"NONL",
+				"BTN4",
+				"WRN",
+				"FREE"
+			]
+		
+		},
+		{
 			"name": "Flintlock Musket",
 			"type": "R",
 			"weapon": true,
@@ -793,8 +813,40 @@
 					"Ranged weapons with the Point Blank property allow for exact precision when pointing at nearby targets. Attacks with ranged weapons that have this property do not suffer disadvantage when made within 5 feet of a hostile creature."
 				]
 			}]
+		},
+		{
+			"abbreviation": "BTN4",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Beatdown (1d4)",
+				"entries": [
+					"You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shown in parenthesis."
+				]
+			}]
+		},
+		{
+			"abbreviation": "FREE",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Free-Handed",
+				"entries": [
+					"This weapon or shield attaches to the arm but the hand remains unoccupied. If you attack with a weapon held in your shield hand (such as a two-handed weapon), you must either choose to do so with disadvantage or you cannot benefit from the AC bonus of the shield until the start of your next turn."
+				]
+			}]
+		},
+		{
+			"abbreviation": "WRN",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Worn",
+				"entries": [
+					"Weapons with the Worn property are equipped in a way similar to armor, by strapping it firmly to the body. It takes up to 1 minute to don or doff the weapon or shield, and you can do it as part of donning or doffing armor. The DM may allow you to skip the required time if you ignore the Worn property of the weapon or shield until the end of combat. While the weapon or shield benefits from the Worn property, it cannot be disarmed unless the attack or skill check is an exceptional or critical hit."
+				]
+			}]
 		}
-
 	]
 
 }
