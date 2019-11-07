@@ -200,6 +200,23 @@
 			]
 		},
 		{
+			"name": "Standard Hand Crossbow",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "30/120",
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"LD",
+				"L",
+				"PTB"
+			]
+		},
+		{
 			"name": "Hatchet",
 			"type": "M",
 			"weapon": true,
@@ -751,6 +768,17 @@
 				"name": "Damage Type - Bludgeoning",
 				"entries": [
 					"This weapon may do bludgeoning damage."
+				]
+			}]
+		},
+		{
+			"abbreviation": "PTB",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Point Blank",
+				"entries": [
+					"Ranged weapons with the Point Blank property allow for exact precision when pointing at nearby targets. Attacks with ranged weapons that have this property do not suffer disadvantage when made within 5 feet of a hostile creature."
 				]
 			}]
 		}
