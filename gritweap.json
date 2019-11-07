@@ -111,7 +111,8 @@
 				"SLO",
 				"WOUS",
 				"2H",
-				"DMS"
+				"DMS",
+				"WOUP"
 			]
 		},
 		{
@@ -547,7 +548,7 @@
 				"type": "entries",
 				"name": "Wounding - Piercing",
 				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
+					"A critical hit with a wounding weapon performs addtional effects. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
 				]
 			}]
 		},
@@ -558,7 +559,18 @@
 				"type": "entries",
 				"name": "Wounding - Slashing",
 				"entries": [
-					"The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
+					"A critical hit with a wounding weapon performs addtional effects. Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
+				]
+			}]
+		},
+		{
+			"abbreviation": "WOUB",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Wounding - Bludgeoning",
+				"entries": [
+					"A critical hit with a wounding weapon performs addtional effects. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. The target becomes Stunned until the end of its next turn."
 				]
 			}]
 		},
