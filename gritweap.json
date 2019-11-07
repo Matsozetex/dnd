@@ -548,7 +548,7 @@
 				"type": "entries",
 				"name": "Wounding - Piercing",
 				"entries": [
-					"A critical hit with a wounding weapon performs addtional effects. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
+					"A critical hit with a wounding weapon performs addtional effects. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 2 hp at the start of its turns. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
 				]
 			}]
 		},
