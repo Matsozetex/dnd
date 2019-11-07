@@ -702,7 +702,7 @@
 				"type": "entries",
 				"name": "Velocity",
 				"entries": [
-					"Advanced firearms shoot projectiles at a higher velocity than all other ranged weapons. While causing less bleeding than arrows, bullets deal more trauma and are very effective at killing quickly. When rolling for damage, roll one additional weapon die then remove the die with the lowest result. When using weapons with the Velocity property the target does not benefit from any AC bonus from armor components with the Hard property. "
+					"Advanced firearms shoot projectiles at a higher velocity than all other ranged weapons. While causing less bleeding than arrows, bullets deal more trauma and are very effective at killing quickly. When rolling for damage, roll one additional weapon die then remove the die with the lowest result. When using weapons with the Velocity property the target does not benefit from any AC bonus from armor components with the Hard property. In roll20, this can be set by adding a d1 at the end of your damage roll."
 				]
 			}]
 		},
