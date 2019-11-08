@@ -223,9 +223,26 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"rarity": "None",
-			"range": "20/60",
+			"range": "30/60",
 			"weight": 1,
 			"dmg1": "{@dice 1d4}",
+			"dmgType": "S",
+			"source": "GAG",
+			"property": [
+				"L",
+				"T",
+				"F"
+			]
+		},
+		{
+			"name": "Handaxe",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"range": "20/60",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
 			"dmgType": "S",
 			"source": "GAG",
 			"property": [
@@ -325,6 +342,9 @@
 				"WOUP",
 				"SLO",
 				"BRU"
+			],
+			"entries":[
+				"Remember this weapon uses STR mod."
 			]
 		},
 		{
