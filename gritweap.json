@@ -553,7 +553,7 @@
 				"type": "entries",
 				"name": "Parrying",
 				"entries": [
-					"The weapon has catching or deflecting feature, allowing it tobe used to parry incoming attacks. It can use Deflect combat action (see pg. 13) even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results."
+					"The weapon has catching or deflecting feature, allowing it to be used to parry incoming attacks. It can use Deflect combat action even if the weapon has the Light or Finesse properties. However, if the weapon is not Light nor Finesse, you may also reroll one of the weapon dice once when using Deflect, and choose one of the results.", "Deflect Combat Action: When suffering a melee attack, and there is Dominance (advantage on the attack), you may spend your reaction to deflect the attack with a proficient weapon. You can only deflect before damage is rolled. Attacks by Flexible Weapons (such as flails) cannot be deflected. Roll your weapon damage dice without any modifiers. The damage is reduced by that result. Riposte. If your weapon has the Parry property and your Deflect result negates all attack damage, you can make a single melee attack against the attacker."
 				]
 			}]
 		},
@@ -905,7 +905,7 @@
 				"type": "entries",
 				"name": "Bypass",
 				"entries": [
-					"Flexible weapons with the Bypass property are unaffected by directly blocking the blow. These weapons ignore the AC bonus from shields and Defensive weapons. The target can still use the Raise Shield combat action (pg. 18) to make yourattack miss."
+					"Flexible weapons with the Bypass property are unaffected by directly blocking the blow. These weapons ignore the AC bonus from shields and Defensive weapons. The target can still use the Raise Shield combat action to make your attack miss.", "Raise Shield: If using a shield and you are hit with a melee attack, you may use your reaction to raise your shield. You add 2 to your AC vs that attack, and your shield takes a notch. Each notch reduces AC by 1. If your shield's AC reaches 0, it is destroyed. Magical or tempered shields may reduce the notches. Magical shields recover after a full rest, and may block critical hits that meet the above criteria."
 				]
 			}]
 		},
@@ -927,7 +927,7 @@
 				"type": "entries",
 				"name": "Grappling",
 				"entries": [
-					"When you hit with a melee or thrown attack using a weaponwith the Grappling property, you can spend your bonus action and attempt an opposed Grapple contest. You must use your Аttack roll, and the target uses their Dexterity (Acrobatics) skill. If you succeed, your weapon grapples the target. Other weapon properties (Restraining, Preventing, etc.) list this condition as prerequisite. While your weapon is grappling the target, any attack withthe same weapon breaks the grapple. The grapple is broken if you or the target move out of reach. The grappled enemy can also spend an action and attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your Weapon Mastery DC. If it succeeds, the weapon grapple is broken. If it is not grappled by a thrown weapon, the target can also break the weapon grapple if it succeeds in Disarming you. While your weapon is grappling the target and you are holding onto your weapon, you can attempt Shove a Creature action using your Attack roll instead of Strength (Athletics)."
+					"When you hit with a melee or thrown attack using a weaponwith the Grappling property, you can spend your bonus action and attempt an opposed Grapple contest. You must use your Аttack roll, and the target uses their Dexterity (Acrobatics) skill. If you succeed, your weapon grapples the target. Other weapon properties (Restraining, Preventing, etc.) list this condition as prerequisite. While your weapon is grappling the target, any attack withthe same weapon breaks the grapple. The grapple is broken if you or the target move out of reach. The grappled enemy can also spend an action and attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your Weapon Mastery DC. If it succeeds, the weapon grapple is broken. If it is not grappled by a thrown weapon, the target can also break the weapon grapple if it succeeds in Disarming you. While your weapon is grappling the target and you are holding onto your weapon, you can attempt Shove a Creature action using your Attack roll instead of Strength (Athletics).", "Weapon Mastery DC = 8 + PROF + STR (or DEX if the weapon has the finesse property."
 				]
 			}]
 		}
