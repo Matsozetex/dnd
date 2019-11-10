@@ -894,7 +894,7 @@
 				"type": "entries",
 				"name": "Breakable",
 				"entries": [
-					"The weapon has AC and HP values and can be attacked withmelee attacks as long as the weapon is grappling you (seeGrappling property). You may also be allowed a Strengthcheck to break the weapon. AC 10 and HP 10. Immune to piercing damage.Takes no damage from attacks dealing 5 damage or less.Can also be broken with a DC 20 Strength check. Once broken, weapons immediately release their grapple withtheir target and unless held by you they drop to the ground."
+					"The weapon has AC and HP values and can be attacked withmelee attacks as long as the weapon is grappling you (see Grappling property). You may also be allowed a Strengthcheck to break the weapon. AC 10 and HP 10. Immune to piercing damage.Takes no damage from attacks dealing 5 damage or less. Can also be broken with a DC 20 Strength check. Once broken, weapons immediately release their grapple withtheir target and unless held by you they drop to the ground."
 				]
 			}]
 		},
@@ -905,7 +905,7 @@
 				"type": "entries",
 				"name": "Bypass",
 				"entries": [
-					"Flexible weapons with the Bypass property are unaffected bydirectly blocking the blow. These weapons ignore the ACbonus from shields and Defensive weapons. The target canstill use the Raise Shield combat action (pg. 18) to make yourattack miss."
+					"Flexible weapons with the Bypass property are unaffected by directly blocking the blow. These weapons ignore the AC bonus from shields and Defensive weapons. The target can still use the Raise Shield combat action (pg. 18) to make yourattack miss."
 				]
 			}]
 		},
@@ -916,7 +916,7 @@
 				"type": "entries",
 				"name": "Ongoing (1)",
 				"entries": [
-					"While a weapon with the Ongoing property is grappling thetarget (see Grappling weapon property), the target takesdamage at the beginning of each of its turns equal to the valueshown in parenthesis."
+					"While a weapon with the Ongoing property is grappling the target (see Grappling weapon property), the target takes damage at the beginning of each of its turns equal to the value shown in parenthesis."
 				]
 			}]
 		},
@@ -927,7 +927,7 @@
 				"type": "entries",
 				"name": "Grappling",
 				"entries": [
-					"When you hit with a melee or thrown attack using a weaponwith the Grappling property, you can spend your bonus actionand attempt an opposed Grapple contest. You must use yourАttack roll, and the target uses their Dexterity (Acrobatics)skill. If you succeed, your weapon grapples the target. Otherweapon properties (Restraining, Preventing, etc.) list thiscondition as prerequisite.While your weapon is grappling the target, any attack withthe same weapon breaks the grapple. The grapple is broken ifyou or the target move out of reach. The grappled enemy canalso spend an action and attempt a Strength (Athletics) orDexterity (Acrobatics) check against your Weapon MasteryDC. If it succeeds, the weapon grapple is broken. If it is notgrappled by a thrown weapon, the target can also break theweapon grapple if it succeeds in Disarming you.While your weapon is grappling the target and you areholding onto your weapon, you can attempt Shove a Creatureaction using your Attack roll instead of Strength (Athletics)."
+					"When you hit with a melee or thrown attack using a weaponwith the Grappling property, you can spend your bonus action and attempt an opposed Grapple contest. You must use your Аttack roll, and the target uses their Dexterity (Acrobatics) skill. If you succeed, your weapon grapples the target. Other weapon properties (Restraining, Preventing, etc.) list this condition as prerequisite. While your weapon is grappling the target, any attack withthe same weapon breaks the grapple. The grapple is broken if you or the target move out of reach. The grappled enemy can also spend an action and attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your Weapon Mastery DC. If it succeeds, the weapon grapple is broken. If it is not grappled by a thrown weapon, the target can also break the weapon grapple if it succeeds in Disarming you. While your weapon is grappling the target and you are holding onto your weapon, you can attempt Shove a Creature action using your Attack roll instead of Strength (Athletics)."
 				]
 			}]
 		}
