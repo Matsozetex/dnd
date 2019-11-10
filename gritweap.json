@@ -436,6 +436,26 @@
 			]
 		},
 		{
+			"name": "Spiked Chain",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"weight": 10,
+			"dmg1": "{@dice 2d4}",
+			"dmgType": "P",
+			"source": "GAG",
+			"property": [
+				"F",
+				"R",
+				"2H",
+				"GRAP",
+				"ONG1",
+				"BYP",
+				"BRKC"
+			]
+		},
+		{
 			"name": "Armored Glove",
 			"type": "M",
 			"weapon": true,
@@ -866,7 +886,55 @@
 					"Weapons with the Worn property are equipped in a way similar to armor, by strapping it firmly to the body. It takes up to 1 minute to don or doff the weapon or shield, and you can do it as part of donning or doffing armor. The DM may allow you to skip the required time if you ignore the Worn property of the weapon or shield until the end of combat. While the weapon or shield benefits from the Worn property, it cannot be disarmed unless the attack or skill check is an exceptional or critical hit."
 				]
 			}]
+		},
+		{
+			"abbreviation": "BRKC",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Breakable",
+				"entries": [
+					"The weapon has AC and HP values and can be attacked withmelee attacks as long as the weapon is grappling you (seeGrappling property). You may also be allowed a Strengthcheck to break the weapon. AC 10 and HP 10. Immune to piercing damage.Takes no damage from attacks dealing 5 damage or less.Can also be broken with a DC 20 Strength check. Once broken, weapons immediately release their grapple withtheir target and unless held by you they drop to the ground."
+				]
+			}]
+		},
+		{
+			"abbreviation": "BYP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Bypass",
+				"entries": [
+					"Flexible weapons with the Bypass property are unaffected bydirectly blocking the blow. These weapons ignore the ACbonus from shields and Defensive weapons. The target canstill use the Raise Shield combat action (pg. 18) to make yourattack miss."
+				]
+			}]
+		},
+		{
+			"abbreviation": "ONG1",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Ongoing (1)",
+				"entries": [
+					"While a weapon with the Ongoing property is grappling thetarget (see Grappling weapon property), the target takesdamage at the beginning of each of its turns equal to the valueshown in parenthesis."
+				]
+			}]
+		},
+		{
+			"abbreviation": "GRAP",
+			"source": "GAG",
+			"entries": [{
+				"type": "entries",
+				"name": "Grappling",
+				"entries": [
+					"When you hit with a melee or thrown attack using a weaponwith the Grappling property, you can spend your bonus actionand attempt an opposed Grapple contest. You must use yourАttack roll, and the target uses their Dexterity (Acrobatics)skill. If you succeed, your weapon grapples the target. Otherweapon properties (Restraining, Preventing, etc.) list thiscondition as prerequisite.While your weapon is grappling the target, any attack withthe same weapon breaks the grapple. The grapple is broken ifyou or the target move out of reach. The grappled enemy canalso spend an action and attempt a Strength (Athletics) orDexterity (Acrobatics) check against your Weapon MasteryDC. If it succeeds, the weapon grapple is broken. If it is notgrappled by a thrown weapon, the target can also break theweapon grapple if it succeeds in Disarming you.While your weapon is grappling the target and you areholding onto your weapon, you can attempt Shove a Creatureaction using your Attack roll instead of Strength (Athletics)."
+				]
+			}]
 		}
+		
+
+		
+
 	]
 
 }
