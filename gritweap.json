@@ -11,13 +11,11 @@
 				"Matsozetex"
 			],
 			"url": "https://github.com/mpap0006/dnd",
-			"version": "0.2",
+			"version": "1.0",
 			"targetSchema": "1.0.0"
 		}],
 		"dateAdded": 1570629500
 	},
-
-
 	"item": [{
 			"name": "Stiletto",
 			"type": "M",
@@ -73,7 +71,7 @@
 			"rarity": "None",
 			"weight": 6,
 			"dmg1": "{@dice 2d4}",
-			"dmg2" : "{@dice 1d10}",
+			"dmg2": "{@dice 1d10}",
 			"dmgType": "S",
 			"source": "GAG",
 			"property": [
@@ -343,7 +341,7 @@
 				"SLO",
 				"BRU"
 			],
-			"entries":[
+			"entries": [
 				"Remember this weapon uses STR mod."
 			]
 		},
@@ -473,7 +471,7 @@
 				"WRN",
 				"FREE"
 			]
-		
+
 		},
 		{
 			"name": "Flintlock Musket",
@@ -931,10 +929,5 @@
 				]
 			}]
 		}
-		
-
-		
-
 	]
-
 }
