@@ -3,7 +3,7 @@
         "sources": [{
             "json": "GAG",
             "abbreviation": "WGaG",
-            "full": "Weapons for Grit and Glory",
+            "full": "Items for Grit and Glory",
             "authors": [
                 "TheApoApostolov"
             ],
@@ -823,7 +823,7 @@
             }]
         },
         {
-            "abbreviation": "DR2S",
+            "abbreviation": "DR3S",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
@@ -834,7 +834,7 @@
             }]
         },
         {
-            "abbreviation": "DR2P",
+            "abbreviation": "DR3P",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
