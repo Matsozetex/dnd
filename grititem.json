@@ -376,7 +376,7 @@
             ],
             "property":[
                 "COV1",
-                "BTP4"
+                "BDP4"
             ],
             "source": "GAG"
         },
@@ -629,7 +629,7 @@
             "weight": 5,
             "ac": 1,
             "property":[
-                "BTB4",
+                "BHB4",
                 "FREE",
                 "WORN",
                 "LITE",
@@ -645,7 +645,7 @@
             "weight": 5,
             "ac": 1,
             "property":[
-                "BTB4",
+                "BHB4",
                 "LITE",
                 "NONL"
             ],
@@ -659,7 +659,7 @@
             "weight": 6,
             "ac": 2,
             "property":[
-                "BTB6",
+                "BHB6",
                 "NONL"
             ],
             "source": "GAG"
@@ -672,7 +672,7 @@
             "weight": 11,
             "ac": 2,
             "property":[
-                "BTP6"
+                "BHP6"
             ],
             "source": "GAG"
         },
@@ -684,7 +684,6 @@
             "weight": 45,
             "ac": 4,
             "property":[
-                "BTP6",
                 "COVR",
                 "H"
             ],
@@ -958,29 +957,7 @@
             }]
         },
         {
-            "abbreviation": "BTB4",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Beatdown (1d4 Bludgeoning)",
-                "entries": [
-                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "BTB6",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Beatdown (1d6 Bludgeoning)",
-                "entries": [
-                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "BTP4",
+            "abbreviation": "BDP4",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
@@ -991,13 +968,57 @@
             }]
         },
         {
-            "abbreviation": "BTP6",
+            "abbreviation": "BDB4",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
-                "name": "Beatdown (1d6 Piercing)",
+                "name": "Beatdown (1d4 Bludegeoning)",
                 "entries": [
                     "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BDS4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Beatdown (1d4 Slashing)",
+                "entries": [
+                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BHB4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Bashing (1d4 Bludgeoning)",
+                "entries": [
+                    "You may attack with a shield with the bashing property as though it were a weapon, rolling the damage dice shown in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BHB6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Bashing (1d6 Bludgeoning)",
+                "entries": [
+                    "You may attack with a shield with the bashing property as though it were a weapon, rolling the damage dice shown in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BHP6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Bashing (1d6 Piercing)",
+                "entries": [
+                    "You may attack with a shield with the bashing property as though it were a weapon, rolling the damage dice shown in parenthesis."
                 ]
             }]
         },
