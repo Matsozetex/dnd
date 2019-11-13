@@ -1,25 +1,232 @@
 {
-	"_meta": {
-		"sources": [{
-			"json": "GAG",
-			"abbreviation": "WGaG",
-			"full": "Weapons for Grit and Glory",
-			"authors": [
-				"TheApoApostolov"
-			],
-			"convertedBy": [
-				"Matsozetex"
-			],
-			"url": "https://github.com/mpap0006/dnd",
-			"version": "0.1",
-			"targetSchema": "1.0.0"
-		}],
-		"dateAdded": 1573638527 
+    "_meta": {
+        "sources": [{
+            "json": "GAG",
+            "abbreviation": "WGaG",
+            "full": "Weapons for Grit and Glory",
+            "authors": [
+                "TheApoApostolov"
+            ],
+            "convertedBy": [
+                "Matsozetex"
+            ],
+            "url": "https://github.com/mpap0006/dnd",
+            "version": "0.1",
+            "targetSchema": "1.0.0"
+        }],
+        "dateAdded": 1573638527
     },
     "item": [{
+            "name": "Aketon",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 8,
+            "ac": 1,
+            "entries": [
+                "Underlay"
+            ],
+            "property": [
+                "CONA",
+                "SOAB"
+            ]
+        },
+        {
+            "name": "Leather Tunic",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 10,
+            "ac": 1,
+            "entries": [
+                "Underlay"
+            ],
+            "property": [
+                "CONA",
+                "SOAP"
+            ]
+        },
+        {
+            "name": "Jack of Plates",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 18,
+            "ac": 1,
+            "entries": [
+                "Underlay"
+            ],
+            "property": [
+                "CONA",
+                "SOAS"
+            ]
+        },
+        {
+            "name": "Gambeson",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 8,
+            "ac": 1,
+            "entries": [
+                "Underlay"
+            ],
+            "property": [
+                "NOIS"
+            ]
+        },
+        {
+            "name": "Gambeson",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 3,
+            "entries": [
+                "Overlay"
+            ],
+            "property": [
+                "COV1"
+            ]
+        },
+        {
+            "name": "Boiled Leather",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 3500,
+            "weight": 3,
+            "ac": 1,
+            "entries": [
+                "Overlay"
+            ]
+        },
+        {
+            "name": "Padded Coif",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 1,
+            "entries": [
+                "Head"
+            ],
+            "property": [
+                "COV1"
+            ]
+        },
+        {
+            "name": "Padded Limb Guards",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 2,
+            "entries": [
+                "Hands"
+            ],
+            "property": [
+                "COV1"
+            ]
+        },
+        {
+            "name": "Light Cloak",
+            "type": "LA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 1,
+            "entries": [
+                "Hands"
+            ],
+            "property": [
+                "STEA"
+            ]
+        }
 
-    }],
+
+    ],
     "itemProperty": [{
+            "abbreviation": "CONA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Concealed",
+                "entries": [
+                    "This armor consists of protective reinforcement that can be inconspicuously worn under ordinary looking clothing. When only such armor is worn under clothes, the wearer appears unarmored unless an observer succeeds on a DC 15 Wisdom (Perception) check. If the observer has physical contact with the wearer, this check is made with advantage"
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SOAB",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Soak - Bludgeoning",
+                "entries": [
+                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SOAS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Soak - Slashing",
+                "entries": [
+                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SOAP",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Soak - Piercing",
+                "entries": [
+                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "NOIS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Noisy",
+                "entries": [
+                    "This type of armor reduces your ability to move quietly, due to metal components striking against each other. When you wear Noisy armor, you suffer disadvantage on any Dexterity (Stealth) checks that you make to move silently. Other situations, such as hiding without movement or magical silence, are up to the DM."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (1)",
+                "entries": [
+                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "STEA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Stealthy",
+                "entries": [
+                    "Cloaks with the Stealthy property let you hide your face, shape and the contents of your hands. You benefit from advantage to Dexterity (Stealth) and (Sleight of Hand) checks to hide your identity (but not your presence) or items you are carrying in your hands. As long as you wear no Bulky Armor, you appear unarmored to others."
+                ]
+            }]
+        }
 
-    }]
-    }
+    ]
+}
