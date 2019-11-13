@@ -86,6 +86,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 3,
+            "ac": 0,
             "entries": [
                 "Overlay"
             ],
@@ -112,6 +113,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 1,
+            "ac": 0,
             "entries": [
                 "Head"
             ],
@@ -126,6 +128,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 2,
+            "ac": 0,
             "entries": [
                 "Hands"
             ],
@@ -140,6 +143,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 1,
+            "ac": 0,
             "entries": [
                 "Cloak"
             ],
@@ -155,6 +159,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
+            "ac": 0,
             "entries": [
                 "Mesolay"
             ],
@@ -171,6 +176,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
+            "ac": 0,
             "entries": [
                 "Mesolay"
             ],
@@ -187,6 +193,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
+            "ac": 0,
             "entries": [
                 "Mesolay"
             ],
@@ -312,6 +319,7 @@
             "rarity": "none",
             "value": 4000,
             "weight": 8,
+            "ac": 0,
             "entries": [
                 "Head"
             ],
@@ -326,6 +334,7 @@
             "rarity": "none",
             "value": 1000,
             "weight": 2,
+            "ac": 0,
             "entries": [
                 "Hands"
             ],
@@ -340,6 +349,7 @@
             "rarity": "none",
             "value": 1500,
             "weight": 4,
+            "ac": 0,
             "entries": [
                 "Hands"
             ],
@@ -355,6 +365,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 8,
+            "ac": 0,
             "strength": "9",
             "entries": [
                 "Cloak"
@@ -389,6 +400,7 @@
             "rarity": "none",
             "value": 45000,
             "weight": 20,
+            "ac": 0,
             "strength": "13",
             "entries": [
                 "Mesolay"
@@ -406,6 +418,7 @@
             "rarity": "none",
             "value": 45000,
             "weight": 20,
+            "ac": 0,
             "strength": "13",
             "entries": [
                 "Mesolay"
@@ -423,6 +436,7 @@
             "rarity": "none",
             "value": 45000,
             "weight": 20,
+            "ac": 0,
             "strength": "13",
             "entries": [
                 "Mesolay"
@@ -512,6 +526,7 @@
             "rarity": "none",
             "value": 7500,
             "weight": 2,
+            "ac": 0,
             "strength": "9",
             "entries": [
                 "Head"
@@ -528,6 +543,7 @@
             "rarity": "none",
             "value": 9000,
             "weight": 5,
+            "ac": 0,
             "strength": "11",
             "entries": [
                 "Head"
@@ -544,6 +560,7 @@
             "rarity": "none",
             "value": 6000,
             "weight": 4,
+            "ac": 0,
             "strength": "11",
             "entries": [
                 "Vitals"
@@ -560,6 +577,7 @@
             "rarity": "none",
             "value": 5000,
             "weight": 1,
+            "ac": 0,
             "strength": "11",
             "entries": [
                 "Vitals"
@@ -574,7 +592,7 @@
             "rarity": "none",
             "value": 500,
             "weight": 5,
-            "ac": "1",
+            "ac": 1,
             "property":[
                 "BTB4",
                 "FREE",
@@ -589,7 +607,7 @@
             "rarity": "none",
             "value": 300,
             "weight": 5,
-            "ac": "1",
+            "ac": 1,
             "property":[
                 "BTB4",
                 "LITE",
@@ -602,7 +620,7 @@
             "rarity": "none",
             "value": 1000,
             "weight": 6,
-            "ac": "2",
+            "ac": 2,
             "property":[
                 "BTB6",
                 "NONL"
@@ -614,7 +632,7 @@
             "rarity": "none",
             "value": 1700,
             "weight": 11,
-            "ac": "2",
+            "ac": 2,
             "property":[
                 "BTP6"
             ]
@@ -625,7 +643,7 @@
             "rarity": "none",
             "value": 3000,
             "weight": 45,
-            "ac": "4",
+            "ac": 4,
             "property":[
                 "BTP6",
                 "COVR",
