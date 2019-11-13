@@ -20,7 +20,7 @@
             "name": "Aketon",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 8,
             "ac": 1,
@@ -30,13 +30,14 @@
             "property": [
                 "CONA",
                 "SOAB"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Leather Tunic",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 10,
             "ac": 1,
@@ -46,13 +47,14 @@
             "property": [
                 "CONA",
                 "SOAP"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Jack of Plates",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 18,
             "ac": 1,
@@ -62,13 +64,14 @@
             "property": [
                 "CONA",
                 "SOAS"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Gambeson",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 8,
             "ac": 1,
@@ -77,13 +80,14 @@
             ],
             "property": [
                 "NOIS"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Gambeson",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 3,
             "ac": 0,
@@ -92,25 +96,27 @@
             ],
             "property": [
                 "COV1"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Boiled Leather",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 3500,
             "weight": 3,
             "ac": 1,
             "entries": [
                 "Overlay"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Padded Coif",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 1,
             "ac": 0,
@@ -119,13 +125,14 @@
             ],
             "property": [
                 "COV1"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Padded Limb Guards",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 2,
             "ac": 0,
@@ -134,13 +141,14 @@
             ],
             "property": [
                 "COV1"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Light Cloak",
             "type": "LA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 1,
             "ac": 0,
@@ -149,13 +157,14 @@
             ],
             "property": [
                 "STEA"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Lamellar Mail",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 30000,
             "weight": 10,
             "strength": "11",
@@ -166,13 +175,14 @@
             "property": [
                 "CONA",
                 "DR2B"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Buff Coat",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 30000,
             "weight": 10,
             "strength": "11",
@@ -183,13 +193,14 @@
             "property": [
                 "CONA",
                 "DR2P"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Coat of Plates",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 30000,
             "weight": 10,
             "strength": "11",
@@ -200,25 +211,27 @@
             "property": [
                 "CONA",
                 "DR2S"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Hide Tunic",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 200,
             "weight": 2,
             "ac": 1,
             "entries": [
                 "Overlay"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Padded Jack",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 8,
             "ac": 1,
@@ -229,13 +242,14 @@
             "property": [
                 "BULK",
                 "DR1P"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Pelt Armor",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 10,
             "ac": 1,
@@ -246,26 +260,28 @@
             "property": [
                 "BULK",
                 "DR1S"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Chain Shirt",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 4000,
             "weight": 10,
             "ac": 2,
             "strength": "9",
             "entries": [
                 "Overlay"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Scale Mail",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 4000,
             "weight": 35,
             "ac": 3,
@@ -276,13 +292,14 @@
             "property":[
                 "BULK",
                 "NOIS"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Breastplate",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 39000,
             "weight": 10,
             "ac": 3,
@@ -292,13 +309,14 @@
             ],
             "property":[
                 "HARD"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Half Plate",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 74000,
             "weight": 30,
             "ac": 4,
@@ -310,13 +328,14 @@
                 "HARD",
                 "BULK",
                 "NOIS"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Chain Coif",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 4000,
             "weight": 8,
             "ac": 0,
@@ -325,13 +344,14 @@
             ],
             "property":[
                 "COV2"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Steel Bracers",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 2,
             "ac": 0,
@@ -340,13 +360,14 @@
             ],
             "property":[
                 "COV1"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Spiked Bracers",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 1500,
             "weight": 4,
             "ac": 0,
@@ -356,13 +377,14 @@
             "property":[
                 "COV1",
                 "BTP4"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Fur Cloak",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 8,
             "ac": 0,
@@ -373,13 +395,14 @@
             "property":[
                 "BULK",
                 "DR1B"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Mail Cloak",
             "type": "MA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 10000,
             "weight": 40,
             "ac": 1,
@@ -391,13 +414,14 @@
                 "BULK",
                 "NOIS",
                 "CUMB"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Banded Mail",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 45000,
             "weight": 20,
             "ac": 0,
@@ -409,13 +433,14 @@
                 "DR3B",
                 "NOIS",
                 "BULK"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Loricated Mail",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 45000,
             "weight": 20,
             "ac": 0,
@@ -427,13 +452,14 @@
                 "DR3P",
                 "NOIS",
                 "BULK"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Brigandine",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 45000,
             "weight": 20,
             "ac": 0,
@@ -445,13 +471,14 @@
                 "DR3S",
                 "NOIS",
                 "BULK"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Ring Mail",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 2000,
             "weight": 30,
             "strength": "13",
@@ -463,13 +490,14 @@
                 "BULK",
                 "NOIS",
                 "CUMB"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Chainmail",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 6500,
             "weight": 45,
             "strength": "13",
@@ -481,13 +509,14 @@
                 "BULK",
                 "NOIS",
                 "CUMB"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Splint Mail",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 19000,
             "weight": 50,
             "strength": "15",
@@ -499,13 +528,14 @@
                 "BULK",
                 "NOIS",
                 "HARD"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Full Plate",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 149000,
             "weight": 55,
             "strength": "15",
@@ -517,13 +547,14 @@
                 "BULK",
                 "NOIS",
                 "HARD"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Helm & Belvor",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 7500,
             "weight": 2,
             "ac": 0,
@@ -534,13 +565,14 @@
             "property":[
                 "VISR",
                 "COV3"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Great Helm",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 9000,
             "weight": 5,
             "ac": 0,
@@ -551,13 +583,14 @@
             "property":[
                 "VISA",
                 "COV4"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Gardbaces & Faulds",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 6000,
             "weight": 4,
             "ac": 0,
@@ -568,13 +601,14 @@
             "property":[
                 "NOIS",
                 "COV2"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Thigh Plates",
             "type": "HA",
             "armor": true,
-            "rarity": "none",
+            "rarity": "None",
             "value": 5000,
             "weight": 1,
             "ac": 0,
@@ -584,12 +618,13 @@
             ],
             "property":[
                 "COV1"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Buckler",
             "type": "S",
-            "rarity": "none",
+            "rarity": "None",
             "value": 500,
             "weight": 5,
             "ac": 1,
@@ -599,12 +634,13 @@
                 "WORN",
                 "LITE",
                 "NONL"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Light Shield",
             "type": "S",
-            "rarity": "none",
+            "rarity": "None",
             "value": 300,
             "weight": 5,
             "ac": 1,
@@ -612,35 +648,38 @@
                 "BTB4",
                 "LITE",
                 "NONL"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Shield",
             "type": "S",
-            "rarity": "none",
+            "rarity": "None",
             "value": 1000,
             "weight": 6,
             "ac": 2,
             "property":[
                 "BTB6",
                 "NONL"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Spiked Shield",
             "type": "S",
-            "rarity": "none",
+            "rarity": "None",
             "value": 1700,
             "weight": 11,
             "ac": 2,
             "property":[
                 "BTP6"
-            ]
+            ],
+            "source": "GAG"
         },
         {
             "name": "Tower Shield",
             "type": "S",
-            "rarity": "none",
+            "rarity": "None",
             "value": 3000,
             "weight": 45,
             "ac": 4,
@@ -648,7 +687,8 @@
                 "BTP6",
                 "COVR",
                 "H"
-            ]
+            ],
+            "source": "GAG"
         }
 
 
