@@ -141,7 +141,7 @@
             "value": 500,
             "weight": 1,
             "entries": [
-                "Hands"
+                "Cloak"
             ],
             "property": [
                 "STEA"
@@ -161,6 +161,475 @@
             "property": [
                 "CONA",
                 "DR2B"
+            ]
+        },
+        {
+            "name": "Buff Coat",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 30000,
+            "weight": 10,
+            "strength": "11",
+            "entries": [
+                "Mesolay"
+            ],
+            "property": [
+                "CONA",
+                "DR2P"
+            ]
+        },
+        {
+            "name": "Coat of Plates",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 30000,
+            "weight": 10,
+            "strength": "11",
+            "entries": [
+                "Mesolay"
+            ],
+            "property": [
+                "CONA",
+                "DR2S"
+            ]
+        },
+        {
+            "name": "Hide Tunic",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 200,
+            "weight": 2,
+            "ac": 1,
+            "entries": [
+                "Overlay"
+            ]
+        },
+        {
+            "name": "Padded Jack",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 8,
+            "ac": 1,
+            "strength": "9",
+            "entries": [
+                "Overlay"
+            ],
+            "property": [
+                "BULK",
+                "DR1P"
+            ]
+        },
+        {
+            "name": "Pelt Armor",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 10,
+            "ac": 1,
+            "strength": "9",
+            "entries": [
+                "Overlay"
+            ],
+            "property": [
+                "BULK",
+                "DR1S"
+            ]
+        },
+        {
+            "name": "Chain Shirt",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 4000,
+            "weight": 10,
+            "ac": 2,
+            "strength": "9",
+            "entries": [
+                "Overlay"
+            ]
+        },
+        {
+            "name": "Scale Mail",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 4000,
+            "weight": 35,
+            "ac": 3,
+            "strength": "11",
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "BULK",
+                "NOIS"
+            ]
+        },
+        {
+            "name": "Breastplate",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 39000,
+            "weight": 10,
+            "ac": 3,
+            "strength": "11",
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "HARD"
+            ]
+        },
+        {
+            "name": "Half Plate",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 74000,
+            "weight": 30,
+            "ac": 4,
+            "strength": "13",
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "HARD",
+                "BULK",
+                "NOIS"
+            ]
+        },
+        {
+            "name": "Chain Coif",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 4000,
+            "weight": 8,
+            "entries": [
+                "Head"
+            ],
+            "property":[
+                "COV2"
+            ]
+        },
+        {
+            "name": "Steel Bracers",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1000,
+            "weight": 2,
+            "entries": [
+                "Hands"
+            ],
+            "property":[
+                "COV1"
+            ]
+        },
+        {
+            "name": "Spiked Bracers",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 1500,
+            "weight": 4,
+            "entries": [
+                "Hands"
+            ],
+            "property":[
+                "COV1",
+                "BTP4"
+            ]
+        },
+        {
+            "name": "Fur Cloak",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 500,
+            "weight": 8,
+            "strength": "9",
+            "entries": [
+                "Cloak"
+            ],
+            "property":[
+                "BULK",
+                "DR1B"
+            ]
+        },
+        {
+            "name": "Mail Cloak",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 10000,
+            "weight": 40,
+            "ac": 1,
+            "strength": "11",
+            "entries": [
+                "Cloak"
+            ],
+            "property":[
+                "BULK",
+                "NOIS",
+                "CUMB"
+            ]
+        },
+        {
+            "name": "Banded Mail",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 45000,
+            "weight": 20,
+            "strength": "13",
+            "entries": [
+                "Mesolay"
+            ],
+            "property":[
+                "DR3B",
+                "NOIS",
+                "BULK"
+            ]
+        },
+        {
+            "name": "Loricated Mail",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 45000,
+            "weight": 20,
+            "strength": "13",
+            "entries": [
+                "Mesolay"
+            ],
+            "property":[
+                "DR3P",
+                "NOIS",
+                "BULK"
+            ]
+        },
+        {
+            "name": "Brigandine",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 45000,
+            "weight": 20,
+            "strength": "13",
+            "entries": [
+                "Mesolay"
+            ],
+            "property":[
+                "DR3S",
+                "NOIS",
+                "BULK"
+            ]
+        },
+        {
+            "name": "Ring Mail",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 2000,
+            "weight": 30,
+            "strength": "13",
+            "ac": 3,
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "BULK",
+                "NOIS",
+                "CUMB"
+            ]
+        },
+        {
+            "name": "Chainmail",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 6500,
+            "weight": 45,
+            "strength": "13",
+            "ac": 5,
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "BULK",
+                "NOIS",
+                "CUMB"
+            ]
+        },
+        {
+            "name": "Splint Mail",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 19000,
+            "weight": 50,
+            "strength": "15",
+            "ac": 6,
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "BULK",
+                "NOIS",
+                "HARD"
+            ]
+        },
+        {
+            "name": "Full Plate",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 149000,
+            "weight": 55,
+            "strength": "15",
+            "ac": 7,
+            "entries": [
+                "Overlay"
+            ],
+            "property":[
+                "BULK",
+                "NOIS",
+                "HARD"
+            ]
+        },
+        {
+            "name": "Helm & Belvor",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 7500,
+            "weight": 2,
+            "strength": "9",
+            "entries": [
+                "Head"
+            ],
+            "property":[
+                "VISR",
+                "COV3"
+            ]
+        },
+        {
+            "name": "Great Helm",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 9000,
+            "weight": 5,
+            "strength": "11",
+            "entries": [
+                "Head"
+            ],
+            "property":[
+                "VISA",
+                "COV4"
+            ]
+        },
+        {
+            "name": "Gardbaces & Faulds",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 6000,
+            "weight": 4,
+            "strength": "11",
+            "entries": [
+                "Vitals"
+            ],
+            "property":[
+                "NOIS",
+                "COV2"
+            ]
+        },
+        {
+            "name": "Thigh Plates",
+            "type": "HA",
+            "armor": true,
+            "rarity": "none",
+            "value": 5000,
+            "weight": 1,
+            "strength": "11",
+            "entries": [
+                "Vitals"
+            ],
+            "property":[
+                "COV1"
+            ]
+        },
+        {
+            "name": "Buckler",
+            "type": "S",
+            "rarity": "none",
+            "value": 500,
+            "weight": 5,
+            "ac": "1",
+            "property":[
+                "BTB4",
+                "FREE",
+                "WORN",
+                "LITE",
+                "NONL"
+            ]
+        },
+        {
+            "name": "Light Shield",
+            "type": "S",
+            "rarity": "none",
+            "value": 300,
+            "weight": 5,
+            "ac": "1",
+            "property":[
+                "BTB4",
+                "LITE",
+                "NONL"
+            ]
+        },
+        {
+            "name": "Shield",
+            "type": "S",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 6,
+            "ac": "2",
+            "property":[
+                "BTB6",
+                "NONL"
+            ]
+        },
+        {
+            "name": "Spiked Shield",
+            "type": "S",
+            "rarity": "none",
+            "value": 1700,
+            "weight": 11,
+            "ac": "2",
+            "property":[
+                "BTP6"
+            ]
+        },
+        {
+            "name": "Tower Shield",
+            "type": "S",
+            "rarity": "none",
+            "value": 3000,
+            "weight": 45,
+            "ac": "4",
+            "property":[
+                "BTP6",
+                "COVR",
+                "H"
             ]
         }
 
@@ -429,7 +898,107 @@
                     "Helmets with a protective visor provide additional protection to the face. The visor is optional (unless stated otherwise) and can be raised or lowered as a bonus action. While the visor is lowered, your face is hidden and you benefit from an additional +1 to AC. However the visor limits the effective field of view. You suffer -2 to AC when attacked by creatures that you are not directly looking at, or did not attack or target with abilities and spells during your last combat turn. You also suffer disadvantage on all Wisdom (Perception) skill checks to notice things out of your direct field of view. The visor for this helmet is always lowered."
                 ]
             }]
+        },
+        {
+            "abbreviation": "BTB4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Beatdown (1d4 Bludgeoning)",
+                "entries": [
+                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BTB6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Beatdown (1d6 Bludgeoning)",
+                "entries": [
+                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BTP4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Beatdown (1d4 Piercing)",
+                "entries": [
+                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BTP6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Beatdown (1d6 Piercing)",
+                "entries": [
+                    "Beatdown You can use one of your attacks to make a special unarmed attack beating down on a defenseless target. If your target is either restrained, or is both grappled and prone, you may choose to beat it down with a special melee attack that deals additional damage of the same type as shownin parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "FREE",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Free-handed",
+                "entries": [
+                    "This weapon or shield attaches to the arm but the hand remains unoccupied. If you attack with a weapon held in your shield hand (such as a two-handed weapon), you must either choose to do so with disadvantage or you cannot benefit from the AC bonus of the shield until the start of your next turn."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WORN",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Worn",
+                "entries": [
+                    "Weapons with the Worn property are equipped in a way similar to armor, by strapping it firmly to the body. It takes up to 1 minute to don or doff the weapon or shield, and you can do it as part of donning or doffing armor. The DM may allow you to skip the required time if you ignore the Worn property of the weapon or shield until the end of combat. While the weapon or shield benefits from the Worn property, it cannot be disarmed unless the attack or skill check is an exceptional or critical hit."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LITE",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Light",
+                "entries": [
+                    "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. The weapon is able to be used just as effectively while you are laying on the ground or while you are standing. When you are prone and attack with this weapon, you do not suffer disadvantage if you are proficient with the weapon."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "NONL",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Non-lethal",
+                "entries": [
+                    "The weapon is designed to incapacitate, or is otherwise capable of delivering a hit that does not kill the target. Weapons with this property still deal their full damage when dealing nonlethal damage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COVR",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Cover",
+                "entries": [
+                    "Shields with the Cover property reduce your speed by 10 feet unless you have a Strength score of 13 or more. You also suffer a -2 penalty on attack rolls unless you have a Dexterity score of 13 or more. As an action you can use a shield with the Cover property to grant you stationary protection. When using it in this way, you must choose one edge of your space. That edge is treated as three-quarters cover (+5 AC) against attacks targeting you, and half-cover (+2 AC) against attacks targeting an adjacent ally standing behind you. You can also apply the cover bonus against effects that require a Dexterity saving throw, such as the fireball spell. You get no cover from attacks that pass through other edges of your square."
+                ]
+            }]
         }
+        
         
 
 
