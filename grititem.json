@@ -146,6 +146,22 @@
             "property": [
                 "STEA"
             ]
+        },
+        {
+            "name": "Lamellar Mail",
+            "type": "MA",
+            "armor": true,
+            "rarity": "none",
+            "value": 30000,
+            "weight": 10,
+            "strength": "11",
+            "entries": [
+                "Mesolay"
+            ],
+            "property": [
+                "CONA",
+                "DR2B"
+            ]
         }
 
 
@@ -217,6 +233,39 @@
             }]
         },
         {
+            "abbreviation": "COV2",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (2)",
+                "entries": [
+                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (3)",
+                "entries": [
+                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (4)",
+                "entries": [
+                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                ]
+            }]
+        },
+        {
             "abbreviation": "STEA",
             "source": "GAG",
             "entries": [{
@@ -226,7 +275,163 @@
                     "Cloaks with the Stealthy property let you hide your face, shape and the contents of your hands. You benefit from advantage to Dexterity (Stealth) and (Sleight of Hand) checks to hide your identity (but not your presence) or items you are carrying in your hands. As long as you wear no Bulky Armor, you appear unarmored to others."
                 ]
             }]
+        },
+        {
+            "abbreviation": "DR1B",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Bludgeoning (1)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR1P",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Piercing (1)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR1S",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Slashing (1)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR2B",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Bludgeoning (2)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR2S",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Slashing (2)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR2P",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Piercing (2)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR3B",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Bludgeoning (3)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR2S",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Slashing (3)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DR2P",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Resistance: Piercing (3)",
+                "entries": [
+                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BULK",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Bulky",
+                "entries": [
+                    "Bulky armor has a Strength score requirement of 9 or more. It is usually exposed and may draw attention or even intimidate others, or provoke the use of a Heat Metal spell from hostile spell-casters if made of metal. Bulky armor cannot be hidden from plain sight and you cannot benefit from the Concealed armor property while wearing any Bulky armor component. Bulky armor imposes disadvantage on Strength (Athletics) and Dexterity (Acrobatics) checks to swim, climb, run, andsimilar activities. These penalties can be avoided if your Strength score is higher than the armor's Strength requirement. Bulky armor impedes your initiative in combat. When you roll for Initiative, subtract 2 for each Bulky armor component you wear. Bulky armor also impedes your movement when standing from Prone. Add +1 to the Standing from Prone DC for each Bulky armor component you wear."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CUMB",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Cumbersome",
+                "entries": [
+                    "Armors with the Cumbersome property do not distribute their weight across the whole torso. Wearing such armors for more than 8 hours results in prolonged shoulder and back fatigue, and you gain 1 level of Exhaustion. Armors made of mithral lose the Cumbersome property."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "HARD",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Hard",
+                "entries": [
+                    "The armor is made of large hard plates making it vulnerable to the Sundering weapon property. When taking a long or full rest in Hard armor, you do not recover levels of Exhaustion"
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VISR",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Visor",
+                "entries": [
+                    "Helmets with a protective visor provide additional protection to the face. The visor is optional (unless stated otherwise) and can be raised or lowered as a bonus action. While the visor is lowered, your face is hidden and you benefit from an additional +1 to AC. However the visor limits the effective field of view. You suffer -2 to AC when attacked by creatures that you are not directly looking at, or did not attack or target with abilities and spells during your last combat turn. You also suffer disadvantage on all Wisdom (Perception) skill checks to notice things out of your direct field of view."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VISA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Visor (Always Lowered)",
+                "entries": [
+                    "Helmets with a protective visor provide additional protection to the face. The visor is optional (unless stated otherwise) and can be raised or lowered as a bonus action. While the visor is lowered, your face is hidden and you benefit from an additional +1 to AC. However the visor limits the effective field of view. You suffer -2 to AC when attacked by creatures that you are not directly looking at, or did not attack or target with abilities and spells during your last combat turn. You also suffer disadvantage on all Wisdom (Perception) skill checks to notice things out of your direct field of view. The visor for this helmet is always lowered."
+                ]
+            }]
         }
+        
+
 
     ]
 }
