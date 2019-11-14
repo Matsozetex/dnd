@@ -1480,7 +1480,141 @@
             "entries": [
                 "Martial Bludgeoning Weapons"
             ]
+        },
+        {
+            "name": "Crook",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 5,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "NONL",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
+        },
+        {
+            "name": "Javelin",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 50,
+            "weight": 2,
+            "dmg1": "{@dice 1d6}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "THRO",
+                "FRA1",
+                "SHP1"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
+        },
+        {
+            "name": "Longspear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 500,
+            "weight": 9,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LONG",
+                "MOST",
+                "R",
+                "SHP1",
+                "TWOH",
+                "THRE"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
+        },
+        {
+            "name": "Quarterstaff",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 20,
+            "weight": 4,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "DEF1",
+                "FINE",
+                "NONL",
+                "VERS"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
+        },
+        {
+            "name": "Spear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 3,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "MOST",
+                "SHP1",
+                "THRE",
+                "THRO",
+                "VERS"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
+        },
+        {
+            "name": "Boar Spear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 500,
+            "weight": 8,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "GRAP",
+                "VERS",
+                "PREV"
+            ],
+            "entries": [
+                "Simple Polearms"
+            ]
         }
+
 
 
 
@@ -2114,6 +2248,83 @@
                 "name": "Opportunistic",
                 "entries": [
                     "This weapon is great for striking back at opponents who threaten you. When using your reaction to make an opportunity attack with this weapon, you benefit from advantage to the attack roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "TRIP",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Tripping",
+                "entries": [
+                    "Weapons with the Tripping property are designed to catch a target off balance. When your attack is an exceptional or critical hit, you may use your bonus action to perform a Trip combat action (pg. 18) against the same target. Your result is the damage dealt by the weapon instead of the attack roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SHP1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Sharp (1)",
+                "entries": [
+                    "The weapon is particularly adept at making the most of the advantageous situation when an enemy is unarmored. When you attack a target that is unarmoured or with an armor AC of 12 or less, you gain a bonus to the attack roll equal to the value written in parenthesis. Creatures with natural armor or an armor AC of 13 or higher (including spells such as mage armor) are immune to this property."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "FRA1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Fragile (1)",
+                "entries": [
+                    "When making a damage roll with a Fragile weapon or arrow, on a result equal or lower than the number in parenthesis, the weapon or ammunition breaks immediately after the attack. If the AC of the target is 15 or higher, increase value by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LONG",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Long",
+                "entries": [
+                    "Weapons with the Long property impose a disadvantage to attacks within 5 feet. You also cannot attempt any combat options or special melee attacks with this weapon against any target within that range."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "THRE",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Threatening",
+                "entries": [
+                    "You can spend your reaction to perform an opportunity attack against any opponent that enters your weapon's reach after moving 10 feet or further. If the opportunity attack is against a mounted target, it or its mount has vulnerability to the damage from that attack."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "GRAP",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Grappling",
+                "entries": [
+                    "When you hit with a melee or thrown attack using a weapon with the Grappling property, you can spend your bonus action and attempt an opposed Grapple contest. You must use your Аttack roll, and the target uses their Dexterity (Acrobatics) skill. If you succeed, your weapon grapples the target. Other weapon properties (Restraining, Preventing, etc.) list this condition as prerequisite. While your weapon is grappling the target, any attack with the same weapon breaks the grapple. The grapple is broken if you or the target move out of reach. The grappled enemy can also spend an action and attempt a Strength (Athletics) or Dexterity (Acrobatics) check against your Weapon Mastery DC. If it succeeds, the weapon grapple is broken. If it is not grappled by a thrown weapon, the target can also break the weapon grapple if it succeeds in Disarming you. While your weapon is grappling the target and you are holding onto your weapon, you can attempt Shove a Creature action using your Attack roll instead of Strength (Athletics)."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "PREV",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Preventing",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property) and you are holding your weapon, the target is unable to approach you and can only move away from you. The target can only move towards you if it attempts to Shove you. If it succeeds, it also provokes an opportunity attack from you that automatically hits."
                 ]
             }]
         }
