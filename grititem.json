@@ -2,7 +2,7 @@
     "_meta": {
         "sources": [{
             "json": "GAG",
-            "abbreviation": "WGaG",
+            "abbreviation": "IGAG",
             "full": "Items for Grit and Glory",
             "authors": [
                 "TheApoApostolov"
@@ -23,7 +23,7 @@
             "rarity": "None",
             "value": 1000,
             "weight": 8,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Underlay"
             ],
@@ -40,7 +40,7 @@
             "rarity": "None",
             "value": 1000,
             "weight": 10,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Underlay"
             ],
@@ -57,7 +57,7 @@
             "rarity": "None",
             "value": 1000,
             "weight": 18,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Underlay"
             ],
@@ -74,7 +74,7 @@
             "rarity": "None",
             "value": 500,
             "weight": 8,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Underlay"
             ],
@@ -84,13 +84,13 @@
             "source": "GAG"
         },
         {
-            "name": "Gambeson",
+            "name": "Overcoat",
             "type": "LA",
             "armor": true,
             "rarity": "None",
             "value": 500,
             "weight": 3,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Overlay"
             ],
@@ -106,7 +106,7 @@
             "rarity": "None",
             "value": 3500,
             "weight": 3,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Overlay"
             ],
@@ -119,7 +119,7 @@
             "rarity": "None",
             "value": 500,
             "weight": 1,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Head"
             ],
@@ -135,7 +135,7 @@
             "rarity": "None",
             "value": 500,
             "weight": 2,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Hands"
             ],
@@ -151,7 +151,7 @@
             "rarity": "None",
             "value": 500,
             "weight": 1,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Cloak"
             ],
@@ -168,7 +168,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Mesolay"
             ],
@@ -186,7 +186,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Mesolay"
             ],
@@ -204,7 +204,7 @@
             "value": 30000,
             "weight": 10,
             "strength": "11",
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Mesolay"
             ],
@@ -221,7 +221,7 @@
             "rarity": "None",
             "value": 200,
             "weight": 2,
-            "ac": 1,
+            "acSpecial": "+1",
             "entries": [
                 "Overlay"
             ],
@@ -234,7 +234,7 @@
             "rarity": "None",
             "value": 500,
             "weight": 8,
-            "ac": 1,
+            "acSpecial": "+1",
             "strength": "9",
             "entries": [
                 "Overlay"
@@ -252,7 +252,7 @@
             "rarity": "None",
             "value": 1000,
             "weight": 10,
-            "ac": 1,
+            "acSpecial": "+1",
             "strength": "9",
             "entries": [
                 "Overlay"
@@ -270,7 +270,7 @@
             "rarity": "None",
             "value": 4000,
             "weight": 10,
-            "ac": 2,
+            "acSpecial": "+2",
             "strength": "9",
             "entries": [
                 "Overlay"
@@ -284,12 +284,12 @@
             "rarity": "None",
             "value": 4000,
             "weight": 35,
-            "ac": 3,
+            "acSpecial": "+3",
             "strength": "11",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS"
             ],
@@ -302,12 +302,12 @@
             "rarity": "None",
             "value": 39000,
             "weight": 10,
-            "ac": 3,
+            "acSpecial": "+3",
             "strength": "11",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "HARD"
             ],
             "source": "GAG"
@@ -319,12 +319,12 @@
             "rarity": "None",
             "value": 74000,
             "weight": 30,
-            "ac": 4,
+            "acSpecial": "+4",
             "strength": "13",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "HARD",
                 "BULK",
                 "NOIS"
@@ -338,11 +338,11 @@
             "rarity": "None",
             "value": 4000,
             "weight": 8,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Head"
             ],
-            "property":[
+            "property": [
                 "COV2"
             ],
             "source": "GAG"
@@ -354,11 +354,11 @@
             "rarity": "None",
             "value": 1000,
             "weight": 2,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Hands"
             ],
-            "property":[
+            "property": [
                 "COV1"
             ],
             "source": "GAG"
@@ -370,11 +370,11 @@
             "rarity": "None",
             "value": 1500,
             "weight": 4,
-            "ac": 0,
+            "acSpecial": "-",
             "entries": [
                 "Hands"
             ],
-            "property":[
+            "property": [
                 "COV1",
                 "BDP4"
             ],
@@ -387,12 +387,12 @@
             "rarity": "None",
             "value": 500,
             "weight": 8,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "9",
             "entries": [
                 "Cloak"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "DR1B"
             ],
@@ -405,12 +405,12 @@
             "rarity": "None",
             "value": 10000,
             "weight": 40,
-            "ac": 1,
+            "acSpecial": "+1",
             "strength": "11",
             "entries": [
                 "Cloak"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS",
                 "CUMB"
@@ -424,12 +424,12 @@
             "rarity": "None",
             "value": 45000,
             "weight": 20,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "13",
             "entries": [
                 "Mesolay"
             ],
-            "property":[
+            "property": [
                 "DR3B",
                 "NOIS",
                 "BULK"
@@ -443,12 +443,12 @@
             "rarity": "None",
             "value": 45000,
             "weight": 20,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "13",
             "entries": [
                 "Mesolay"
             ],
-            "property":[
+            "property": [
                 "DR3P",
                 "NOIS",
                 "BULK"
@@ -462,12 +462,12 @@
             "rarity": "None",
             "value": 45000,
             "weight": 20,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "13",
             "entries": [
                 "Mesolay"
             ],
-            "property":[
+            "property": [
                 "DR3S",
                 "NOIS",
                 "BULK"
@@ -482,11 +482,11 @@
             "value": 2000,
             "weight": 30,
             "strength": "13",
-            "ac": 3,
+            "acSpecial": "+3",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS",
                 "CUMB"
@@ -501,11 +501,11 @@
             "value": 6500,
             "weight": 45,
             "strength": "13",
-            "ac": 5,
+            "acSpecial": "+5",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS",
                 "CUMB"
@@ -520,11 +520,11 @@
             "value": 19000,
             "weight": 50,
             "strength": "15",
-            "ac": 6,
+            "acSpecial": "+6",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS",
                 "HARD"
@@ -539,11 +539,11 @@
             "value": 149000,
             "weight": 55,
             "strength": "15",
-            "ac": 7,
+            "acSpecial": "+7",
             "entries": [
                 "Overlay"
             ],
-            "property":[
+            "property": [
                 "BULK",
                 "NOIS",
                 "HARD"
@@ -557,12 +557,12 @@
             "rarity": "None",
             "value": 7500,
             "weight": 2,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "9",
             "entries": [
                 "Head"
             ],
-            "property":[
+            "property": [
                 "VISR",
                 "COV3"
             ],
@@ -575,12 +575,12 @@
             "rarity": "None",
             "value": 9000,
             "weight": 5,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "11",
             "entries": [
                 "Head"
             ],
-            "property":[
+            "property": [
                 "VISA",
                 "COV4"
             ],
@@ -593,12 +593,12 @@
             "rarity": "None",
             "value": 6000,
             "weight": 4,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "11",
             "entries": [
                 "Vitals"
             ],
-            "property":[
+            "property": [
                 "NOIS",
                 "COV2"
             ],
@@ -611,12 +611,12 @@
             "rarity": "None",
             "value": 5000,
             "weight": 1,
-            "ac": 0,
+            "acSpecial": "-",
             "strength": "11",
             "entries": [
                 "Vitals"
             ],
-            "property":[
+            "property": [
                 "COV1"
             ],
             "source": "GAG"
@@ -628,7 +628,7 @@
             "value": 500,
             "weight": 5,
             "ac": 1,
-            "property":[
+            "property": [
                 "BHB4",
                 "FREE",
                 "WORN",
@@ -644,7 +644,7 @@
             "value": 300,
             "weight": 5,
             "ac": 1,
-            "property":[
+            "property": [
                 "BHB4",
                 "LITE",
                 "NONL"
@@ -658,7 +658,7 @@
             "value": 1000,
             "weight": 6,
             "ac": 2,
-            "property":[
+            "property": [
                 "BHB6",
                 "NONL"
             ],
@@ -671,7 +671,7 @@
             "value": 1700,
             "weight": 11,
             "ac": 2,
-            "property":[
+            "property": [
                 "BHP6"
             ],
             "source": "GAG"
@@ -683,12 +683,810 @@
             "value": 3000,
             "weight": 45,
             "ac": 4,
-            "property":[
+            "property": [
                 "COVR",
                 "H"
             ],
             "source": "GAG"
+        },
+        {
+            "name": "Armored Glove",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "value": 200,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BDB4",
+                "FREE",
+                "WORN",
+                "NONL",
+                "LITE",
+                "FINE"
+            ],
+            "entries": [
+                "Unarmed Gear"
+            ]
+        },
+        {
+            "name": "Clawed Gauntlet",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "value": 500,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "BDB4",
+                "FREE",
+                "WORN",
+                "VICI",
+                "LITE",
+                "FINE"
+            ],
+            "entries": [
+                "Unarmed Gear"
+            ]
+        },
+        {
+            "name": "Brass Knuckles",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "value": 100,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "FREE",
+                "LITE",
+                "FINE",
+                "NONL",
+                "CONW"
+
+            ],
+            "entries": [
+                "Unarmed Gear"
+            ]
+        },
+        {
+            "name": "Handaxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "value": 500,
+            "weight": 2,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "S",
+            "range": "20/60",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "THRO"
+            ],
+            "entries": [
+                "Simple Axes"
+            ]
+        },
+        {
+            "name": "Hatchet",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "value": 300,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "S",
+            "range": "30/60",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "THRO"
+            ],
+            "entries": [
+                "Simple Axes"
+            ]
+        },
+        {
+            "name": "Battleaxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1000,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmg2": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "SWEE",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Broadaxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 800,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "SWEE",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Greataxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 3000,
+            "weight": 7,
+            "dmg1": "{@dice 1d12}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "H",
+                "TWOH",
+                "SLOW",
+                "SWEE",
+                "WOUS"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Maulaxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmg2": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SWEE",
+                "VERS",
+                "EXTS",
+                "SUN1"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Dwarven Urgosh",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 5000,
+            "weight": 12,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SWEE",
+                "H",
+                "SLOW",
+                "TWOH",
+                "EXTS",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Waraxe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 700,
+            "weight": 3,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "SWEE"
+            ],
+            "entries": [
+                "Martial Axes"
+            ]
+        },
+        {
+            "name": "Dagger",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 200,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "range": "20/60",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "THRO"
+            ],
+            "entries": [
+                "Simple Blades"
+            ]
+        },
+        {
+            "name": "Punch Dagger",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 200,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "CONW",
+                "VICI"
+            ],
+            "entries": [
+                "Simple Blades"
+            ]
+        },
+        {
+            "name": "Stiletto",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 500,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "CONW",
+                "BRUT"
+            ],
+            "entries": [
+                "Simple Blades"
+            ]
+        },
+        {
+            "name": "Dueling Dagger",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1200,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "PARY"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Elven Curveblade",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 5000,
+            "weight": 7,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "TWOH",
+                "PARY",
+                "CRIT"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Epee",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "PARY",
+                "DEF1"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Falchion",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 8,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "PARY"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Flamberge",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 5000,
+            "weight": 6,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "H",
+                "PARY",
+                "SLOW",
+                "TWOH",
+                "VICI"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Greatsword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 5000,
+            "weight": 6,
+            "dmg1": "{@dice 3d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "PARY",
+                "SLOW",
+                "TWOH",
+                "WOUP",
+                "EXTS",
+                "WOUS"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Longsword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1000,
+            "weight": 3,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "TWOH",
+                "EXTS"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Rapier",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "FINE",
+                "CRIT"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Sabre",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 4,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "FINE",
+                "MOST"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Scimitar",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 3,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "FINE",
+                "MOST",
+                "LITE"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Shortsword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1000,
+            "weight": 2,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "FINE",
+                "OPPO",
+                "LITE"
+
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Bastard Sword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 6,
+            "dmg1": "{@dice 2d4}",
+            "dmg2": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "PARY",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Broad Sword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 4,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "PARY"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Double Sided Sword",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 5000,
+            "weight": 10,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "H",
+                "DBLS",
+                "PARY",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Blades"
+            ]
+        },
+        {
+            "name": "Club",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 10,
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "NONL"
+            ],
+            "entries": [
+                "Simple Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Light Hammer",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 200,
+            "weight": 2,
+            "dmg1": "{@dice 1d4}",
+            "range": "30/60",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE",
+                "THRO"
+            ],
+            "entries": [
+                "Simple Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Greatclub",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 20,
+            "weight": 10,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "H",
+                "NONL",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Light Mace",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 500,
+            "weight": 4,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE"
+            ],
+            "entries": [
+                "Simple Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Sap",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 2,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "LITE",
+                "FINE",
+                "CONW",
+                "NONL"
+            ],
+            "entries": [
+                "Simple Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Earthbreaker",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 4000,
+            "weight": 14,
+            "dmg1": "{@dice 2d6}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "H",
+                "SLOW",
+                "SUN1",
+                "TWOH",
+                "WOUB"
+            ],
+            "entries": [
+                "Martial Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Great Hammer",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 800,
+            "weight": 9,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SUN1",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Mace",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 700,
+            "weight": 8,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SUN1"
+            ],
+            "entries": [
+                "Martial Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Morningstar",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SUN1",
+                "VICI",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Bludgeoning Weapons"
+            ]
+        },
+        {
+            "name": "Warhammer",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmg2": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "SUN1",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Bludgeoning Weapons"
+            ]
         }
+
+
+
+
+
+
 
 
     ],
@@ -697,9 +1495,20 @@
             "source": "GAG",
             "entries": [{
                 "type": "entries",
-                "name": "Concealed",
+                "name": "Concealed - Armor",
                 "entries": [
-                    "This armor consists of protective reinforcement that can be inconspicuously worn under ordinary looking clothing. When only such armor is worn under clothes, the wearer appears unarmored unless an observer succeeds on a DC 15 Wisdom (Perception) check. If the observer has physical contact with the wearer, this check is made with advantage"
+                    "This armor consists of protective reinforcement that can be inconspicuously worn under ordinary looking clothing. When only such armor is worn under clothes, the wearer appears unarmored unless an observer succeeds on a DC 15 Wisdom (Perception) check. If the observer has physical contact with the wearer, this check is made with advantage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CONW",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Concealed - Weapon",
+                "entries": [
+                    "Weapons with the Concealed property can be hidden from plain sight until wielded or used. You can use your Dexterity (Sleight of Hand) skill to hide the weapon. If the weapon does not have the Light property, anyone who uses Wisdom (Perception) check to detect the weapon may benefit from Passive Perception."
                 ]
             }]
         },
@@ -1049,7 +1858,7 @@
             "source": "GAG",
             "entries": [{
                 "type": "entries",
-                "name": "Light",
+                "name": "Revised Light",
                 "entries": [
                     "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. The weapon is able to be used just as effectively while you are laying on the ground or while you are standing. When you are prone and attack with this weapon, you do not suffer disadvantage if you are proficient with the weapon."
                 ]
@@ -1076,9 +1885,248 @@
                     "Shields with the Cover property reduce your speed by 10 feet unless you have a Strength score of 13 or more. You also suffer a -2 penalty on attack rolls unless you have a Dexterity score of 13 or more. As an action you can use a shield with the Cover property to grant you stationary protection. When using it in this way, you must choose one edge of your space. That edge is treated as three-quarters cover (+5 AC) against attacks targeting you, and half-cover (+2 AC) against attacks targeting an adjacent ally standing behind you. You can also apply the cover bonus against effects that require a Dexterity saving throw, such as the fireball spell. You get no cover from attacks that pass through other edges of your square."
                 ]
             }]
+        },
+        {
+            "abbreviation": "FINE",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Revised Finesse",
+                "entries": [
+                    "When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls. Melee weapons with this property that do not also have the Light property require Strength 11 or higher to use Dexterity in this way."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VICI",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Vicious",
+                "entries": [
+                    "If a weapon with the Vicious property deals damage, you may reroll any of the weapon dice if it rolls a value of 1. You must use the new value even if it is also a 1. If you have the Great Weapon Fighting style, the two rerolls stack to 1-3 instead."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "THRO",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Revised Thrown",
+                "entries": [
+                    "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. Drawing a Thrown weapon is part of the attack, but you need a free hand. You may use your bonus action to recover any Thrown weapon within your reach. At the end of combat, you can recover all undamaged Thrown weapons by taking up to a minute to search the battlefield. When you take damage from a thrown weapon and it causes an Open Wound (pg. 8), the weapon remains lodged in the target. Any time you use your action during your turn with one or several lodged weapons in you, you take 1d4 internal damage. Removing a lodged weapon is an action."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VERS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Revised Versatile",
+                "entries": [
+                    "This weapon can be used with one or two hands. A damage value in parentheses appears with the property-the damage when the weapon is used with two hands to make a melee attack. In addition, when the weapon is held in two hands attempts to disarm you are made at disadvantage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "TWOH",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Revised Two-Handed",
+                "entries": [
+                    "This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it. In addition, when the weapon is held in two hands attempts to disarm you are made at disadvantage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SWEE",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Sweeping",
+                "entries": [
+                    "The weapon makes attacks in broad, sweeping motions. You can use your bonus action to make one of your attacks into a special Sweeping attack. If there's another creature adjacent to both you and your target, and your attack roll would hit both of them, your target takes normal damage and the other creature takes 1d6 in damage (this damage is not modified by damage bonus modifiers or other abilities). If there are multiple walls, friendly characters sized Medium or larger adjacent to your target, or other such obstructions adjacent to you, you cannot use this property."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SLOW",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Slow",
+                "entries": [
+                    "A Slow weapon is massive and cumbersome, and requires great strength to wield and multiattack with. The weapon can make only one attack per turn if wielded by a character with a Strength score of 14 or less. It can make up to one extra attack if wielded by a character with a Strength score of 15 or 16, or up to two extra attacks if wielded by a character with Strength score 17 or 18. It can make any number of attacks if wielded by a character with a Strength score of 19 or more. The limit to the number of attacks also affects attacks that use a bonus action and opportunity attacks."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WOUB",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Wounding (Bludgeoning)",
+                "entries": [
+                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. The target becomes Stunned until the end of its next turn."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WOUP",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Wounding (Piercing)",
+                "entries": [
+                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WOUS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Wounding (Slashing)",
+                "entries": [
+                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "EXTB",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Type: Bludgeoning",
+                "entries": [
+                    "This weapon may also do bludgeoning damage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "EXTS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Type: Slashing",
+                "entries": [
+                    "This weapon may also do slashing damage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "EXTP",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Damage Type: Piercing",
+                "entries": [
+                    "This weapon may also do piercing damage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SUN1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Sundering (1)",
+                "entries": [
+                    "The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DBLS",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Double Sided",
+                "entries": [
+                    "This weapon has two striking heads on each side of its haft. When you take the attack action and make a two-handed attack with a Double-sided weapon, you can use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon’s damage die for this attack is a d4, and it deals one of the weapon's damage types."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BRUT",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Brutal",
+                "entries": [
+                    "Weapons with the Brutal property deal devastating critical hits. When you score a critical hit, you add one additional weapon die to the damage total."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "PARY",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Parry",
+                "entries": [
+                    "The weapon has a catching or deflecting feature, allowing it to be used to parry incoming attacks. You can use the Deflect combat action (see pg. 17) without Dominance over your target, and even if the weapon has the Light or Finesse properties."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CRIT",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Critical",
+                "entries": [
+                    "Upon a critical hit, this weapon can produce a devastating blow. When your attack is a critical hit, instead of rolling the weapon dice again add the maximum amount of damage that the dice could roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DEF1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Defensive (+1 AC)",
+                "entries": [
+                    "While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MOST",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mounted Strike",
+                "entries": [
+                    "When you are riding upon a creature capable of movement at a speed 40 feet or faster, you can use the momentum of your mount to deal one powerful strike at a target that is not prone or smaller than you. If the weapon also has reach, being prone or size differences doesn't prevent your mounter strike. You must command your mount to Dash in a straight line through the position of your target. When you enter reach, you can spend one of your attacks to make a special melee attack. If it hits, the target suffers vulnerability to the attack damage. You can then continue the movement of your mount and you do not provoke an opportunity attack if you leave the reach of your target unless your special melee attack missed."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "OPPO",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Opportunistic",
+                "entries": [
+                    "This weapon is great for striking back at opponents who threaten you. When using your reaction to make an opportunity attack with this weapon, you benefit from advantage to the attack roll."
+                ]
+            }]
         }
-        
-        
+
+
+
+
+
+
+
+
+
+
 
 
     ]
