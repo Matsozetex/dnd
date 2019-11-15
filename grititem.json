@@ -1949,7 +1949,7 @@
             "value": 500,
             "weight": 4,
             "dmg1": "{@dice 1d8}",
-            "dm2": "{@dice 1d10}",
+            "dmg2": "{@dice 1d10}",
             "dmgType": "P",
             "range": "20/60",
             "source": "GAG",
@@ -2303,7 +2303,213 @@
             "entries": [
                 "Martial Flexible Weapons"
             ]
+        },
+        {
+            "name": "Plançon",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 10,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Prosthetic Hook",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 1000,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "DISA",
+                "WORN"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Light Pick",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 400,
+            "weight": 2,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+           
+                "FINE",
+                "LITE",
+                "SUN1"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Scythe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 1800,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "CRIT",
+                "FRA1",
+                "SLOW",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Sickle",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 2,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "FRA1",
+                "LITE"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Wooden Stake",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LITE"
+            ],
+            "entries": [
+                "Other Simple Melee Weapons"
+            ]
+        },
+        {
+            "name": "Wire Garotte",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 300,
+            "weight": 1,
+            "dmg1": "{@dice 1d6}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "GRAP",
+                "LITE",
+                "SUFF",
+                "TWOH"
+            ],
+            "entries": [
+                "Other Martial Melee Weapons"
+            ]
+        },
+        {
+            "name": "War Scythe",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 10,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "CRIT",
+                "H",
+                "LONG",
+                "R",
+                "SLOW",
+                "SWEE",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Other Martial Melee Weapons"
+            ]
+        },
+        {
+            "name": "Horse Warpick",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 2,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "MOST",
+                "SUN1",
+                "VERS"
+            ],
+            "entries": [
+                "Other Martial Melee Weapons"
+            ]
+        },
+        {
+            "name": "Foot Warpick",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 3,
+            "dmg1": "{@dice 1d8}",
+            "dmg2": "{@dice 1d10}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "SUN1",
+                "VERS"
+            ],
+            "entries": [
+                "Other Martial Melee Weapons"
+            ]
         }
+
     ],
     "itemProperty": [{
             "abbreviation": "CONA",
@@ -3149,6 +3355,17 @@
                 "name": "Ongoing (1)",
                 "entries": [
                     "While a weapon with the Ongoing property is grappling the target (see Grappling weapon property), the target takes damage at the beginning of each of its turns equal to the value shown in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "SUFF",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Suffocating",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property) and you are holding your weapon, the target is also Suffocating. If the target attempts to break the weapon grapple by moving out of reach, it provokes and opportunity grapple check against your Weapon Mastery DC. It can only move away from you if it succeeds on the check"
                 ]
             }]
         }
