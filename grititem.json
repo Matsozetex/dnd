@@ -1613,16 +1613,697 @@
             "entries": [
                 "Simple Polearms"
             ]
+        },
+        {
+            "name": "Boarding Gaff",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 800,
+            "weight": 8,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "DBLS",
+                "GRAP",
+                "HOOK",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Glaive",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2000,
+            "weight": 6,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "R",
+                "H",
+                "SWEE",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Guisarme",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1200,
+            "weight": 10,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LONG",
+                "R",
+                "SLOW",
+                "THRE",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Halberd",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2000,
+            "weight": 6,
+            "dmg1": "{@dice 1d12}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LONG",
+                "R",
+                "SLOW",
+                "THRE",
+                "TWOH",
+                "WOUP",
+                "EXTS",
+                "WOUS"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Combat Lance",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1000,
+            "weight": 6,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LIMM",
+                "LONG",
+                "MOST",
+                "R"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Light Lance",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 700,
+            "weight": 4,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "LIMM",
+                "LONG",
+                "MOST",
+                "R"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Great Lance",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2000,
+            "weight": 10,
+            "dmg1": "{@dice 2d6}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LIMM",
+                "LONG",
+                "MOST",
+                "R",
+                "SLOW",
+                "WOUP"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Lucerne",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 12,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LONG",
+                "R",
+                "SUN1",
+                "SLOW",
+                "THRE",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Pike",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 18,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LONG",
+                "R",
+                "SHP1",
+                "SLOW",
+                "THRE",
+                "TWOH"
+
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Pincer Staff",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 10,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "GRAP",
+                "LONG",
+                "PREV",
+                "R",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Ranseur",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 12,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "DISA",
+                "H",
+                "LONG",
+                "R",
+                "SHP1",
+                "SLOW",
+                "THRE",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Hooked Spear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 200,
+            "weight": 3,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "FINE",
+                "GRAP",
+                "HOOK",
+                "LITE",
+                "SHP1",
+                "TRIP",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Talon Spear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 4,
+            "dmg1": "{@dice 1d6}",
+            "dmg2": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "DISA",
+                "FINE",
+                "SHP1",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Weighted Spear",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 70,
+            "weight": 8,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "DEF1",
+                "FINE",
+                "SHP1",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Trident",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dm2": "{@dice 1d10}",
+            "dmgType": "P",
+            "range": "20/60",
+            "source": "GAG",
+            "property": [
+                "DISA",
+                "FINE",
+                "SHP1",
+                "THRE",
+                "THRO",
+                "VERS"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Trident",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1200,
+            "weight": 8,
+            "dmg1": "{@dice 1d12}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "DISA",
+                "SHP1",
+                "SLOW",
+                "THRE",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Polearms"
+            ]
+        },
+        {
+            "name": "Whip",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 200,
+            "weight": 3,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "DISA",
+                "FINE",
+                "GRAP",
+                "NONL",
+                "R",
+                "RESH",
+                "TRIP",
+                "WEAK"
+            ],
+            "entries": [
+                "Simple Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Lasso",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 10,
+            "weight": 5,
+            "source": "GAG",
+            "range": "20/60",
+            "property": [
+                "BREL",
+                "BYPA",
+                "FINE",
+                "GRAP",
+                "RESB",
+                "RESL",
+                "R",
+                "THRO"
+            ],
+            "entries": [
+                "Simple Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Peasant Flail",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 800,
+            "weight": 5,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Simple Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Scourge",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "weight": 1,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "DISA",
+                "FINE",
+                "NONL"
+            ],
+            "entries": [
+                "Simple Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Bolas",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 2,
+            "source": "GAG",
+            "range": "20/60",
+            "property": [
+                "BREL",
+                "BYPA",
+                "FINE",
+                "GRAP",
+                "RESL",
+                "R",
+                "THRO"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Net",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 100,
+            "weight": 3,
+            "source": "GAG",
+            "range": "5/15",
+            "property": [
+                "BREN",
+                "FINE",
+                "GRAP",
+                "RESA",
+                "RESH",
+                "THRO"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Barbed Net",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2000,
+            "weight": 6,
+            "source": "GAG",
+            "range": "5/15",
+            "property": [
+                "BREN",
+                "FINE",
+                "GRAP",
+                "ONG1",
+                "RESA",
+                "RESH",
+                "THRO"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Light Chain",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 5,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BREC",
+                "BYPA",
+                "FINE",
+                "GRAP",
+                "RESH",
+                "R",
+                "TRIP",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Spiked Chain",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "weight": 10,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BREC",
+                "BYPA",
+                "FINE",
+                "GRAP",
+                "ONG1",
+                "R",
+                "TWOH"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Flail",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1000,
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Dire Flail",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 9000,
+            "weight": 10,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "DBLS",
+                "H",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Heavy Flail",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 10,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "H",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Staff Flail",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 1500,
+            "weight": 10,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "DEF1",
+                "R",
+                "TWOH",
+                "EXTP"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
+        },
+        {
+            "name": "Combat Whip",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 500,
+            "weight": 3,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "BYPA",
+                "DISA",
+                "FINE",
+                "GRAP",
+                "R",
+                "RESH",
+                "TRIP",
+                "VICI"
+            ],
+            "entries": [
+                "Martial Flexible Weapons"
+            ]
         }
-
-
-
-
-
-
-
-
-
     ],
     "itemProperty": [{
             "abbreviation": "CONA",
@@ -2325,6 +3006,149 @@
                 "name": "Preventing",
                 "entries": [
                     "While your weapon is grappling the target (see Grappling weapon property) and you are holding your weapon, the target is unable to approach you and can only move away from you. The target can only move towards you if it attempts to Shove you. If it succeeds, it also provokes an opportunity attack from you that automatically hits."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "HOOK",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Hooked",
+                "entries": [
+                    "The weapon has a hooked head that can get stuck into your opponent. While your weapon is grappling the target and you are holding on your weapon, if the target attempts to break the grapple by leaving your reach or is Shoved away from you, it provokes an opportunity attack from you that automatically hits."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LIMM",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Limit (Mounted)",
+                "entries": [
+                    "Weapons with the Limit property impose disadvantage when not used in the specific way described in parenthesis, such as only or never on a mount, or only when stationary."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "DISA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Disarming",
+                "entries": [
+                    "When your attack is exceptional or a critical hit, you may use your bonus action to perform a Disarm action against the same target. Your result is the damage dealt by the weapon instead of the attack roll."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BYPA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Bypass",
+                "entries": [
+                    "Flexible weapons with the Bypass property are unaffected by directly blocking the blow. These weapons ignore the AC bonus from shields and Defensive weapons. The target can still use the Raise Shield combat action (pg. 18) to make your attack miss."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "RESH",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Restraining (Hand)",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property), the weapon restricts some of the actions of the creature. The Restrain effect depends on the location listed in parenthesis. If more than one is listed, pick one. Choose a free hand or a hand wielding a Light weapon. The target cannot use that hand to attack or use items (unless activated) while Restrained. While your weapon is restraining the creature and you are holding on your weapon, on your turn you may spend an attack to deal damage equal to your Strength modifier without rolling to attack. Creatures that are formless or have size category of Huge or Gargantuan cannot be Restrained."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "RESB",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Restraining (Body)",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property), the weapon restricts some of the actions of the creature. The Restrain effect depends on the location listed in parenthesis. If more than one is listed, pick one. The creature is Restrained by your weapon, except its speed is not reduced to 0. While your weapon is restraining the creature and you are holding on your weapon, on your turn you may spend an attack to deal damage equal to your Strength modifier without rolling to attack. Creatures that are formless or have size category of Huge or Gargantuan cannot be Restrained."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "RESL",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Restraining (Legs)",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property), the weapon restricts some of the actions of the creature. The Restrain effect depends on the location listed in parenthesis. If more than one is listed, pick one. The creature is Restrained by your weapon, but it doesn’t suffer disadvantage to attacks. If the creature used its movement in its turn before it was hit by this attack, it also falls prone. While your weapon is restraining the creature and you are holding on your weapon, on your turn you may spend an attack to deal damage equal to your Strength modifier without rolling to attack. Creatures that are formless or have size category of Huge or Gargantuan cannot be Restrained."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "RESA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Restraining (All)",
+                "entries": [
+                    "While your weapon is grappling the target (see Grappling weapon property), the weapon restricts some of the actions of the creature. The Restrain effect depends on the location listed in parenthesis. If more than one is listed, pick one. The creature is Restrained by your weapon. If the creature used its movement in its turn before it was hit by this attack, it also falls prone. While your weapon is restraining the creature and you are holding on your weapon, on your turn you may spend an attack to deal damage equal to your Strength modifier without rolling to attack. Creatures that are formless or have size category of Huge or Gargantuan cannot be Restrained."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WEAK",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Weak",
+                "entries": [
+                    "Creatures that wear any Hauberk, or Medium, armor have resistance to damage dealt by weapons with the Weak property unless it is an exceptional or critical hit."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BREL",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Breakable (Bola or Lasso)",
+                "entries": [
+                    "The weapon has AC and HP values and can be attacked with melee attacks as long as the weapon is grappling you (see Grappling property). You may also be allowed a Strength check to break the weapon. AC 10 and HP 5. Immune to bludgeoning and piercing damage. Can also be broken with a DC 12 Strength check. Once broken, weapons immediately release their grapple with their target and unless held by you they drop to the ground."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BREN",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Breakable (Net)",
+                "entries": [
+                    "The weapon has AC and HP values and can be attacked with melee attacks as long as the weapon is grappling you (see Grappling property). You may also be allowed a Strength check to break the weapon. AC 10 and HP 5. Immune to bludgeoning and piercing damage. Can also be broken with a DC 12 Strength check but if the Net is Barbed, you take 2d4 piercing damage breaking it. Once broken, weapons immediately release their grapple with their target and unless held by you they drop to the ground."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BREC",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Breakable (Chain)",
+                "entries": [
+                    "The weapon has AC and HP values and can be attacked with melee attacks as long as the weapon is grappling you (see Grappling property). You may also be allowed a Strength check to break the weapon. AC 10 and HP 10. Immune to piercing damage. Takes no damage from attacks dealing 5 damage or less. Can also be broken with a DC 20 Strength check. Once broken, weapons immediately release their grapple with their target and unless held by you they drop to the ground."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "ONG1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Ongoing (1)",
+                "entries": [
+                    "While a weapon with the Ongoing property is grappling the target (see Grappling weapon property), the target takes damage at the beginning of each of its turns equal to the value shown in parenthesis."
                 ]
             }]
         }
