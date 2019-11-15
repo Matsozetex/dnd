@@ -2508,7 +2508,482 @@
             "entries": [
                 "Other Martial Melee Weapons"
             ]
+        },
+        {
+            "name": "Thorwing Dagger",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 800,
+            "weight": 0.25,
+            "dmg1": "{@dice 1d4}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LIMT"
+            ],
+            "entries": [
+                "Simple Thrown Weapons"
+            ]
+        },
+        {
+            "name": "Dart",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 5,
+            "weight": 0.25,
+            "dmg1": "{@dice 1d4}",
+            "range": "20/60",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE"
+                
+            ],
+            "entries": [
+                "Simple Thrown Weapons"
+            ]
+        },
+        {
+            "name": "Sling",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 10,
+            "dmg1": "{@dice 1d4}",
+            "range": "30/120",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "PELL"
+                
+            ],
+            "entries": [
+                "Simple Thrown Weapons"
+            ]
+        },
+        {
+            "name": "Hunter's Bow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "value": 2000,
+            "dmg1": "{@dice 1d6}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "TWOH"
+                
+            ],
+            "entries": [
+                "Simple Bows"
+            ]
+        },
+        {
+            "name": "Pellet Bow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "value": 2000,
+            "dmg1": "{@dice 1d4}",
+            "range": "40/160",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+
+                "PELL",
+                "TWOH"
+                
+            ],
+            "entries": [
+                "Simple Bows"
+            ]
+        },
+        {
+            "name": "Shortbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 2500,
+            "dmg1": "{@dice 1d6}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "STR9",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Recurve Shortbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 5000,
+            "dmg1": "{@dice 1d6}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Composite Shortbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 7500,
+            "dmg1": "{@dice 1d8}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "STR1",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Longbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 5000,
+            "dmg1": "{@dice 1d8}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "LIMN",
+                "STR1",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Recurve Longbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 7500,
+            "dmg1": "{@dice 1d8}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "LIMN",
+                "STR9",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Composite Longbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 12500,
+            "dmg1": "{@dice 1d10}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "LIMN",
+                "STR3",
+                "TWOH" 
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Greatbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 15000,
+            "dmg1": "{@dice 1d12}",
+            "range": "250/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BRUT",
+                "H",
+                "LIMN",
+                "SLOW",
+                "STR3",
+                "TWOH",
+                "VOLL",
+                "WOUP"
+            ],
+            "entries": [
+                "Martial Bows"
+            ]
+        },
+        {
+            "name": "Standard Hand Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "value": 7500,
+            "dmg1": "{@dice 1d6}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "L",
+                "PTBK"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Hand Repeating Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 5,
+            "value": 40000,
+            "dmg1": "{@dice 1d6}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LOA5",
+                "MAG6",
+                "PTBK"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Light Standard Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 5,
+            "value": 2500,
+            "dmg1": "{@dice 1d8}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA1",
+                "STCK",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Light Double Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 9,
+            "value": 5000,
+            "dmg1": "{@dice 1d8}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA2",
+                "MAG2",
+                "STCK",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Light Repeating Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 8,
+            "value": 25000,
+            "dmg1": "{@dice 1d8}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA5",
+                "MAG6",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Heavy Standard Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "value": 5000,
+            "dmg1": "{@dice 1d10}",
+            "range": "100/400",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LOA2",
+                "STCK",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Heavy Double Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 36,
+            "value": 10000,
+            "dmg1": "{@dice 1d10}",
+            "range": "75/300",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LOA4",
+                "MAG2",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Heavy Repeating Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 24,
+            "value": 30000,
+            "dmg1": "{@dice 1d10}",
+            "range": "50/200",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "H",
+                "LOA7",
+                "MAG6",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Blade Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 19,
+            "value": 30000,
+            "dmg1": "{@dice 1d4}",
+            "range": "50/200",
+            "dmgType": "S",
+            "source": "GAG",
+            "property": [
+                "CAL3",
+                "LOA1",
+                "STCK",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
+        },
+        {
+            "name": "Pellet Crossbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 5,
+            "value": 2000,
+            "dmg1": "{@dice 1d6}",
+            "range": "50/200",
+            "dmgType": "B",
+            "source": "GAG",
+            "property": [
+                "L",
+                "PELL",
+                "STCK",
+                "TWOH"
+            ],
+            "entries": [
+                "Simple Crossbows"
+            ]
         }
+
+
 
     ],
     "itemProperty": [{
@@ -3238,6 +3713,28 @@
             }]
         },
         {
+            "abbreviation": "LIMT",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Limit (Only Thrown)",
+                "entries": [
+                    "Weapons with the Limit property impose disadvantage when not used in the specific way described in parenthesis, such as only or never on a mount, or only when stationary."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LIMN",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Limit (Not Mounted)",
+                "entries": [
+                    "Weapons with the Limit property impose disadvantage when not used in the specific way described in parenthesis, such as only or never on a mount, or only when stationary."
+                ]
+            }]
+        },
+        {
             "abbreviation": "DISA",
             "source": "GAG",
             "entries": [{
@@ -3368,7 +3865,173 @@
                     "While your weapon is grappling the target (see Grappling weapon property) and you are holding your weapon, the target is also Suffocating. If the target attempts to break the weapon grapple by moving out of reach, it provokes and opportunity grapple check against your Weapon Mastery DC. It can only move away from you if it succeeds on the check"
                 ]
             }]
+        },
+        {
+            "abbreviation": "PELL",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Pellets",
+                "entries": [
+                    "This weapon uses free ammunition intended for a sling, even if it's weapon type is not a sling. Pellets do not leave a trace of the direction they were shot from unless the victim is alive to notice, or the wound is inspected with a DC 15 Intelligence (Investigation) check, or the environment is searched with a DC 20 Wisdom (Perception) check."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "STR9",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Stength (9)",
+                "entries": [
+                    "Ranged weapons with the Strength property require raw strength to draw the string. You must have the minimum Strength score as shown in parenthesis in order to use them."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "STR1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Stength (11)",
+                "entries": [
+                    "Ranged weapons with the Strength property require raw strength to draw the string. You must have the minimum Strength score as shown in parenthesis in order to use them."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "STR3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Stength (13)",
+                "entries": [
+                    "Ranged weapons with the Strength property require raw strength to draw the string. You must have the minimum Strength score as shown in parenthesis in order to use them."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VOLL",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Volley",
+                "entries": [
+                    "Weapons with the Volley property are less effective at close distances. Your attacks against targets that are within 30 feet from you suffer disadvantage."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "PTBK",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Point-Blank",
+                "entries": [
+                    "Ranged weapons with the Point Blank property allow for exact precision when pointing at nearby targets. Attacks with ranged weapons that have this property do not suffer disadvantage when made within 5 feet of a hostile creature."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "STCK",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Stock",
+                "entries": [
+                    "Ranged weapons with the Stock property can improve your aim when set on firm ground. If you lay prone and make a ranged attack with it, you can ignore disadvantage when shooting at long range (but no further than 1000 feet), but you suffer disadvantage if you shoot at targets within close range."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA5",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (5)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA7",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (7)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (1)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA2",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (2)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (4)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MAG6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mag (6)",
+                "entries": [
+                    "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MAG2",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mag (2)",
+                "entries": [
+                    "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CAL3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Caliber (3)",
+                "entries": [
+                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                ]
+            }]
         }
+
 
 
 
