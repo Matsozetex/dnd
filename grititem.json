@@ -2353,7 +2353,7 @@
             "dmgType": "P",
             "source": "GAG",
             "property": [
-           
+
                 "FINE",
                 "LITE",
                 "SUN1"
@@ -2543,7 +2543,7 @@
             "source": "GAG",
             "property": [
                 "LITE"
-                
+
             ],
             "entries": [
                 "Simple Thrown Weapons"
@@ -2563,7 +2563,7 @@
             "property": [
                 "LITE",
                 "PELL"
-                
+
             ],
             "entries": [
                 "Simple Thrown Weapons"
@@ -2583,7 +2583,7 @@
             "source": "GAG",
             "property": [
                 "TWOH"
-                
+
             ],
             "entries": [
                 "Simple Bows"
@@ -2605,7 +2605,7 @@
 
                 "PELL",
                 "TWOH"
-                
+
             ],
             "entries": [
                 "Simple Bows"
@@ -2626,7 +2626,7 @@
             "property": [
                 "BRUT",
                 "STR9",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2646,7 +2646,7 @@
             "source": "GAG",
             "property": [
                 "BRUT",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2667,7 +2667,7 @@
             "property": [
                 "BRUT",
                 "STR1",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2689,7 +2689,7 @@
                 "BRUT",
                 "LIMN",
                 "STR1",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2711,7 +2711,7 @@
                 "BRUT",
                 "LIMN",
                 "STR9",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2733,7 +2733,7 @@
                 "BRUT",
                 "LIMN",
                 "STR3",
-                "TWOH" 
+                "TWOH"
             ],
             "entries": [
                 "Martial Bows"
@@ -2770,7 +2770,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 3,
             "value": 7500,
             "dmg1": "{@dice 1d6}",
@@ -2791,7 +2791,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 5,
             "value": 40000,
             "dmg1": "{@dice 1d6}",
@@ -2813,7 +2813,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 5,
             "value": 2500,
             "dmg1": "{@dice 1d8}",
@@ -2834,7 +2834,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 9,
             "value": 5000,
             "dmg1": "{@dice 1d8}",
@@ -2856,7 +2856,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 8,
             "value": 25000,
             "dmg1": "{@dice 1d8}",
@@ -2877,7 +2877,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 18,
             "value": 5000,
             "dmg1": "{@dice 1d10}",
@@ -2899,7 +2899,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 36,
             "value": 10000,
             "dmg1": "{@dice 1d10}",
@@ -2921,7 +2921,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 24,
             "value": 30000,
             "dmg1": "{@dice 1d10}",
@@ -2943,7 +2943,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 19,
             "value": 30000,
             "dmg1": "{@dice 1d4}",
@@ -2965,7 +2965,7 @@
             "type": "R",
             "rarity": "None",
             "weapon": true,
-            "weaponCategory": "Martial",
+            "weaponCategory": "Simple",
             "weight": 5,
             "value": 2000,
             "dmg1": "{@dice 1d6}",
@@ -2981,7 +2981,910 @@
             "entries": [
                 "Simple Crossbows"
             ]
+        },
+        {
+            "name": "Blowgun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 1,
+            "value": 1000,
+            "dmg1": "{@dice 1d1}",
+            "range": "25/100",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "L"
+            ],
+            "entries": [
+                "Other Martial Ranged Weapons "
+            ]
+        },
+        {
+            "name": "Large Blowgun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 1500,
+            "dmg1": "{@dice 1d4}",
+            "range": "30/120",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "L"
+            ],
+            "entries": [
+                "Other Martial Ranged Weapons"
+            ]
+        },
+        {
+            "name": "Handgonne",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 24000,
+            "dmg1": "{@dice 2d12}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA4",
+                "TWOH",
+                "MIS2",
+                "SUN3"
+            ],
+            "entries": [
+                "Medieval Firearms"
+            ]
+        },
+        {
+            "name": "Two-Faced Gonne",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 11,
+            "value": 37000,
+            "dmg1": "{@dice 2d12}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA8",
+                "H",
+                "MAG2",
+                "TWOH",
+                "MIS2",
+                "SUN3"
+            ],
+            "entries": [
+                "Medieval Firearms"
+            ]
+        },
+        {
+            "name": "Ten-Eyed Gonne",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 27,
+            "value": 92000,
+            "dmg1": "{@dice 2d12}",
+            "range": "15/45",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC5",
+                "H",
+                "LO40",
+                "MAG2",
+                "TWOH",
+                "MIS2",
+                "SUN3"
+            ],
+            "entries": [
+                "Medieval Firearms"
+            ]
+        },
+        {
+            "name": "Wheellock Pistol",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "value": 40000,
+            "dmg1": "{@dice 1d10}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LOA3",
+                "PTBK",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Pocket Pistol",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 0.5,
+            "value": 38000,
+            "dmg1": "{@dice 1d8}",
+            "range": "80/320",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CONW",
+                "LITE",
+                "LOA3",
+                "PTBK",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Flintlock Pistol",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "value": 40000,
+            "dmg1": "{@dice 2d10}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LOA3",
+                "PTBK",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Duck's Foot Pistol",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "value": 55000,
+            "dmg1": "{@dice 1d8}",
+            "range": "30/90",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC3",
+                "LITE",
+                "LO12",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Snaphaunce Pistol",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 1,
+            "value": 25000,
+            "dmg1": "{@dice 1d8}",
+            "range": "125/500",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LOA3",
+                "PTBK",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Tantsutsu",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 5,
+            "value": 35000,
+            "dmg1": "{@dice 1d12}",
+            "range": "125/500",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LITE",
+                "LOA7",
+                "PTBK",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Arquebus",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 10,
+            "value": 30000,
+            "dmg1": "{@dice 2d10}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Caliver",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 27000,
+            "dmg1": "{@dice 2d10}",
+            "range": "250/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL1",
+                "LOA9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Carbine",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 58000,
+            "dmg1": "{@dice 2d12}",
+            "range": "250/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL1",
+                "LOA6",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Flintlock Carbine",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 4,
+            "value": 49000,
+            "dmg1": "{@dice 2d12}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA6",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Fusil Ordinaire",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 30000,
+            "dmg1": "{@dice 2d12}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL1",
+                "LOA6",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Matchlock Musket",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 21,
+            "value": 35000,
+            "dmg1": "{@dice 2d12}",
+            "range": "300/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL2",
+                "LOA9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Flintlock Musket",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 13,
+            "value": 40000,
+            "dmg1": "{@dice 2d12}",
+            "range": "300/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL2",
+                "LOA2",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Puckle Gun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 90,
+            "value": 360000,
+            "dmg1": "{@dice 2d12}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LIMG",
+                "LO14",
+                "MAG9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Teppo",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 90,
+            "value": 34000,
+            "dmg1": "{@dice 1d10}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Wall Gun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 28,
+            "value": 85000,
+            "dmg1": "{@dice 2d12}",
+            "range": "300/1000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL3",
+                "LIMG",
+                "LOA6",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Winged Tiger Gun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 44000,
+            "dmg1": "{@dice 2d10}",
+            "range": "150/600",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LO27",
+                "MAG3",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Breechloading Carbine",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 9,
+            "value": 54000,
+            "dmg1": "{@dice 2d10}",
+            "range": "150/1500",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA1",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Jäger Rifle",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 11,
+            "value": 60000,
+            "dmg1": "{@dice 2d10}",
+            "range": "200/2000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL1",
+                "LOA9",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Double Jäger Rifle",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 20,
+            "value": 100000,
+            "dmg1": "{@dice 2d10}",
+            "range": "200/2000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL1",
+                "LO18",
+                "MAG2",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Blunderbuss",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 11,
+            "value": 33000,
+            "dmg1": "{@dice 2d8}",
+            "range": "30/90",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC3",
+                "LOA2",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Single Fowling Piece",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 10,
+            "value": 27000,
+            "dmg1": "{@dice 1d6}",
+            "range": "30/90",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC5",
+                "LOA6",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Double Fowling Piece",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 17,
+            "value": 34000,
+            "dmg1": "{@dice 1d6}",
+            "range": "30/90",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC5",
+                "LO12",
+                "MAG2",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Derringer",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 0.5,
+            "value": 40000,
+            "dmg1": "{@dice 1d10}",
+            "range": "200/2000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CONW",
+                "LOA1",
+                "LITE",
+                "MAG2",
+                "PTBK",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Revolver",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 2.5,
+            "value": 60000,
+            "dmg1": "{@dice 2d8}",
+            "range": "400/4000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "LOA2",
+                "LITE",
+                "MAG6",
+                "PTBK",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Rifle-Musket",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 9,
+            "value": 60000,
+            "dmg1": "{@dice 2d10}",
+            "range": "2000/6000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL2",
+                "LOA2",
+                "TWOH",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Catridge Rifle",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 6,
+            "value": 80000,
+            "dmg1": "{@dice 2d10}",
+            "range": "2000/6000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL3",
+                "L",
+                "TWOH",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Lever-Action Carbine",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 7,
+            "value": 240000,
+            "dmg1": "{@dice 2d8}",
+            "range": "1500/9000",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "CAL3",
+                "LOA3",
+                "MAG7",
+                "TWOH",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Double-Barreled Shotgun",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 10,
+            "value": 180000,
+            "dmg1": "{@dice 2d8}",
+            "range": "30/90",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
+                "BUC5",
+                "H",
+                "LOA1",
+                "MAG2",
+                "TWOH",
+                "VELO"
+            ],
+            "entries": [
+                "Industrial Firearms"
+            ]
+        },
+        {
+            "name": "Stone Pellet",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "source": "GAG",
+            "quantity": 10,
+            "entries": [
+                "Ammo for slings or pellet weapons.",
+                "10 stone pellets can be found for free when searching for 1 hour. "
+            ]
+        },
+        {
+            "name": "Sling Pellet",
+            "type": "A",
+            "rarity": "None",
+            "weight": 0.5,
+            "value": 10,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for slings or pellet weapons.",
+                "Double the Near range of the sling or pellet weapon. "
+            ]
+        },
+        {
+            "name": "Blowgun Needle",
+            "type": "A",
+            "rarity": "None",
+            "weight": 0.5,
+            "value": 10,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for blowguns."
+            ]
+        },
+        {
+            "name": "Quarrel",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 100,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for crossbows."
+            ]
+        },
+        {
+            "name": "Arrow",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 100,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for bows."
+            ]
+        },
+        {
+            "name": "Bodkin Arrow",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 400,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for bows."
+            ],
+            "property": [
+                "SUN1"
+            ]
+        },
+        {
+            "name": "Broadhead Arrow",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 400,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for bows.",
+                "If used with a weapon without the Wounding property, this ammo type grants the Wounding property for that weapon's damage type."
+            ]
+        },
+        {
+            "name": "Greatbow Arrow",
+            "type": "A",
+            "rarity": "None",
+            "weight": 2,
+            "value": 1000,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for greatbows."
+            ]
+        },
+        {
+            "name": "Bullet",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 500,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for firearms."
+            ]
+        },
+        {
+            "name": "Buckshot Shells",
+            "type": "A",
+            "rarity": "None",
+            "weight": 1,
+            "value": 2000,
+            "source": "GAG",
+            "quantity": 20,
+            "entries": [
+                "Ammo for firearms with the Buckshot property.."
+            ]
         }
+
 
 
 
@@ -3537,6 +4440,17 @@
             }]
         },
         {
+            "abbreviation": "SUN3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Sundering (3)",
+                "entries": [
+                    "The weapon has qualities that crush or pierce armor, making it more effective against targets that employ such defenses. When you attack a target wearing armor components with the Hard property, or natural armor and its armor AC is 15 or more, you gain a bonus to the attack roll equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
             "abbreviation": "DBLS",
             "source": "GAG",
             "entries": [{
@@ -3729,6 +4643,17 @@
             "entries": [{
                 "type": "entries",
                 "name": "Limit (Not Mounted)",
+                "entries": [
+                    "Weapons with the Limit property impose disadvantage when not used in the specific way described in parenthesis, such as only or never on a mount, or only when stationary."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LIMG",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Limit (Tripod)",
                 "entries": [
                     "Weapons with the Limit property impose disadvantage when not used in the specific way described in parenthesis, such as only or never on a mount, or only when stationary."
                 ]
@@ -3955,11 +4880,33 @@
             }]
         },
         {
+            "abbreviation": "LOA6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (6)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
             "abbreviation": "LOA7",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
                 "name": "Loading (7)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA9",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (9)",
                 "entries": [
                     "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
                 ]
@@ -3999,11 +4946,110 @@
             }]
         },
         {
+            "abbreviation": "LOA8",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (8)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LOA3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (3)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LO40",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (40)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LO27",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (27)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LO12",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (12)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LO18",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (18)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "LO14",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Loading (14)",
+                "entries": [
+                    "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. Some weapons take longer to reload and you must spend a number of attacks to reload equal to the value in parenthesis."
+                ]
+            }]
+        },
+        {
             "abbreviation": "MAG6",
             "source": "GAG",
             "entries": [{
                 "type": "entries",
                 "name": "Mag (6)",
+                "entries": [
+                    "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MAG7",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mag (7)",
+                "entries": [
+                    "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MAG9",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mag (9)",
                 "entries": [
                     "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
                 ]
@@ -4021,6 +5067,17 @@
             }]
         },
         {
+            "abbreviation": "MAG3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Mag (3)",
+                "entries": [
+                    "When you reload a ranged weapon with the Mag property, an amount of Ammunition is placed in it ready to be fired. You must have the ammunition in a quiver, case or another container. As long as there is ammunition in the weapon, you can ignore the Loading property of the weapon."
+                ]
+            }]
+        },
+        {
             "abbreviation": "CAL3",
             "source": "GAG",
             "entries": [{
@@ -4028,6 +5085,94 @@
                 "name": "Caliber (3)",
                 "entries": [
                     "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CAL2",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Caliber (2)",
+                "entries": [
+                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "CAL1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Caliber (1)",
+                "entries": [
+                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BUC5",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Buckshot (5)",
+                "entries": [
+                    "The ranged weapon spreads multiple fragments in a scatter cone in short range. Both the weapon and the ammunition used must have the Buckshot property. If the target is within the normal range increment you can select a number of secondary targets within 5 feet of the primary target up to the value in parenthesis. The primary target cannot be selected as secondary target. Secondary targets behind the primary target or behind another secondary target cannot be selected. Make one attack and damage roll to apply to all targets. If the target is within 5 feet reach instead of selecting secondary targets, the primary target takes additional damage. Roll additional damage dice equal to the value in parenthesis. Buckshot attacks with this weapon do not add your ability modifier to damage unless the modifier is negative."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BUC4",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Buckshot (4)",
+                "entries": [
+                    "The ranged weapon spreads multiple fragments in a scatter cone in short range. Both the weapon and the ammunition used must have the Buckshot property. If the target is within the normal range increment you can select a number of secondary targets within 5 feet of the primary target up to the value in parenthesis. The primary target cannot be selected as secondary target. Secondary targets behind the primary target or behind another secondary target cannot be selected. Make one attack and damage roll to apply to all targets. If the target is within 5 feet reach instead of selecting secondary targets, the primary target takes additional damage. Roll additional damage dice equal to the value in parenthesis. Buckshot attacks with this weapon do not add your ability modifier to damage unless the modifier is negative."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "BUC3",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Buckshot (3)",
+                "entries": [
+                    "The ranged weapon spreads multiple fragments in a scatter cone in short range. Both the weapon and the ammunition used must have the Buckshot property. If the target is within the normal range increment you can select a number of secondary targets within 5 feet of the primary target up to the value in parenthesis. The primary target cannot be selected as secondary target. Secondary targets behind the primary target or behind another secondary target cannot be selected. Make one attack and damage roll to apply to all targets. If the target is within 5 feet reach instead of selecting secondary targets, the primary target takes additional damage. Roll additional damage dice equal to the value in parenthesis. Buckshot attacks with this weapon do not add your ability modifier to damage unless the modifier is negative."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MIS1",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Misfire (1)",
+                "entries": [
+                    "Whenever you make an attack roll with a ranged weapon with the Misfire property and the attack roll is equal to or lower than the weapon’s Misfire value, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and clean or repair it. To repair a firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + Misfire score). If your check fails, the weapon is unusable until the end of combat and may need to be mended out of combat at a quarter of the cost of the firearm (DM's discretion). Creatures who use a firearm without being proficient increase the weapon’s Misfire score by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MIS2",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Misfire (2)",
+                "entries": [
+                    "Whenever you make an attack roll with a ranged weapon with the Misfire property and the attack roll is equal to or lower than the weapon’s Misfire value, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and clean or repair it. To repair a firearm, you must make a successful Tinker’s Tools check (DC equal to 8 + Misfire score). If your check fails, the weapon is unusable until the end of combat and may need to be mended out of combat at a quarter of the cost of the firearm (DM's discretion). Creatures who use a firearm without being proficient increase the weapon’s Misfire score by 1."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "VELO",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Velocity",
+                "entries": [
+                    "Advanced firearms shoot projectiles at a higher velocity than all other ranged weapons. While causing less bleeding than arrows, bullets deal more trauma and are very effective at killing quickly. When rolling for damage, roll one additional weapon die then remove the die with the lowest result. When using weapons with the Velocity property the target does not benefit from any AC bonus from armor components with the Hard property. If you use Realistic Defense (pg. 67), all DR is ignored instead."
                 ]
             }]
         }
