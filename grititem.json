@@ -7,13 +7,14 @@
             "authors": [
                 "TheApoApostolov",
                 "Stormchaser",
-                "Thune"
+                "Thune",
+                "Matsozetex"
             ],
             "convertedBy": [
                 "Matsozetex"
             ],
             "url": "https://github.com/mpap0006/dnd",
-            "version": "0.5",
+            "version": "0.9",
             "targetSchema": "1.0.0"
         }],
         "dateAdded": 1573638527
@@ -112,7 +113,6 @@
             "armor": true,
             "rarity": "None",
             "value": 1000,
-            "weight": 0.1,
             "acSpecial": "-",
             "strength": "7",
             "entries": [
@@ -130,7 +130,6 @@
             "armor": true,
             "rarity": "None",
             "value": 10000,
-            "weight": 1,
             "acSpecial": "-",
             "strength": "7",
             "entries": [
@@ -148,7 +147,6 @@
             "armor": true,
             "rarity": "None",
             "value": 2000,
-            "weight": 0.1,
             "acSpecial": "-",
             "strength": "8",
             "entries": [
@@ -166,7 +164,6 @@
             "armor": true,
             "rarity": "None",
             "value": 20000,
-            "weight": 1,
             "acSpecial": "-",
             "strength": "8",
             "entries": [
@@ -184,7 +181,6 @@
             "armor": true,
             "rarity": "None",
             "value": 3000,
-            "weight": 0.1,
             "acSpecial": "-",
             "strength": "9",
             "entries": [
@@ -202,7 +198,6 @@
             "armor": true,
             "rarity": "None",
             "value": 30000,
-            "weight": 1,
             "acSpecial": "-",
             "strength": "9",
             "entries": [
@@ -530,7 +525,7 @@
             ],
             "property": [
                 "BULK",
-                "COLD"
+                "WARM"
             ],
             "source": "GAG"
         },
@@ -883,7 +878,7 @@
             ],
             "entries": [
                 "Unarmed Gear",
-                "0 Slot"
+                "1 Slot"
             ]
         },
         {
@@ -893,7 +888,6 @@
             "weapon": true,
             "weaponCategory": "simple",
             "value": 500,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -906,7 +900,8 @@
                 "FINE"
             ],
             "entries": [
-                "Unarmed Gear"
+                "Unarmed Gear",
+                "1 Slot"
             ]
         },
         {
@@ -917,14 +912,17 @@
 			"rarity": "None",
             "range": "20/60",
             "value": 100,
-			"weight": 2,
 			"dmg1": "{@dice 1d4}",
 			"dmgType": "B",
 			"source": "GAG",
 			"property": [
 				"FINE",
 				"THRO"
-			]
+            ],
+            "entries":[
+                "Special Weapons",
+                "1 Slot"
+            ]
 		},
         {
             "name": "Brass Knuckles",
@@ -933,7 +931,6 @@
             "weapon": true,
             "weaponCategory": "simple",
             "value": 100,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -946,7 +943,8 @@
 
             ],
             "entries": [
-                "Unarmed Gear"
+                "Unarmed Gear",
+                "1 Slot"
             ]
         },
         {
@@ -956,7 +954,6 @@
             "weapon": true,
             "weaponCategory": "simple",
             "value": 500,
-            "weight": 2,
             "dmg1": "{@dice 1d6}",
             "dmgType": "S",
             "range": "20/60",
@@ -967,7 +964,8 @@
                 "THRO"
             ],
             "entries": [
-                "Simple Axes"
+                "Simple Axes",
+                "1 Slot"
             ]
         },
         {
@@ -977,7 +975,6 @@
             "weapon": true,
             "weaponCategory": "simple",
             "value": 300,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "S",
             "range": "30/60",
@@ -988,7 +985,8 @@
                 "THRO"
             ],
             "entries": [
-                "Simple Axes"
+                "Simple Axes",
+                "1 Slot"
             ]
         },
         {
@@ -998,7 +996,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1000,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "S",
@@ -1008,7 +1005,8 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "2 Slot"
             ]
         },
         {
@@ -1018,7 +1016,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 800,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmgType": "S",
             "source": "GAG",
@@ -1027,7 +1024,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "3 Slot"
             ]
         },
         {
@@ -1037,7 +1035,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 3000,
-            "weight": 7,
             "dmg1": "{@dice 1d12}",
             "dmgType": "S",
             "source": "GAG",
@@ -1049,7 +1046,8 @@
                 "WOUS"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "3 Slot"
             ]
         },
         {
@@ -1059,7 +1057,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "B",
@@ -1071,7 +1068,8 @@
                 "SUN1"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "2 Slot"
             ]
         },
         {
@@ -1081,7 +1079,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 5000,
-            "weight": 12,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -1094,7 +1091,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "3 Slot"
             ]
         },
         {
@@ -1104,7 +1102,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 700,
-            "weight": 3,
             "dmg1": "{@dice 1d8}",
             "dmgType": "S",
             "source": "GAG",
@@ -1112,7 +1109,8 @@
                 "SWEE"
             ],
             "entries": [
-                "Martial Axes"
+                "Martial Axes",
+                "2 Slot"
             ]
         },
         {
@@ -1122,7 +1120,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 200,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "range": "20/60",
             "dmgType": "P",
@@ -1133,7 +1130,8 @@
                 "THRO"
             ],
             "entries": [
-                "Simple Blades"
+                "Simple Blades",
+                "1 Slot"
             ]
         },
         {
@@ -1143,7 +1141,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 200,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1154,7 +1151,8 @@
                 "VICI"
             ],
             "entries": [
-                "Simple Blades"
+                "Simple Blades", 
+                "1 Slot"
             ]
         },
         {
@@ -1164,7 +1162,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 500,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1175,7 +1172,8 @@
                 "BRUT"
             ],
             "entries": [
-                "Simple Blades"
+                "Simple Blades",
+                "1 Slot"
             ]
         },
         {
@@ -1185,7 +1183,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1200,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1195,7 +1192,8 @@
                 "PARY"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "1 Slot"
             ]
         },
         {
@@ -1205,7 +1203,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 5000,
-            "weight": 7,
             "dmg1": "{@dice 1d10}",
             "dmgType": "S",
             "source": "GAG",
@@ -1216,7 +1213,8 @@
                 "CRIT"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "3 Slot"
             ]
         },
         {
@@ -1226,7 +1224,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 2,
             "dmg1": "{@dice 1d8}",
             "dmgType": "P",
             "source": "GAG",
@@ -1237,7 +1234,8 @@
             ],
             "entries": [
                 "Martial Blades",
-                "May only be used with dexterity."
+                "May only be used with dexterity.",
+                "2 Slot"
             ]
         },
         {
@@ -1247,7 +1245,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 8,
             "dmg1": "{@dice 2d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -1257,7 +1254,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1267,7 +1265,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 5000,
-            "weight": 6,
             "dmg1": "{@dice 1d10}",
             "dmgType": "S",
             "source": "GAG",
@@ -1280,7 +1277,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "3 Slot"
             ]
         },
         {
@@ -1290,7 +1288,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 5000,
-            "weight": 6,
             "dmg1": "{@dice 3d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1305,7 +1302,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "3 Slot"
             ]
         },
         {
@@ -1315,7 +1313,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1000,
-            "weight": 3,
             "dmg1": "{@dice 1d10}",
             "dmgType": "P",
             "source": "GAG",
@@ -1326,7 +1323,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "3 Slot"
             ]
         },
         {
@@ -1336,7 +1334,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 2,
             "dmg1": "{@dice 1d8}",
             "dmgType": "P",
             "source": "GAG",
@@ -1347,7 +1344,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1357,7 +1355,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 4,
             "dmg1": "{@dice 2d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -1368,7 +1365,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1378,7 +1376,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 3,
             "dmg1": "{@dice 1d6}",
             "dmgType": "S",
             "source": "GAG",
@@ -1390,7 +1387,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1400,7 +1398,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1000,
-            "weight": 2,
             "dmg1": "{@dice 1d6}",
             "dmgType": "P",
             "source": "GAG",
@@ -1412,7 +1409,8 @@
 
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1422,7 +1420,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 6,
             "dmg1": "{@dice 2d4}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "S",
@@ -1432,7 +1429,8 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1442,7 +1440,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 4,
             "dmg1": "{@dice 2d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -1450,7 +1447,8 @@
                 "PARY"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "2 Slot"
             ]
         },
         {
@@ -1460,7 +1458,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 5000,
-            "weight": 10,
             "dmg1": "{@dice 2d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -1471,7 +1468,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "3 Slot"
             ]
         },
         {
@@ -1481,7 +1479,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 10,
-            "weight": 2,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -1489,7 +1486,8 @@
                 "NONL"
             ],
             "entries": [
-                "Simple Bludgeoning Weapons"
+                "Simple Bludgeoning Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -1499,7 +1497,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 200,
-            "weight": 2,
             "dmg1": "{@dice 1d4}",
             "range": "30/60",
             "dmgType": "B",
@@ -1510,7 +1507,8 @@
                 "THRO"
             ],
             "entries": [
-                "Simple Bludgeoning Weapons"
+                "Simple Bludgeoning Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -1520,7 +1518,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 20,
-            "weight": 10,
             "dmg1": "{@dice 1d10}",
             "dmgType": "B",
             "source": "GAG",
@@ -1530,7 +1527,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Bludgeoning Weapons"
+                "Simple Bludgeoning Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -1540,7 +1538,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 500,
-            "weight": 4,
             "dmg1": "{@dice 1d6}",
             "dmgType": "B",
             "source": "GAG",
@@ -1549,7 +1546,8 @@
                 "LITE"
             ],
             "entries": [
-                "Simple Bludgeoning Weapons"
+                "Simple Bludgeoning Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -1559,7 +1557,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 2,
             "dmg1": "{@dice 1d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -1571,7 +1568,8 @@
                 "NONL"
             ],
             "entries": [
-                "Simple Bludgeoning Weapons"
+                "Simple Bludgeoning Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -1581,7 +1579,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 4000,
-            "weight": 14,
             "dmg1": "{@dice 2d6}",
             "dmgType": "B",
             "source": "GAG",
@@ -1593,7 +1590,8 @@
                 "WOUB"
             ],
             "entries": [
-                "Martial Bludgeoning Weapons"
+                "Martial Bludgeoning Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -1603,7 +1601,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 800,
-            "weight": 9,
             "dmg1": "{@dice 1d10}",
             "dmgType": "B",
             "source": "GAG",
@@ -1612,7 +1609,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bludgeoning Weapons"
+                "Martial Bludgeoning Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -1622,7 +1620,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 700,
-            "weight": 8,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -1630,7 +1627,8 @@
                 "SUN1"
             ],
             "entries": [
-                "Martial Bludgeoning Weapons"
+                "Martial Bludgeoning Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -1640,7 +1638,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -1650,7 +1647,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Bludgeoning Weapons"
+                "Martial Bludgeoning Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -1660,7 +1658,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 2,
             "dmg1": "{@dice 1d8}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "B",
@@ -1670,7 +1667,8 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Bludgeoning Weapons"
+                "Martial Bludgeoning Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -1680,7 +1678,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 5,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -1691,7 +1688,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1701,7 +1699,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 50,
-            "weight": 2,
             "dmg1": "{@dice 1d6}",
             "range": "30/120",
             "dmgType": "P",
@@ -1712,7 +1709,8 @@
                 "SHP1"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "2 Slot"
             ]
         },
         {
@@ -1722,7 +1720,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 500,
-            "weight": 9,
             "dmg1": "{@dice 1d8}",
             "dmgType": "P",
             "source": "GAG",
@@ -1736,7 +1733,8 @@
                 "THRE"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1746,7 +1744,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 20,
-            "weight": 4,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 2d4}",
             "dmgType": "B",
@@ -1758,7 +1755,8 @@
                 "VERS"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "2 Slot"
             ]
         },
         {
@@ -1768,7 +1766,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 3,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 1d8}",
             "dmgType": "P",
@@ -1782,7 +1779,8 @@
                 "VERS"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "2 Slot"
             ]
         },
         {
@@ -1792,7 +1790,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 500,
-            "weight": 8,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 1d8}",
             "dmgType": "P",
@@ -1803,7 +1800,8 @@
                 "PREV"
             ],
             "entries": [
-                "Simple Polearms"
+                "Simple Polearms",
+                "2 Slot"
             ]
         },
         {
@@ -1813,7 +1811,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 800,
-            "weight": 8,
             "dmg1": "{@dice 2d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1825,7 +1822,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1835,7 +1833,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2000,
-            "weight": 6,
             "dmg1": "{@dice 1d10}",
             "dmgType": "S",
             "source": "GAG",
@@ -1846,7 +1843,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1856,7 +1854,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1200,
-            "weight": 10,
             "dmg1": "{@dice 1d10}",
             "dmgType": "P",
             "source": "GAG",
@@ -1870,7 +1867,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1880,7 +1878,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2000,
-            "weight": 6,
             "dmg1": "{@dice 1d12}",
             "dmgType": "P",
             "source": "GAG",
@@ -1896,7 +1893,8 @@
                 "WOUS"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1906,7 +1904,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1000,
-            "weight": 6,
             "dmg1": "{@dice 1d10}",
             "dmgType": "P",
             "source": "GAG",
@@ -1917,7 +1914,8 @@
                 "R"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "4 Slot"
             ]
         },
         {
@@ -1927,7 +1925,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 700,
-            "weight": 4,
             "dmg1": "{@dice 2d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -1939,7 +1936,8 @@
                 "R"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "4 Slot"
             ]
         },
         {
@@ -1949,7 +1947,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2000,
-            "weight": 10,
             "dmg1": "{@dice 2d6}",
             "dmgType": "P",
             "source": "GAG",
@@ -1963,7 +1960,8 @@
                 "WOUP"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "4 Slot"
             ]
         },
         {
@@ -1973,7 +1971,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 12,
             "dmg1": "{@dice 1d10}",
             "dmgType": "B",
             "source": "GAG",
@@ -1988,7 +1985,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -1998,7 +1996,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 18,
             "dmg1": "{@dice 1d10}",
             "dmgType": "B",
             "source": "GAG",
@@ -2013,7 +2010,8 @@
 
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2023,7 +2021,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 10,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -2035,7 +2032,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2045,7 +2043,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 12,
             "dmg1": "{@dice 2d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -2060,7 +2057,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2070,7 +2068,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 200,
-            "weight": 3,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 1d8}",
             "dmgType": "P",
@@ -2085,7 +2082,8 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2095,7 +2093,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 4,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 1d8}",
             "dmgType": "P",
@@ -2107,7 +2104,8 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "2 Slot"
             ]
         },
         {
@@ -2117,7 +2115,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 70,
-            "weight": 8,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2129,7 +2126,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2139,7 +2137,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "P",
@@ -2154,11 +2151,12 @@
                 "VERS"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "2 Slot"
             ]
         },
         {
-            "name": "Trident",
+            "name": "Great Trident",
             "type": "M",
             "rarity": "None",
             "weapon": true,
@@ -2176,7 +2174,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Polearms"
+                "Martial Polearms",
+                "3 Slot"
             ]
         },
         {
@@ -2186,7 +2185,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 200,
-            "weight": 3,
             "dmg1": "{@dice 1d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -2202,7 +2200,8 @@
                 "WEAK"
             ],
             "entries": [
-                "Simple Flexible Weapons"
+                "Simple Flexible Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2212,7 +2211,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 10,
-            "weight": 5,
             "source": "GAG",
             "range": "20/60",
             "property": [
@@ -2226,7 +2224,8 @@
                 "THRO"
             ],
             "entries": [
-                "Simple Flexible Weapons"
+                "Simple Flexible Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2236,7 +2235,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 800,
-            "weight": 5,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -2246,7 +2244,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Simple Flexible Weapons"
+                "Simple Flexible Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -2256,7 +2255,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2267,7 +2265,8 @@
                 "NONL"
             ],
             "entries": [
-                "Simple Flexible Weapons"
+                "Simple Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2277,7 +2276,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 2,
             "source": "GAG",
             "range": "20/60",
             "property": [
@@ -2290,7 +2288,8 @@
                 "THRO"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2300,7 +2299,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 100,
-            "weight": 3,
             "source": "GAG",
             "range": "5/15",
             "property": [
@@ -2312,7 +2310,8 @@
                 "THRO"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2322,7 +2321,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2000,
-            "weight": 6,
             "source": "GAG",
             "range": "5/15",
             "property": [
@@ -2335,7 +2333,8 @@
                 "THRO"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2345,7 +2344,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 5,
             "dmg1": "{@dice 1d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2360,7 +2358,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2370,7 +2369,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 10,
             "dmg1": "{@dice 2d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -2384,7 +2382,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2394,7 +2393,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1000,
-            "weight": 2,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -2403,7 +2401,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2413,7 +2412,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 9000,
-            "weight": 10,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2425,7 +2423,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -2435,7 +2434,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 10,
             "dmg1": "{@dice 1d10}",
             "dmgType": "B",
             "source": "GAG",
@@ -2446,7 +2444,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -2456,7 +2455,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1500,
-            "weight": 10,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2468,7 +2466,8 @@
                 "EXTP"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -2478,7 +2477,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 3,
             "dmg1": "{@dice 1d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -2493,7 +2491,8 @@
                 "VICI"
             ],
             "entries": [
-                "Martial Flexible Weapons"
+                "Martial Flexible Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2503,7 +2502,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 10,
             "dmg1": "{@dice 1d6}",
             "dmgType": "P",
             "source": "GAG",
@@ -2511,7 +2509,8 @@
                 "FINE"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2521,7 +2520,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 1000,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -2530,7 +2528,8 @@
                 "WORN"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2540,7 +2539,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 400,
-            "weight": 2,
             "dmg1": "{@dice 1d4}",
             "dmgType": "P",
             "source": "GAG",
@@ -2551,7 +2549,8 @@
                 "SUN1"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2561,7 +2560,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 1800,
-            "weight": 4,
             "dmg1": "{@dice 1d8}",
             "dmgType": "S",
             "source": "GAG",
@@ -2573,7 +2571,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2583,7 +2582,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
-            "weight": 2,
             "dmg1": "{@dice 1d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -2593,7 +2591,8 @@
                 "LITE"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2610,7 +2609,8 @@
                 "LITE"
             ],
             "entries": [
-                "Other Simple Melee Weapons"
+                "Other Simple Melee Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2620,7 +2620,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 300,
-            "weight": 1,
             "dmg1": "{@dice 1d6}",
             "dmgType": "S",
             "source": "GAG",
@@ -2632,7 +2631,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Other Martial Melee Weapons"
+                "Other Martial Melee Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2642,7 +2642,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
-            "weight": 10,
             "dmg1": "{@dice 2d4}",
             "dmgType": "S",
             "source": "GAG",
@@ -2657,7 +2656,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Other Martial Melee Weapons"
+                "Other Martial Melee Weapons",
+                "3 Slot"
             ]
         },
         {
@@ -2667,7 +2667,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 2,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 1d8}",
             "dmgType": "P",
@@ -2678,7 +2677,8 @@
                 "VERS"
             ],
             "entries": [
-                "Other Martial Melee Weapons"
+                "Other Martial Melee Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -2688,7 +2688,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 500,
-            "weight": 3,
             "dmg1": "{@dice 1d8}",
             "dmg2": "{@dice 1d10}",
             "dmgType": "P",
@@ -2698,7 +2697,8 @@
                 "VERS"
             ],
             "entries": [
-                "Other Martial Melee Weapons"
+                "Other Martial Melee Weapons",
+                "2 SLot"
             ]
         },
         {
@@ -2708,7 +2708,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 800,
-            "weight": 0.25,
             "dmg1": "{@dice 1d4}",
             "range": "30/120",
             "dmgType": "P",
@@ -2718,7 +2717,8 @@
                 "LIMT"
             ],
             "entries": [
-                "Simple Thrown Weapons"
+                "Simple Thrown Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2728,7 +2728,6 @@
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 5,
-            "weight": 0.25,
             "dmg1": "{@dice 1d4}",
             "range": "20/60",
             "dmgType": "P",
@@ -2738,7 +2737,8 @@
 
             ],
             "entries": [
-                "Simple Thrown Weapons"
+                "Simple Thrown Weapons",
+                "0.2 SLot"
             ]
         },
         {
@@ -2747,7 +2747,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "value": 10,
             "dmg1": "{@dice 1d4}",
             "range": "30/120",
             "dmgType": "B",
@@ -2758,7 +2757,8 @@
 
             ],
             "entries": [
-                "Simple Thrown Weapons"
+                "Simple Thrown Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -2767,7 +2767,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 2,
             "value": 2000,
             "dmg1": "{@dice 1d6}",
             "range": "80/320",
@@ -2778,7 +2777,8 @@
 
             ],
             "entries": [
-                "Simple Bows"
+                "Simple Bows",
+                "2 Slot"
             ]
         },
         {
@@ -2787,7 +2787,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 2,
             "value": 2000,
             "dmg1": "{@dice 1d4}",
             "range": "40/160",
@@ -2800,7 +2799,8 @@
 
             ],
             "entries": [
-                "Simple Bows"
+                "Simple Bows",
+                "2 Slot"
             ]
         },
         {
@@ -2809,7 +2809,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 2500,
             "dmg1": "{@dice 1d6}",
             "range": "80/320",
@@ -2821,7 +2820,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "2 Slot"
             ]
         },
         {
@@ -2830,7 +2830,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 5000,
             "dmg1": "{@dice 1d6}",
             "range": "80/320",
@@ -2841,7 +2840,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "2 Slot"
             ]
         },
         {
@@ -2850,7 +2850,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 7500,
             "dmg1": "{@dice 1d8}",
             "range": "80/320",
@@ -2862,7 +2861,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "2 Slot"
             ]
         },
         {
@@ -2871,7 +2871,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 5000,
             "dmg1": "{@dice 1d8}",
             "range": "150/600",
@@ -2884,7 +2883,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "3 Slot"
             ]
         },
         {
@@ -2893,7 +2893,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 7500,
             "dmg1": "{@dice 1d8}",
             "range": "150/600",
@@ -2906,7 +2905,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "3 Slot"
             ]
         },
         {
@@ -2915,7 +2915,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 12500,
             "dmg1": "{@dice 1d10}",
             "range": "200/800",
@@ -2928,7 +2927,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "3 Slot"
             ]
         },
         {
@@ -2937,7 +2937,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 15000,
             "dmg1": "{@dice 1d12}",
             "range": "250/1000",
@@ -2954,7 +2953,8 @@
                 "WOUP"
             ],
             "entries": [
-                "Martial Bows"
+                "Martial Bows",
+                "4 Slot"
             ]
         },
         {
@@ -2963,7 +2963,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 3,
             "value": 7500,
             "dmg1": "{@dice 1d6}",
             "range": "30/120",
@@ -2975,7 +2974,8 @@
                 "PTBK"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "1 Slot"
             ]
         },
         {
@@ -2984,7 +2984,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 5,
             "value": 40000,
             "dmg1": "{@dice 1d6}",
             "range": "30/120",
@@ -2997,7 +2996,9 @@
                 "PTBK"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "1 Slot"
+                
             ]
         },
         {
@@ -3006,7 +3007,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 5,
             "value": 2500,
             "dmg1": "{@dice 1d8}",
             "range": "80/320",
@@ -3018,7 +3018,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "2 Slot"
             ]
         },
         {
@@ -3027,7 +3028,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 9,
             "value": 5000,
             "dmg1": "{@dice 1d8}",
             "range": "80/320",
@@ -3040,7 +3040,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "2 Slot"
             ]
         },
         {
@@ -3049,7 +3050,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 8,
             "value": 25000,
             "dmg1": "{@dice 1d8}",
             "range": "30/120",
@@ -3061,7 +3061,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "2 Slot"
             ]
         },
         {
@@ -3070,7 +3071,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 18,
             "value": 5000,
             "dmg1": "{@dice 1d10}",
             "range": "100/400",
@@ -3083,7 +3083,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "3 Slot"
             ]
         },
         {
@@ -3092,7 +3093,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 36,
             "value": 10000,
             "dmg1": "{@dice 1d10}",
             "range": "75/300",
@@ -3105,7 +3105,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "3 Slot"
             ]
         },
         {
@@ -3114,7 +3115,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 24,
             "value": 30000,
             "dmg1": "{@dice 1d10}",
             "range": "50/200",
@@ -3127,7 +3127,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "3 Slot"
             ]
         },
         {
@@ -3136,7 +3137,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 19,
             "value": 30000,
             "dmg1": "{@dice 1d4}",
             "range": "50/200",
@@ -3149,7 +3149,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "2 Slot"
             ]
         },
         {
@@ -3158,7 +3159,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "weight": 5,
             "value": 2000,
             "dmg1": "{@dice 1d6}",
             "range": "50/200",
@@ -3171,7 +3171,8 @@
                 "TWOH"
             ],
             "entries": [
-                "Simple Crossbows"
+                "Simple Crossbows",
+                "2 Slot"
             ]
         },
         {
@@ -3180,7 +3181,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 1,
             "value": 1000,
             "dmg1": "{@dice 1d1}",
             "range": "25/100",
@@ -3190,7 +3190,8 @@
                 "LD"
             ],
             "entries": [
-                "Other Martial Ranged Weapons "
+                "Other Martial Ranged Weapons",
+                "1 Slot"
             ]
         },
         {
@@ -3199,7 +3200,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 1500,
             "dmg1": "{@dice 1d4}",
             "range": "30/120",
@@ -3209,7 +3209,8 @@
                 "LD"
             ],
             "entries": [
-                "Other Martial Ranged Weapons"
+                "Other Martial Ranged Weapons",
+                "2 Slot"
             ]
         },
         {
@@ -3218,7 +3219,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 24000,
             "dmg1": "{@dice 2d12}",
             "range": "75/300",
@@ -3231,7 +3231,8 @@
                 "SUN3"
             ],
             "entries": [
-                "Medieval Firearms"
+                "Medieval Firearms",
+                "3 Slot"
             ]
         },
         {
@@ -3240,7 +3241,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 11,
             "value": 37000,
             "dmg1": "{@dice 2d12}",
             "range": "75/300",
@@ -3255,7 +3255,8 @@
                 "SUN3"
             ],
             "entries": [
-                "Medieval Firearms"
+                "Medieval Firearms",
+                "3 Slot"
             ]
         },
         {
@@ -3264,7 +3265,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 27,
             "value": 92000,
             "dmg1": "{@dice 2d12}",
             "range": "15/45",
@@ -3280,7 +3280,8 @@
                 "SUN3"
             ],
             "entries": [
-                "Medieval Firearms"
+                "Medieval Firearms",
+                "4 Slot"
             ]
         },
         {
@@ -3289,7 +3290,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 3,
             "value": 40000,
             "dmg1": "{@dice 1d10}",
             "range": "100/400",
@@ -3303,7 +3303,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3312,7 +3313,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 0.5,
             "value": 38000,
             "dmg1": "{@dice 1d8}",
             "range": "40/160",
@@ -3327,7 +3327,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "0.2 Slot"
             ]
         },
         {
@@ -3336,7 +3337,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 3,
             "value": 40000,
             "dmg1": "{@dice 2d10}",
             "range": "100/400",
@@ -3350,7 +3350,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3359,7 +3360,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2,
             "value": 55000,
             "dmg1": "{@dice 1d8}",
             "range": "15/45",
@@ -3373,7 +3373,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3382,7 +3383,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 1,
             "value": 25000,
             "dmg1": "{@dice 1d8}",
             "range": "75/300",
@@ -3396,7 +3396,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3405,7 +3406,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 5,
             "value": 35000,
             "dmg1": "{@dice 1d12}",
             "range": "75/300",
@@ -3419,7 +3419,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3428,7 +3429,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 10,
             "value": 30000,
             "dmg1": "{@dice 2d10}",
             "range": "100/400",
@@ -3441,7 +3441,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3450,7 +3451,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 27000,
             "dmg1": "{@dice 2d10}",
             "range": "125/500",
@@ -3464,7 +3464,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3473,7 +3474,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 58000,
             "dmg1": "{@dice 2d12}",
             "range": "125/500",
@@ -3487,7 +3487,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3496,7 +3497,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 4,
             "value": 49000,
             "dmg1": "{@dice 2d12}",
             "range": "100/400",
@@ -3509,7 +3509,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3518,7 +3519,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 30000,
             "dmg1": "{@dice 2d12}",
             "range": "100/400",
@@ -3532,7 +3532,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3541,7 +3542,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 21,
             "value": 35000,
             "dmg1": "{@dice 2d12}",
             "range": "150/500",
@@ -3555,7 +3555,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3564,7 +3565,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 13,
             "value": 40000,
             "dmg1": "{@dice 2d12}",
             "range": "150/500",
@@ -3578,7 +3578,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3587,7 +3588,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 13,
             "value": 40000,
             "dmg1": "{@dice 2d8}",
             "range": "150/500",
@@ -3600,7 +3600,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3609,7 +3610,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 90,
             "value": 360000,
             "dmg1": "{@dice 2d12}",
             "range": "75/300",
@@ -3624,7 +3624,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "3 Slot"
             ]
         },
         {
@@ -3633,7 +3634,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 90,
             "value": 34000,
             "dmg1": "{@dice 1d10}",
             "range": "75/300",
@@ -3646,7 +3646,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3655,7 +3656,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 28,
             "value": 85000,
             "dmg1": "{@dice 2d12}",
             "range": "150/500",
@@ -3670,7 +3670,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "3 Slot"
             ]
         },
         {
@@ -3679,7 +3680,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 44000,
             "dmg1": "{@dice 2d10}",
             "range": "75/300",
@@ -3693,7 +3693,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "4 Slot"
             ]
         },
         {
@@ -3702,7 +3703,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 9,
             "value": 54000,
             "dmg1": "{@dice 2d10}",
             "range": "75/750",
@@ -3715,7 +3715,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3724,7 +3725,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 11,
             "value": 60000,
             "dmg1": "{@dice 2d10}",
             "range": "100/1000",
@@ -3738,7 +3738,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3747,7 +3748,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 20,
             "value": 100000,
             "dmg1": "{@dice 2d10}",
             "range": "100/1000",
@@ -3762,7 +3762,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3771,7 +3772,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 11,
             "value": 33000,
             "dmg1": "{@dice 2d8}",
             "range": "30/90",
@@ -3785,7 +3785,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3794,7 +3795,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 10,
             "value": 27000,
             "dmg1": "{@dice 1d6}",
             "range": "30/90",
@@ -3808,7 +3808,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3817,7 +3818,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 17,
             "value": 34000,
             "dmg1": "{@dice 1d6}",
             "range": "30/90",
@@ -3832,7 +3832,8 @@
                 "MIS1"
             ],
             "entries": [
-                "Renaissance Firearms"
+                "Renaissance Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3841,7 +3842,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 0.5,
             "value": 40000,
             "dmg1": "{@dice 1d10}",
             "range": "100/1000",
@@ -3856,7 +3856,8 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3865,7 +3866,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 2.5,
             "value": 60000,
             "dmg1": "{@dice 2d8}",
             "range": "200/2000",
@@ -3879,7 +3879,8 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "1 Slot"
             ]
         },
         {
@@ -3888,7 +3889,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 9,
             "value": 60000,
             "dmg1": "{@dice 2d10}",
             "range": "1000/3000",
@@ -3901,7 +3901,8 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3910,7 +3911,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 6,
             "value": 80000,
             "dmg1": "{@dice 2d10}",
             "range": "1000/3000",
@@ -3923,7 +3923,8 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3932,7 +3933,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 7,
             "value": 240000,
             "dmg1": "{@dice 2d8}",
             "range": "750/4500",
@@ -3946,7 +3946,8 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "2 Slot"
             ]
         },
         {
@@ -3955,7 +3956,6 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "weight": 10,
             "value": 180000,
             "dmg1": "{@dice 2d8}",
             "range": "30/90",
@@ -3970,80 +3970,81 @@
                 "VELO"
             ],
             "entries": [
-                "Industrial Firearms"
+                "Industrial Firearms",
+                "2 Slot"
             ]
         },
         {
             "name": "Stone Pellet",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "source": "GAG",
             "quantity": 10,
             "entries": [
                 "Ammo for slings or pellet weapons.",
-                "10 stone pellets can be found for free when searching for 1 hour. "
+                "10 stone pellets can be found for free when searching for 1 hour.",
+                "1 Slot"
             ]
         },
         {
             "name": "Sling Pellet",
             "type": "A",
             "rarity": "None",
-            "weight": 0.5,
             "value": 10,
             "source": "GAG",
             "quantity": 20,
             "entries": [
                 "Ammo for slings or pellet weapons.",
-                "Double the Near range of the sling or pellet weapon. "
+                "Double the Near range of the sling or pellet weapon.",
+                "1 Slot"
             ]
         },
         {
             "name": "Blowgun Needle",
             "type": "A",
             "rarity": "None",
-            "weight": 0.5,
             "value": 10,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for blowguns."
+                "Ammo for blowguns.",
+                "1 Slot"
             ]
         },
         {
             "name": "Quarrel",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 100,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for crossbows."
+                "Ammo for crossbows.",
+                "2 Slot"
             ]
         },
         {
             "name": "Arrow",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 100,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for bows."
+                "Ammo for bows.",
+                "2 Slot"
             ]
         },
         {
             "name": "Bodkin Arrow",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 400,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for bows."
+                "Ammo for bows.",
+                "2 Slot"
             ],
             "property": [
                 "SUN1"
@@ -4053,49 +4054,49 @@
             "name": "Broadhead Arrow",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 400,
             "source": "GAG",
             "quantity": 20,
             "entries": [
                 "Ammo for bows.",
-                "If used with a weapon without the Wounding property, this ammo type grants the Wounding property for that weapon's damage type."
+                "If used with a weapon without the Wounding property, this ammo type grants the Wounding property for that weapon's damage type.",
+                "2 Slot"
             ]
         },
         {
             "name": "Greatbow Arrow",
             "type": "A",
             "rarity": "None",
-            "weight": 2,
             "value": 1000,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for greatbows."
+                "Ammo for greatbows.",
+                "3 Slot"
             ]
         },
         {
             "name": "Bullet",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 500,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for firearms."
+                "Ammo for firearms.",
+                "1 Slot"
             ]
         },
         {
             "name": "Buckshot Shells",
             "type": "A",
             "rarity": "None",
-            "weight": 1,
             "value": 2000,
             "source": "GAG",
             "quantity": 20,
             "entries": [
-                "Ammo for firearms with the Buckshot property.."
+                "Ammo for firearms with the Buckshot property.",
+                "1 Slot"
             ]
         }
 
@@ -5327,7 +5328,7 @@
                 "type": "entries",
                 "name": "Revised Thrown",
                 "entries": [
-                    "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. Drawing a Thrown weapon is part of the attack, but you need a free hand. You may use your bonus action to recover any Thrown weapon within your reach. At the end of combat, you can recover all undamaged Thrown weapons by taking up to a minute to search the battlefield. When you take damage from a thrown weapon and it causes an Open Wound (pg. 8), the weapon remains lodged in the target. Any time you use your action during your turn with one or several lodged weapons in you, you take 1d4 internal damage. Removing a lodged weapon is an action."
+                    "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. Drawing a Thrown weapon is part of the attack, but you need a free hand. You may use your bonus action to recover any Thrown weapon within your reach. At the end of combat, you can recover all undamaged Thrown weapons by taking up to a minute to search the battlefield. When you take damage from a thrown weapon and it originates from a crtiical hit, the weapon remains lodged in the target. Any time you use your action during your turn with one or several lodged weapons in you, you take 1d4 internal damage. Removing a lodged weapon is an action."
                 ]
             }]
         },
@@ -5450,7 +5451,7 @@
                 "type": "entries",
                 "name": "Wounding (Bludgeoning)",
                 "entries": [
-                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. The target becomes Stunned until the end of its next turn."
+                    "The weapon is particularly potent in maximizing its unique damage type. A critical hit creates an additional special effect: Bludgeoning weapons can hit with a singularly bone-shaking blow, stunning the target. The target becomes Stunned until the end of its next turn."
                 ]
             }]
         },
@@ -5461,7 +5462,7 @@
                 "type": "entries",
                 "name": "Wounding (Piercing)",
                 "entries": [
-                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
+                    "The weapon is particularly potent in maximizing its unique damage type. A critical hit creates an additional special effect:  Piercing weapons can inflict gaping wounds and cause profuse bleeding. The target loses an extra 1 hp at the start of its turns, or extra 2 hp if caused by a critical hit. To stop the excessive bleeding, the Medicine check DC is raised to 15. Objects, Constructs, and Elementals are immune to this effect."
                 ]
             }]
         },
@@ -5472,7 +5473,7 @@
                 "type": "entries",
                 "name": "Wounding (Slashing)",
                 "entries": [
-                    "The weapon is particularly potent in maximizing its unique damage type. When you cause an Open Wound (pg. 8) with this weapon, it will inflict an additional effect based upon the type of damage dealt. A critical hit guarantees the Wounding effect even if the attack doesn't cause an Open Wound. Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
+                    "The weapon is particularly potent in maximizing its unique damage type. A critical hit creates an additional special effect: Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
                 ]
             }]
         }
