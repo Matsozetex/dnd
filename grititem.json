@@ -2162,7 +2162,6 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 1200,
-            "weight": 8,
             "dmg1": "{@dice 1d12}",
             "dmgType": "P",
             "source": "GAG",
