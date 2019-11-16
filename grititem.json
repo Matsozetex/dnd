@@ -499,7 +499,7 @@
         },
         {
             "name": "Tier 3 Full Set",
-            "type": "LA",
+            "type": "MA",
             "armor": true,
             "rarity": "None",
             "value": 90000,
@@ -507,10 +507,10 @@
             "strength": "13",
             "entries": [
                 "Overlay", 
-                "1 Slot"
+                "3 Slot"
             ],
             "property":[
-                "COV3"
+                "COV6"
             ],
             "source": "GAG"
         },
@@ -537,15 +537,15 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 45000,
-            "weight": 20,
+            "value": 60000,
             "acSpecial": "-",
-            "strength": "13",
+            "strength": "15",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "4 Slot"
             ],
             "property": [
-                "DR3B",
+                "COV6",
                 "NOIS",
                 "BULK"
             ],
@@ -556,15 +556,15 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 45000,
-            "weight": 20,
+            "value": 30000,
             "acSpecial": "-",
-            "strength": "13",
+            "strength": "14",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "3 Slot"
             ],
             "property": [
-                "DR3P",
+                "COV4",
                 "NOIS",
                 "BULK"
             ],
@@ -575,15 +575,15 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 45000,
-            "weight": 20,
+            "value": 15000,
             "acSpecial": "-",
             "strength": "13",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "2 Slot"
             ],
             "property": [
-                "DR3S",
+                "COV2",
                 "NOIS",
                 "BULK"
             ],
@@ -594,17 +594,18 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 2000,
-            "weight": 30,
+            "value": 3000,
             "strength": "13",
             "acSpecial": "+3",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "4 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
-                "CUMB"
+                "CUMB",
+                "COV8"
             ],
             "source": "GAG"
         },
@@ -613,17 +614,18 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 6500,
-            "weight": 45,
+            "value": 7500,
             "strength": "13",
             "acSpecial": "+5",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "5 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
-                "CUMB"
+                "CUMB",
+                "COV8"
             ],
             "source": "GAG"
         },
@@ -632,17 +634,18 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 19000,
-            "weight": 50,
+            "value": 20000,
             "strength": "15",
             "acSpecial": "+6",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "6 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
-                "HARD"
+                "HARD",
+                "COV10"
             ],
             "source": "GAG"
         },
@@ -651,88 +654,132 @@
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 149000,
-            "weight": 55,
+            "value": 150000,
             "strength": "15",
             "acSpecial": "+7",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "6 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
-                "HARD"
+                "HARD",
+                "COV12"
             ],
             "source": "GAG"
         },
         {
-            "name": "Helm & Belvor",
+            "name": "Tier 1 Individual Piece",
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 7500,
-            "weight": 2,
+            "value": 15000,
             "acSpecial": "-",
-            "strength": "9",
+            "strength": "13",
             "entries": [
-                "Head"
+                "Overlay", 
+                "0.1 Slot"
             ],
-            "property": [
-                "VISR",
-                "COV3"
+            "property":[
+                "COV8",
+                "BULK",
+                "NOIS"
             ],
             "source": "GAG"
         },
         {
-            "name": "Great Helm",
+            "name": "Tier 1 Full Set",
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 9000,
-            "weight": 5,
+            "value": 150000,
             "acSpecial": "-",
-            "strength": "11",
+            "strength": "13",
             "entries": [
-                "Head"
+                "Overlay", 
+                "1 Slot"
             ],
-            "property": [
-                "VISA",
-                "COV4"
+            "property":[
+                "COV8",
+                "BULK",
+                "NOIS"
             ],
             "source": "GAG"
         },
         {
-            "name": "Gardbaces & Faulds",
+            "name": "Tier 2 Individual Piece",
+            "type": "HA",
+            "armor": true,
+            "rarity": "None",
+            "value": 30000,
+            "acSpecial": "-",
+            "strength": "14",
+            "entries": [
+                "Overlay", 
+                "0.2 Slot"
+            ],
+            "property":[
+                "COV10",
+                "BULK",
+                "NOIS"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 2 Full Set",
+            "type": "HA",
+            "armor": true,
+            "rarity": "None",
+            "value": 300000,
+            "acSpecial": "-",
+            "strength": "14",
+            "entries": [
+                "Overlay", 
+                "2 Slot"
+            ],
+            "property":[
+                "COV10",
+                "BULK",
+                "NOIS"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 3 Individual Piece",
             "type": "HA",
             "armor": true,
             "rarity": "None",
             "value": 6000,
-            "weight": 4,
             "acSpecial": "-",
-            "strength": "11",
+            "strength": "15",
             "entries": [
-                "Vitals"
+                "Overlay", 
+                "0.3 Slot"
             ],
-            "property": [
-                "NOIS",
-                "COV2"
+            "property":[
+                "COV12",
+                "BULK",
+                "NOIS"
             ],
             "source": "GAG"
         },
         {
-            "name": "Thigh Plates",
+            "name": "Tier 3 Full Set",
             "type": "HA",
             "armor": true,
             "rarity": "None",
-            "value": 5000,
-            "weight": 1,
+            "value": 60000,
             "acSpecial": "-",
-            "strength": "11",
+            "strength": "15",
             "entries": [
-                "Vitals"
+                "Overlay", 
+                "3 Slot"
             ],
-            "property": [
-                "COV1"
+            "property":[
+                "COV12",
+                "BULK",
+                "NOIS"
             ],
             "source": "GAG"
         },
@@ -741,7 +788,6 @@
             "type": "S",
             "rarity": "None",
             "value": 500,
-            "weight": 5,
             "ac": 1,
             "property": [
                 "BHB4",
@@ -750,59 +796,70 @@
                 "LITE",
                 "NONL"
             ],
-            "source": "GAG"
+            "source": "GAG",
+            "entries":[
+                "1 Slot"
+            ]
         },
         {
             "name": "Light Shield",
             "type": "S",
             "rarity": "None",
             "value": 300,
-            "weight": 5,
             "ac": 1,
             "property": [
                 "BHB4",
                 "LITE",
                 "NONL"
             ],
-            "source": "GAG"
+            "source": "GAG",
+            "entries":[
+                "2 Slot"
+            ]
         },
         {
             "name": "Shield",
             "type": "S",
             "rarity": "None",
             "value": 1000,
-            "weight": 6,
             "ac": 2,
             "property": [
                 "BHB6",
                 "NONL"
             ],
-            "source": "GAG"
+            "source": "GAG",
+            "entries":[
+                "2 Slot"
+            ]
         },
         {
             "name": "Spiked Shield",
             "type": "S",
             "rarity": "None",
             "value": 1700,
-            "weight": 11,
             "ac": 2,
             "property": [
                 "BHP6"
             ],
-            "source": "GAG"
+            "source": "GAG",
+            "entries":[
+                "2 Slot"
+            ]
         },
         {
             "name": "Tower Shield",
             "type": "S",
             "rarity": "None",
             "value": 3000,
-            "weight": 45,
             "ac": 4,
             "property": [
                 "COVR",
                 "H"
             ],
-            "source": "GAG"
+            "source": "GAG",
+            "entries":[
+                "4 Slot"
+            ]
         },
         {
             "name": "Armored Glove",
@@ -811,7 +868,6 @@
             "weapon": true,
             "weaponCategory": "simple",
             "value": 200,
-            "weight": 1,
             "dmg1": "{@dice 1d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -824,7 +880,8 @@
                 "FINE"
             ],
             "entries": [
-                "Unarmed Gear"
+                "Unarmed Gear",
+                "0 Slot"
             ]
         },
         {
