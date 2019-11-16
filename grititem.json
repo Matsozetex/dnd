@@ -21,15 +21,16 @@
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 1000,
-            "weight": 8,
+            "value": 1500,
             "acSpecial": "+1",
+            "strength": "7",
             "entries": [
-                "Underlay"
+                "Underlay",
+                "1 Slot"
             ],
             "property": [
                 "CONA",
-                "SOAB"
+                "COV1"
             ],
             "source": "GAG"
         },
@@ -38,14 +39,15 @@
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 1000,
-            "weight": 10,
+            "value": 2500,
             "acSpecial": "+1",
+            "strength": "8",
             "entries": [
-                "Underlay"
+                "Underlay",
+                "1 Slot"
             ],
             "property": [
-                "CONA",
+                "COV2",
                 "SOAP"
             ],
             "source": "GAG"
@@ -55,31 +57,16 @@
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 1000,
-            "weight": 18,
+            "value": 3500,
             "acSpecial": "+1",
+            "strength": "9",
             "entries": [
-                "Underlay"
+                "Underlay",
+                "2 Slots"
             ],
             "property": [
-                "CONA",
+                "COV3",
                 "SOAS"
-            ],
-            "source": "GAG"
-        },
-        {
-            "name": "Gambeson",
-            "type": "LA",
-            "armor": true,
-            "rarity": "None",
-            "value": 500,
-            "weight": 8,
-            "acSpecial": "+1",
-            "entries": [
-                "Underlay"
-            ],
-            "property": [
-                "NOIS"
             ],
             "source": "GAG"
         },
@@ -89,10 +76,11 @@
             "armor": true,
             "rarity": "None",
             "value": 500,
-            "weight": 3,
             "acSpecial": "-",
+            "strength": "8",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "1 Slot"
             ],
             "property": [
                 "COV1"
@@ -104,56 +92,139 @@
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 3500,
-            "weight": 3,
+            "value": 5000,
             "acSpecial": "+1",
+            "strength": "10",
             "entries": [
-                "Overlay"
+                "Overlay", 
+                "1 Slot"
+            ],
+            "property":[
+                "COV1"
             ],
             "source": "GAG"
         },
         {
-            "name": "Padded Coif",
+            "name": "Tier 1 Individual Piece",
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 500,
+            "value": 1000,
+            "weight": 0.1,
+            "acSpecial": "-",
+            "strength": "7",
+            "entries": [
+                "Overlay", 
+                "0.1 Slot"
+            ],
+            "property":[
+                "COV1"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 1 Full Set",
+            "type": "LA",
+            "armor": true,
+            "rarity": "None",
+            "value": 10000,
             "weight": 1,
             "acSpecial": "-",
+            "strength": "7",
             "entries": [
-                "Head"
+                "Overlay", 
+                "1 Slot"
             ],
-            "property": [
+            "property":[
                 "COV1"
             ],
             "source": "GAG"
         },
         {
-            "name": "Padded Limb Guards",
+            "name": "Tier 2 Individual Piece",
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 500,
-            "weight": 2,
+            "value": 2000,
+            "weight": 0.1,
             "acSpecial": "-",
+            "strength": "8",
             "entries": [
-                "Hands"
+                "Overlay", 
+                "0.1 Slot"
             ],
-            "property": [
-                "COV1"
+            "property":[
+                "COV2"
             ],
             "source": "GAG"
         },
+        {
+            "name": "Tier 2 Full Set",
+            "type": "LA",
+            "armor": true,
+            "rarity": "None",
+            "value": 20000,
+            "weight": 1,
+            "acSpecial": "-",
+            "strength": "8",
+            "entries": [
+                "Overlay", 
+                "1 Slot"
+            ],
+            "property":[
+                "COV2"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 3 Individual Piece",
+            "type": "LA",
+            "armor": true,
+            "rarity": "None",
+            "value": 3000,
+            "weight": 0.1,
+            "acSpecial": "-",
+            "strength": "9",
+            "entries": [
+                "Overlay", 
+                "0.1 Slot"
+            ],
+            "property":[
+                "COV3"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 3 Full Set",
+            "type": "LA",
+            "armor": true,
+            "rarity": "None",
+            "value": 30000,
+            "weight": 1,
+            "acSpecial": "-",
+            "strength": "9",
+            "entries": [
+                "Overlay", 
+                "1 Slot"
+            ],
+            "property":[
+                "COV3"
+            ],
+            "source": "GAG"
+        },
+        
+    
+        
         {
             "name": "Light Cloak",
             "type": "LA",
             "armor": true,
             "rarity": "None",
-            "value": 500,
-            "weight": 1,
+            "value": 3000,
             "acSpecial": "-",
             "entries": [
-                "Cloak"
+                "Cloak",
+                "0.2 Slot"
             ],
             "property": [
                 "STEA"
@@ -165,16 +236,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 30000,
-            "weight": 10,
+            "value": 20000,
             "strength": "11",
             "acSpecial": "-",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "2 Slot"
             ],
             "property": [
-                "CONA",
-                "DR2B"
+                "COV2",
+                "CONA"
             ],
             "source": "GAG"
         },
@@ -183,16 +254,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 30000,
-            "weight": 10,
+            "value": 10000,
             "strength": "11",
             "acSpecial": "-",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "1 Slot"
             ],
             "property": [
                 "CONA",
-                "DR2P"
+                "COV1"
             ],
             "source": "GAG"
         },
@@ -202,15 +273,15 @@
             "armor": true,
             "rarity": "None",
             "value": 30000,
-            "weight": 10,
-            "strength": "11",
+            "strength": "12",
             "acSpecial": "-",
             "entries": [
-                "Mesolay"
+                "Mesolay",
+                "3 Slot"
             ],
             "property": [
                 "CONA",
-                "DR2S"
+                "COV3"
             ],
             "source": "GAG"
         },
@@ -219,11 +290,15 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 200,
-            "weight": 2,
+            "value": 1000,
+            "strength": "8",
             "acSpecial": "+1",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "2 Slot"
+            ],
+            "property":[
+                "COV3"
             ],
             "source": "GAG"
         },
@@ -232,16 +307,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 500,
-            "weight": 8,
+            "value": 7500,
             "acSpecial": "+1",
-            "strength": "9",
+            "strength": "11",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "2 Slot"
             ],
             "property": [
                 "BULK",
-                "DR1P"
+                "COV4"
             ],
             "source": "GAG"
         },
@@ -250,16 +325,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 1000,
-            "weight": 10,
+            "value": 8000,
             "acSpecial": "+1",
-            "strength": "9",
+            "strength": "11",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "2 Slot"
             ],
             "property": [
                 "BULK",
-                "DR1S"
+                "COV5"
             ],
             "source": "GAG"
         },
@@ -268,12 +343,15 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 4000,
-            "weight": 10,
+            "value": 5000,
             "acSpecial": "+2",
             "strength": "9",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "2 Slot"
+            ],
+            "property":[
+                "COV6"
             ],
             "source": "GAG"
         },
@@ -282,16 +360,17 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 4000,
-            "weight": 35,
+            "value": 5000,
             "acSpecial": "+3",
             "strength": "11",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "3 Slot"
             ],
             "property": [
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "COV7"
             ],
             "source": "GAG"
         },
@@ -300,15 +379,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 39000,
-            "weight": 10,
+            "value": 7500,
             "acSpecial": "+3",
-            "strength": "11",
+            "strength": "12",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "3 Slot"
             ],
             "property": [
-                "HARD"
+                "HARD",
+                "COV8"
             ],
             "source": "GAG"
         },
@@ -317,66 +397,120 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 74000,
-            "weight": 30,
+            "value": 75000,
             "acSpecial": "+4",
             "strength": "13",
             "entries": [
-                "Overlay"
+                "Overlay",
+                "4 Slot"
             ],
             "property": [
                 "HARD",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "COV10"
             ],
             "source": "GAG"
         },
         {
-            "name": "Chain Coif",
+            "name": "Tier 1 Individual Piece",
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 4000,
-            "weight": 8,
+            "value": 5000,
             "acSpecial": "-",
+            "strength": "11",
             "entries": [
-                "Head"
+                "Overlay", 
+                "0.1 Slot"
             ],
-            "property": [
-                "COV2"
+            "property":[
+                "COV4"
             ],
             "source": "GAG"
         },
         {
-            "name": "Steel Bracers",
+            "name": "Tier 1 Full Set",
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 1000,
-            "weight": 2,
+            "value": 50000,
             "acSpecial": "-",
+            "strength": "11",
             "entries": [
-                "Hands"
+                "Overlay", 
+                "1 Slot"
             ],
-            "property": [
-                "COV1"
+            "property":[
+                "COV4"
             ],
             "source": "GAG"
         },
         {
-            "name": "Spiked Bracers",
+            "name": "Tier 2 Individual Piece",
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 1500,
-            "weight": 4,
+            "value": 7000,
             "acSpecial": "-",
+            "strength": "12",
             "entries": [
-                "Hands"
+                "Overlay", 
+                "0.2 Slot"
             ],
-            "property": [
-                "COV1",
-                "BDP4"
+            "property":[
+                "COV5"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 2 Full Set",
+            "type": "MA",
+            "armor": true,
+            "rarity": "None",
+            "value": 70000,
+            "acSpecial": "-",
+            "strength": "12",
+            "entries": [
+                "Overlay", 
+                "2 Slot"
+            ],
+            "property":[
+                "COV5"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 3 Individual Piece",
+            "type": "MA",
+            "armor": true,
+            "rarity": "None",
+            "value": 9000,
+            "acSpecial": "-",
+            "strength": "13",
+            "entries": [
+                "Overlay", 
+                "0.3 Slot"
+            ],
+            "property":[
+                "COV6"
+            ],
+            "source": "GAG"
+        },
+        {
+            "name": "Tier 3 Full Set",
+            "type": "LA",
+            "armor": true,
+            "rarity": "None",
+            "value": 90000,
+            "acSpecial": "-",
+            "strength": "13",
+            "entries": [
+                "Overlay", 
+                "1 Slot"
+            ],
+            "property":[
+                "COV3"
             ],
             "source": "GAG"
         },
@@ -385,35 +519,16 @@
             "type": "MA",
             "armor": true,
             "rarity": "None",
-            "value": 500,
-            "weight": 8,
+            "value": 6000,
             "acSpecial": "-",
-            "strength": "9",
-            "entries": [
-                "Cloak"
-            ],
-            "property": [
-                "BULK",
-                "DR1B"
-            ],
-            "source": "GAG"
-        },
-        {
-            "name": "Mail Cloak",
-            "type": "MA",
-            "armor": true,
-            "rarity": "None",
-            "value": 10000,
-            "weight": 40,
-            "acSpecial": "+1",
             "strength": "11",
             "entries": [
-                "Cloak"
+                "Cloak",
+                "2 Slot"
             ],
             "property": [
                 "BULK",
-                "NOIS",
-                "CUMB"
+                "COLD"
             ],
             "source": "GAG"
         },
@@ -736,6 +851,23 @@
             ]
         },
         {
+			"name": "Boomerang",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+            "range": "20/60",
+            "value": 100,
+			"weight": 2,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "B",
+			"source": "GAG",
+			"property": [
+				"FINE",
+				"THRO"
+			]
+		},
+        {
             "name": "Brass Knuckles",
             "type": "M",
             "rarity": "None",
@@ -1045,7 +1177,8 @@
                 "DEF1"
             ],
             "entries": [
-                "Martial Blades"
+                "Martial Blades",
+                "May only be used with dexterity."
             ]
         },
         {
@@ -3029,7 +3162,7 @@
             "weight": 7,
             "value": 24000,
             "dmg1": "{@dice 2d12}",
-            "range": "150/600",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3051,7 +3184,7 @@
             "weight": 11,
             "value": 37000,
             "dmg1": "{@dice 2d12}",
-            "range": "150/600",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3100,7 +3233,7 @@
             "weight": 3,
             "value": 40000,
             "dmg1": "{@dice 1d10}",
-            "range": "200/800",
+            "range": "100/400",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3123,7 +3256,7 @@
             "weight": 0.5,
             "value": 38000,
             "dmg1": "{@dice 1d8}",
-            "range": "80/320",
+            "range": "40/160",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3147,7 +3280,7 @@
             "weight": 3,
             "value": 40000,
             "dmg1": "{@dice 2d10}",
-            "range": "200/800",
+            "range": "100/400",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3170,7 +3303,7 @@
             "weight": 2,
             "value": 55000,
             "dmg1": "{@dice 1d8}",
-            "range": "30/90",
+            "range": "15/45",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3193,7 +3326,7 @@
             "weight": 1,
             "value": 25000,
             "dmg1": "{@dice 1d8}",
-            "range": "125/500",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3216,7 +3349,7 @@
             "weight": 5,
             "value": 35000,
             "dmg1": "{@dice 1d12}",
-            "range": "125/500",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3239,7 +3372,7 @@
             "weight": 10,
             "value": 30000,
             "dmg1": "{@dice 2d10}",
-            "range": "200/800",
+            "range": "100/400",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3261,7 +3394,7 @@
             "weight": 7,
             "value": 27000,
             "dmg1": "{@dice 2d10}",
-            "range": "250/1000",
+            "range": "125/500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3284,7 +3417,7 @@
             "weight": 7,
             "value": 58000,
             "dmg1": "{@dice 2d12}",
-            "range": "250/1000",
+            "range": "125/500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3307,7 +3440,7 @@
             "weight": 4,
             "value": 49000,
             "dmg1": "{@dice 2d12}",
-            "range": "200/800",
+            "range": "100/400",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3329,7 +3462,7 @@
             "weight": 7,
             "value": 30000,
             "dmg1": "{@dice 2d12}",
-            "range": "200/800",
+            "range": "100/400",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3352,7 +3485,7 @@
             "weight": 21,
             "value": 35000,
             "dmg1": "{@dice 2d12}",
-            "range": "300/1000",
+            "range": "150/500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3375,11 +3508,33 @@
             "weight": 13,
             "value": 40000,
             "dmg1": "{@dice 2d12}",
-            "range": "300/1000",
+            "range": "150/500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
                 "CAL2",
+                "LOA2",
+                "TWOH",
+                "VELO",
+                "MIS1"
+            ],
+            "entries": [
+                "Renaissance Firearms"
+            ]
+        },
+        {
+            "name": "Scraplock Musket",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "weight": 13,
+            "value": 40000,
+            "dmg1": "{@dice 2d8}",
+            "range": "150/500",
+            "dmgType": "P",
+            "source": "GAG",
+            "property": [
                 "LOA2",
                 "TWOH",
                 "VELO",
@@ -3398,7 +3553,7 @@
             "weight": 90,
             "value": 360000,
             "dmg1": "{@dice 2d12}",
-            "range": "150/600",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3422,7 +3577,7 @@
             "weight": 90,
             "value": 34000,
             "dmg1": "{@dice 1d10}",
-            "range": "150/600",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3444,7 +3599,7 @@
             "weight": 28,
             "value": 85000,
             "dmg1": "{@dice 2d12}",
-            "range": "300/1000",
+            "range": "150/500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3468,7 +3623,7 @@
             "weight": 7,
             "value": 44000,
             "dmg1": "{@dice 2d10}",
-            "range": "150/600",
+            "range": "75/300",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3491,7 +3646,7 @@
             "weight": 9,
             "value": 54000,
             "dmg1": "{@dice 2d10}",
-            "range": "150/1500",
+            "range": "75/750",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3513,7 +3668,7 @@
             "weight": 11,
             "value": 60000,
             "dmg1": "{@dice 2d10}",
-            "range": "200/2000",
+            "range": "100/1000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3536,7 +3691,7 @@
             "weight": 20,
             "value": 100000,
             "dmg1": "{@dice 2d10}",
-            "range": "200/2000",
+            "range": "100/1000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3630,7 +3785,7 @@
             "weight": 0.5,
             "value": 40000,
             "dmg1": "{@dice 1d10}",
-            "range": "200/2000",
+            "range": "100/1000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3654,7 +3809,7 @@
             "weight": 2.5,
             "value": 60000,
             "dmg1": "{@dice 2d8}",
-            "range": "400/4000",
+            "range": "200/2000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3677,7 +3832,7 @@
             "weight": 9,
             "value": 60000,
             "dmg1": "{@dice 2d10}",
-            "range": "2000/6000",
+            "range": "1000/3000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3699,7 +3854,7 @@
             "weight": 6,
             "value": 80000,
             "dmg1": "{@dice 2d10}",
-            "range": "2000/6000",
+            "range": "1000/3000",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -3721,7 +3876,7 @@
             "weight": 7,
             "value": 240000,
             "dmg1": "{@dice 2d8}",
-            "range": "1500/9000",
+            "range": "750/4500",
             "dmgType": "P",
             "source": "GAG",
             "property": [
@@ -4061,7 +4216,7 @@
                 "type": "entries",
                 "name": "Caliber (1)",
                 "entries": [
-                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                    "Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
                 ]
             }]
         },
@@ -4072,7 +4227,7 @@
                 "type": "entries",
                 "name": "Caliber (2)",
                 "entries": [
-                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                    "Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
                 ]
             }]
         },
@@ -4083,7 +4238,7 @@
                 "type": "entries",
                 "name": "Caliber (3)",
                 "entries": [
-                    "Ranged weapons with the Caliber property deal additional damage when you shoot from an advantageous position. The following conditions allow you to add extra damage dice of the same damage type up to the value shown in parenthesis. If your target is within 15 feet of you, the attack deals 1 additional damage die. For each 3 points by which you beat the target's AC, the attack deals 1 additional damage die."
+                    "Ranged weapons with the Caliber property deal additional damage dies when you make a critical hit equal to the value in parenthesis."
                 ]
             }]
         },
@@ -4127,7 +4282,7 @@
                 "type": "entries",
                 "name": "Coverage (1)",
                 "entries": [
-                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
                 ]
             }]
         },
@@ -4138,7 +4293,7 @@
                 "type": "entries",
                 "name": "Coverage (2)",
                 "entries": [
-                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
                 ]
             }]
         },
@@ -4149,7 +4304,7 @@
                 "type": "entries",
                 "name": "Coverage (3)",
                 "entries": [
-                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
                 ]
             }]
         },
@@ -4160,7 +4315,84 @@
                 "type": "entries",
                 "name": "Coverage (4)",
                 "entries": [
-                    "When rolling to confirm Wound Risk at the end of combat turn, add the total Coverage bonus from all worn armor components to your Wound Confirmation roll."
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV5",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (5)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV6",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (6)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV7",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (7)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV8",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (8)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV10",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (10)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "COV12",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Coverage (12)",
+                "entries": [
+                    "When determining how many wounds to take in the localised area, subtract the coverage from the damage taken to produce a new value for determing wounds."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "WARM",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Warm",
+                "entries": [
+                    "Armor pieces with the Warm property give advantage on saving throws against cold temperatures."
                 ]
             }]
         },
