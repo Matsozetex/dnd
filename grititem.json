@@ -3,9 +3,11 @@
         "sources": [{
             "json": "GAG",
             "abbreviation": "IGAG",
-            "full": "Items for Grit and Glory",
+            "full": "Items for Hard Grit",
             "authors": [
-                "TheApoApostolov"
+                "TheApoApostolov",
+                "Stormchaser",
+                "Thune"
             ],
             "convertedBy": [
                 "Matsozetex"
