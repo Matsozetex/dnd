@@ -1002,7 +1002,7 @@
             "source": "GAG",
             "property": [
                 "SWEE",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Axes",
@@ -1063,7 +1063,7 @@
             "source": "GAG",
             "property": [
                 "SWEE",
-                "VERS",
+                "V",
                 "EXTS",
                 "SUN1"
             ],
@@ -1426,7 +1426,7 @@
             "source": "GAG",
             "property": [
                 "PARY",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Blades",
@@ -1664,7 +1664,7 @@
             "source": "GAG",
             "property": [
                 "SUN1",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Bludgeoning Weapons",
@@ -1752,7 +1752,7 @@
                 "DEF1",
                 "FINE",
                 "NONL",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Simple Polearms",
@@ -1776,7 +1776,7 @@
                 "SHP1",
                 "THRE",
                 "THRO",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Simple Polearms",
@@ -1796,7 +1796,7 @@
             "source": "GAG",
             "property": [
                 "GRAP",
-                "VERS",
+                "V",
                 "PREV"
             ],
             "entries": [
@@ -2079,7 +2079,7 @@
                 "LITE",
                 "SHP1",
                 "TRIP",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Polearms",
@@ -2101,7 +2101,7 @@
                 "DISA",
                 "FINE",
                 "SHP1",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Polearms",
@@ -2148,7 +2148,7 @@
                 "SHP1",
                 "THRE",
                 "THRO",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Martial Polearms",
@@ -2673,7 +2673,7 @@
             "property": [
                 "MOST",
                 "SUN1",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Other Martial Melee Weapons",
@@ -2693,7 +2693,7 @@
             "source": "GAG",
             "property": [
                 "SUN1",
-                "VERS"
+                "V"
             ],
             "entries": [
                 "Other Martial Melee Weapons",
@@ -5361,17 +5361,6 @@
                 "name": "Velocity",
                 "entries": [
                     "Advanced firearms shoot projectiles at a higher velocity than all other ranged weapons. While causing less bleeding than arrows, bullets deal more trauma and are very effective at killing quickly. When rolling for damage, roll one additional weapon die then remove the die with the lowest result. When using weapons with the Velocity property the target does not benefit from any AC bonus from armor components with the Hard property. If you use Realistic Defense (pg. 67), all DR is ignored instead."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "VERS",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Revised Versatile",
-                "entries": [
-                    "This weapon can be used with one or two hands. A damage value in parentheses appears with the property-the damage when the weapon is used with two hands to make a melee attack. In addition, when the weapon is held in two hands attempts to disarm you are made at disadvantage."
                 ]
             }]
         },
