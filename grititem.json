@@ -4617,7 +4617,7 @@
                 "type": "entries",
                 "name": "Defensive (+1 AC)",
                 "entries": [
-                    "While wielding this weapon, you gain an AC bonus against melee attacks. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
+                    "While wielding this weapon, you gain an AC bonus. Versatile and two-handed weapons grant this bonus to AC only if they are held in two hands."
                 ]
             }]
         },
