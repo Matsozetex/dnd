@@ -29,7 +29,8 @@
             "strength": "7",
             "entries": [
                 "Underlay",
-                "1 Slot"
+                "1 Slot",
+                "AC: +1"
             ],
             "property": [
                 "CONA",
@@ -47,7 +48,8 @@
             "strength": "8",
             "entries": [
                 "Underlay",
-                "1 Slot"
+                "1 Slot",
+                "AC: +1"
             ],
             "property": [
                 "COV2",
@@ -65,7 +67,8 @@
             "strength": "9",
             "entries": [
                 "Underlay",
-                "2 Slots"
+                "2 Slots",
+                "AC: +1"
             ],
             "property": [
                 "COV3",
@@ -100,7 +103,8 @@
             "strength": "10",
             "entries": [
                 "Overlay", 
-                "1 Slot"
+                "1 Slot",
+                "AC: +1"
             ],
             "property":[
                 "COV1"
@@ -292,7 +296,8 @@
             "acSpecial": "+1",
             "entries": [
                 "Overlay",
-                "2 Slot"
+                "2 Slot",
+                "AC: +1"
             ],
             "property":[
                 "COV3"
@@ -309,7 +314,8 @@
             "strength": "11",
             "entries": [
                 "Overlay",
-                "2 Slot"
+                "2 Slot",
+                "AC: +1"
             ],
             "property": [
                 "BULK",
@@ -327,7 +333,8 @@
             "strength": "11",
             "entries": [
                 "Overlay",
-                "2 Slot"
+                "2 Slot",
+                "AC: +1"
             ],
             "property": [
                 "BULK",
@@ -345,7 +352,8 @@
             "strength": "9",
             "entries": [
                 "Overlay",
-                "2 Slot"
+                "2 Slot",
+                "AC: +2"
             ],
             "property":[
                 "COV6"
@@ -362,7 +370,8 @@
             "strength": "11",
             "entries": [
                 "Overlay",
-                "3 Slot"
+                "3 Slot",
+                "AC: +3"
             ],
             "property": [
                 "BULK",
@@ -381,7 +390,8 @@
             "strength": "12",
             "entries": [
                 "Overlay",
-                "3 Slot"
+                "3 Slot",
+                "AC: +3"
             ],
             "property": [
                 "HARD",
@@ -399,7 +409,8 @@
             "strength": "13",
             "entries": [
                 "Overlay",
-                "4 Slot"
+                "4 Slot",
+                "AC: +4"
             ],
             "property": [
                 "HARD",
@@ -596,7 +607,8 @@
             "acSpecial": "+3",
             "entries": [
                 "Overlay",
-                "4 Slot"
+                "4 Slot",
+                "AC: +3"
             ],
             "property": [
                 "BULK",
@@ -616,7 +628,8 @@
             "acSpecial": "+5",
             "entries": [
                 "Overlay",
-                "5 Slot"
+                "5 Slot",
+                "AC: +5"
             ],
             "property": [
                 "BULK",
@@ -636,7 +649,8 @@
             "acSpecial": "+6",
             "entries": [
                 "Overlay",
-                "6 Slot"
+                "6 Slot",
+                "AC: +6"
             ],
             "property": [
                 "BULK",
@@ -656,7 +670,8 @@
             "acSpecial": "+7",
             "entries": [
                 "Overlay",
-                "6 Slot"
+                "6 Slot",
+                "AC: +7"
             ],
             "property": [
                 "BULK",
