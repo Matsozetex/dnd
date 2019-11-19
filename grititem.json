@@ -52,8 +52,7 @@
                 "AC: +1"
             ],
             "property": [
-                "COV2",
-                "SOAP"
+                "COV2"
             ],
             "source": "GAG"
         },
@@ -71,8 +70,7 @@
                 "AC: +1"
             ],
             "property": [
-                "COV3",
-                "SOAS"
+                "COV3"
             ],
             "source": "GAG"
         },
@@ -4493,106 +4491,6 @@
             }]
         },
         {
-            "abbreviation": "DR1B",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Bludgeoning (1)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR1P",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Piercing (1)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR1S",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Slashing (1)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR2B",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Bludgeoning (2)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR2P",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Piercing (2)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR2S",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Slashing (2)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-
-        {
-            "abbreviation": "DR3B",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Bludgeoning (3)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR3P",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Piercing (3)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "DR3S",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Damage Resistance: Slashing (3)",
-                "entries": [
-                    "After damage is calculated and before damage resistance (if any) is applied, reduce the damage taken by the amount of Damage Reduction. If multiple armor components provide Damage Reduction to the same damage type, they stack together."
-                ]
-            }]
-        },
-        {
             "abbreviation": "EXTB",
             "source": "GAG",
             "entries": [{
@@ -5190,40 +5088,7 @@
                 ]
             }]
         },
-        {
-            "abbreviation": "SOAB",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Soak - Bludgeoning",
-                "entries": [
-                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
-                ]
-            }]
-        },
-        {
-            "abbreviation": "SOAP",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Soak - Piercing",
-                "entries": [
-                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
-                ]
-            }]
-        },
-
-        {
-            "abbreviation": "SOAS",
-            "source": "GAG",
-            "entries": [{
-                "type": "entries",
-                "name": "Soak - Slashing",
-                "entries": [
-                    "After damage is calculated and Damage Reduction is applied but before damage resistance (if any) is applied, for each 10 points of remaining damage reduce the damage taken by 1."
-                ]
-            }]
-        },
+    
 
         {
             "abbreviation": "STEA",
