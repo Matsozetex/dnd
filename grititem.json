@@ -4178,7 +4178,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Stone Pellet",
+            "name": "Stone Pellets (10)",
             "type": "A",
             "rarity": "None",
             "source": "GAG",
@@ -4191,7 +4191,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Sling Pellet",
+            "name": "Sling Pellets (20)",
             "type": "A",
             "rarity": "None",
             "value": 1,
@@ -4205,7 +4205,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Blowgun Needle",
+            "name": "Blowgun Needles (20)",
             "type": "A",
             "rarity": "None",
             "value": 1,
@@ -4218,7 +4218,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Quarrel",
+            "name": "Quarrels (20)",
             "type": "A",
             "rarity": "None",
             "value": 100,
@@ -4231,7 +4231,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Arrow",
+            "name": "Arrows (20)",
             "type": "A",
             "rarity": "None",
             "value": 100,
@@ -4244,7 +4244,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Bodkin Arrow",
+            "name": "Bodkin Arrows (20)",
             "type": "A",
             "rarity": "None",
             "value": 400,
@@ -4260,7 +4260,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Broadhead Arrow",
+            "name": "Broadhead Arrows (20)",
             "type": "A",
             "rarity": "None",
             "value": 400,
@@ -4274,7 +4274,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Greatbow Arrow",
+            "name": "Greatbow Arrows (20)",
             "type": "A",
             "rarity": "None",
             "value": 1000,
@@ -4287,7 +4287,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Bullet",
+            "name": "Bullets (20)",
             "type": "A",
             "rarity": "None",
             "value": 500,
@@ -4300,7 +4300,7 @@
             "valueConversion": "SS"
         },
         {
-            "name": "Buckshot Shells",
+            "name": "Buckshot Shells (20)",
             "type": "A",
             "rarity": "None",
             "value": 2000,
