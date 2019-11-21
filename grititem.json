@@ -46,11 +46,11 @@
             "acSpecial": "+1,",
             "strength": "8",
             "entries": [
-                "1 Slot",
-                "UNDR"
+                "1 Slot"
             ],
             "property": [
-                "COV2"
+                "COV2",
+                "UNDR"
             ],
             "source": "GAG"
         },
@@ -467,11 +467,11 @@
             "acSpecial": "+0,",
             "strength": "12",
             "entries": [
-                "2 Slot",
-                "OVER"
+                "2 Slot"
             ],
             "property":[
-                "COV5"
+                "COV5",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -501,11 +501,11 @@
             "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "3 Slot",
-                "OVER"
+                "3 Slot"
             ],
             "property":[
-                "COV6"
+                "COV6",
+                "OVER"
             ],
             "source": "GAG"
         },
