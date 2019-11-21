@@ -25,16 +25,15 @@
             "armor": true,
             "rarity": "None",
             "value": 1500,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "7",
             "entries": [
-                "Underlay",
-                "1 Slot",
-                "AC: +1"
+                "1 Slot"
             ],
             "property": [
                 "CONA",
-                "COV1"
+                "COV1",
+                "UNDR"
             ],
             "source": "GAG"
         },
@@ -44,12 +43,11 @@
             "armor": true,
             "rarity": "None",
             "value": 2500,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "8",
             "entries": [
-                "Underlay",
                 "1 Slot",
-                "AC: +1"
+                "UNDR"
             ],
             "property": [
                 "COV2"
@@ -62,15 +60,14 @@
             "armor": true,
             "rarity": "None",
             "value": 3500,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "9",
             "entries": [
-                "Underlay",
-                "2 Slots",
-                "AC: +1"
+                "2 Slots"
             ],
             "property": [
-                "COV3"
+                "COV3",
+                "UNDR"
             ],
             "source": "GAG"
         },
@@ -80,14 +77,14 @@
             "armor": true,
             "rarity": "None",
             "value": 500,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "8",
             "entries": [
-                "Overlay",
                 "1 Slot"
             ],
             "property": [
-                "COV1"
+                "COV1",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -97,15 +94,14 @@
             "armor": true,
             "rarity": "None",
             "value": 5000,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "10",
             "entries": [
-                "Overlay", 
-                "1 Slot",
-                "AC: +1"
+                "1 Slot"
             ],
             "property":[
-                "COV1"
+                "COV1", 
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -115,14 +111,14 @@
             "armor": true,
             "rarity": "None",
             "value": 1000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "7",
             "entries": [
-                "Overlay", 
                 "0.1 Slot"
             ],
             "property":[
-                "COV1"
+                "COV1",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -132,14 +128,14 @@
             "armor": true,
             "rarity": "None",
             "value": 10000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "7",
             "entries": [
-                "Overlay", 
                 "1 Slot"
             ],
             "property":[
-                "COV1"
+                "COV1",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -149,14 +145,14 @@
             "armor": true,
             "rarity": "None",
             "value": 2000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "8",
             "entries": [
-                "Overlay", 
                 "0.1 Slot"
             ],
             "property":[
-                "COV2"
+                "COV2",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -166,14 +162,14 @@
             "armor": true,
             "rarity": "None",
             "value": 20000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "8",
             "entries": [
-                "Overlay", 
                 "1 Slot"
             ],
             "property":[
-                "COV2"
+                "COV2",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -183,14 +179,14 @@
             "armor": true,
             "rarity": "None",
             "value": 3000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "9",
             "entries": [
-                "Overlay", 
                 "0.1 Slot"
             ],
             "property":[
-                "COV3"
+                "COV3",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -200,14 +196,14 @@
             "armor": true,
             "rarity": "None",
             "value": 30000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "9",
             "entries": [
-                "Overlay", 
                 "1 Slot"
             ],
             "property":[
-                "COV3"
+                "COV3",   
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -220,13 +216,13 @@
             "armor": true,
             "rarity": "None",
             "value": 3000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "entries": [
-                "Cloak",
                 "0.2 Slot"
             ],
             "property": [
-                "STEA"
+                "STEA",
+                "CLOA"
             ],
             "source": "GAG"
         },
@@ -237,14 +233,14 @@
             "rarity": "None",
             "value": 20000,
             "strength": "11",
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "entries": [
-                "Mesolay",
                 "2 Slot"
             ],
             "property": [
                 "COV2",
-                "CONA"
+                "CONA",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -255,14 +251,14 @@
             "rarity": "None",
             "value": 10000,
             "strength": "11",
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "entries": [
-                "Mesolay",
                 "1 Slot"
             ],
             "property": [
                 "CONA",
-                "COV1"
+                "COV1",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -273,14 +269,14 @@
             "rarity": "None",
             "value": 30000,
             "strength": "12",
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "entries": [
-                "Mesolay",
                 "3 Slot"
             ],
             "property": [
                 "CONA",
-                "COV3"
+                "COV3",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -291,14 +287,13 @@
             "rarity": "None",
             "value": 1000,
             "strength": "8",
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "entries": [
-                "Overlay",
-                "2 Slot",
-                "AC: +1"
+                "2 Slot"
             ],
             "property":[
-                "COV3"
+                "COV3",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -308,16 +303,15 @@
             "armor": true,
             "rarity": "None",
             "value": 7500,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "11",
             "entries": [
-                "Overlay",
-                "2 Slot",
-                "AC: +1"
+                "2 Slot"
             ],
             "property": [
                 "BULK",
-                "COV4"
+                "COV4",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -327,16 +321,15 @@
             "armor": true,
             "rarity": "None",
             "value": 8000,
-            "acSpecial": "+1",
+            "acSpecial": "+1,",
             "strength": "11",
             "entries": [
-                "Overlay",
-                "2 Slot",
-                "AC: +1"
+                "2 Slot"
             ],
             "property": [
                 "BULK",
-                "COV5"
+                "COV5",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -346,15 +339,14 @@
             "armor": true,
             "rarity": "None",
             "value": 5000,
-            "acSpecial": "+2",
+            "acSpecial": "+2,",
             "strength": "9",
             "entries": [
-                "Overlay",
-                "2 Slot",
-                "AC: +2"
+                "2 Slot"
             ],
             "property":[
-                "COV6"
+                "COV6",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -364,17 +356,16 @@
             "armor": true,
             "rarity": "None",
             "value": 5000,
-            "acSpecial": "+3",
+            "acSpecial": "+3,",
             "strength": "11",
             "entries": [
-                "Overlay",
-                "3 Slot",
-                "AC: +3"
+                "3 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
-                "COV7"
+                "COV7",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -384,16 +375,15 @@
             "armor": true,
             "rarity": "None",
             "value": 7500,
-            "acSpecial": "+3",
+            "acSpecial": "+3,",
             "strength": "12",
             "entries": [
-                "Overlay",
-                "3 Slot",
-                "AC: +3"
+                "3 Slot"
             ],
             "property": [
                 "HARD",
-                "COV8"
+                "COV8",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -403,18 +393,17 @@
             "armor": true,
             "rarity": "None",
             "value": 75000,
-            "acSpecial": "+4",
+            "acSpecial": "+4,",
             "strength": "13",
             "entries": [
-                "Overlay",
-                "4 Slot",
-                "AC: +4"
+                "4 Slot"
             ],
             "property": [
                 "HARD",
                 "BULK",
                 "NOIS",
-                "COV10"
+                "COV10",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -424,14 +413,14 @@
             "armor": true,
             "rarity": "None",
             "value": 5000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "11",
             "entries": [
-                "Overlay", 
                 "0.1 Slot"
             ],
             "property":[
-                "COV4"
+                "COV4",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -441,14 +430,14 @@
             "armor": true,
             "rarity": "None",
             "value": 50000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "11",
             "entries": [
-                "Overlay", 
                 "1 Slot"
             ],
             "property":[
-                "COV4"
+                "COV4",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -458,14 +447,14 @@
             "armor": true,
             "rarity": "None",
             "value": 7000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "12",
             "entries": [
-                "Overlay", 
                 "0.2 Slot"
             ],
             "property":[
-                "COV5"
+                "COV5",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -475,11 +464,11 @@
             "armor": true,
             "rarity": "None",
             "value": 70000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "12",
             "entries": [
-                "Overlay", 
-                "2 Slot"
+                "2 Slot",
+                "OVER"
             ],
             "property":[
                 "COV5"
@@ -492,14 +481,14 @@
             "armor": true,
             "rarity": "None",
             "value": 9000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "Overlay", 
                 "0.3 Slot"
             ],
             "property":[
-                "COV6"
+                "COV6",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -509,11 +498,11 @@
             "armor": true,
             "rarity": "None",
             "value": 90000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "Overlay", 
-                "3 Slot"
+                "3 Slot",
+                "OVER"
             ],
             "property":[
                 "COV6"
@@ -526,15 +515,15 @@
             "armor": true,
             "rarity": "None",
             "value": 6000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "11",
             "entries": [
-                "Cloak",
                 "2 Slot"
             ],
             "property": [
                 "BULK",
-                "WARM"
+                "WARM",
+                "CLOA"
             ],
             "source": "GAG"
         },
@@ -544,16 +533,16 @@
             "armor": true,
             "rarity": "None",
             "value": 60000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "15",
             "entries": [
-                "Mesolay",
                 "4 Slot"
             ],
             "property": [
                 "COV6",
                 "NOIS",
-                "BULK"
+                "BULK",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -563,16 +552,16 @@
             "armor": true,
             "rarity": "None",
             "value": 30000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "14",
             "entries": [
-                "Mesolay",
                 "3 Slot"
             ],
             "property": [
                 "COV4",
                 "NOIS",
-                "BULK"
+                "BULK",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -582,16 +571,16 @@
             "armor": true,
             "rarity": "None",
             "value": 15000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "Mesolay",
                 "2 Slot"
             ],
             "property": [
                 "COV2",
                 "NOIS",
-                "BULK"
+                "BULK",
+                "MESO"
             ],
             "source": "GAG"
         },
@@ -602,17 +591,16 @@
             "rarity": "None",
             "value": 3000,
             "strength": "13",
-            "acSpecial": "+3",
+            "acSpecial": "+3,",
             "entries": [
-                "Overlay",
-                "4 Slot",
-                "AC: +3"
+                "4 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
                 "CUMB",
-                "COV8"
+                "COV8",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -623,17 +611,16 @@
             "rarity": "None",
             "value": 7500,
             "strength": "13",
-            "acSpecial": "+5",
+            "acSpecial": "+5,",
             "entries": [
-                "Overlay",
-                "5 Slot",
-                "AC: +5"
+                "5 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
                 "CUMB",
-                "COV8"
+                "COV8",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -644,17 +631,16 @@
             "rarity": "None",
             "value": 20000,
             "strength": "15",
-            "acSpecial": "+6",
+            "acSpecial": "+6,",
             "entries": [
-                "Overlay",
-                "6 Slot",
-                "AC: +6"
+                "6 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
                 "HARD",
-                "COV10"
+                "COV10",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -665,17 +651,16 @@
             "rarity": "None",
             "value": 150000,
             "strength": "15",
-            "acSpecial": "+7",
+            "acSpecial": "+7,",
             "entries": [
-                "Overlay",
-                "6 Slot",
-                "AC: +7"
+                "6 Slot"
             ],
             "property": [
                 "BULK",
                 "NOIS",
                 "HARD",
-                "COV12"
+                "COV12",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -685,16 +670,16 @@
             "armor": true,
             "rarity": "None",
             "value": 15000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "Overlay", 
                 "0.1 Slot"
             ],
             "property":[
                 "COV8",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -704,16 +689,16 @@
             "armor": true,
             "rarity": "None",
             "value": 150000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "13",
             "entries": [
-                "Overlay", 
                 "1 Slot"
             ],
             "property":[
                 "COV8",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -723,16 +708,16 @@
             "armor": true,
             "rarity": "None",
             "value": 30000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "14",
             "entries": [
-                "Overlay", 
                 "0.2 Slot"
             ],
             "property":[
                 "COV10",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -742,16 +727,16 @@
             "armor": true,
             "rarity": "None",
             "value": 300000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "14",
             "entries": [
-                "Overlay", 
                 "2 Slot"
             ],
             "property":[
                 "COV10",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -761,16 +746,16 @@
             "armor": true,
             "rarity": "None",
             "value": 6000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "15",
             "entries": [
-                "Overlay", 
                 "0.3 Slot"
             ],
             "property":[
                 "COV12",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -780,16 +765,16 @@
             "armor": true,
             "rarity": "None",
             "value": 60000,
-            "acSpecial": "-",
+            "acSpecial": "+0,",
             "strength": "15",
             "entries": [
-                "Overlay", 
                 "3 Slot"
             ],
             "property":[
                 "COV12",
                 "BULK",
-                "NOIS"
+                "NOIS",
+                "OVER"
             ],
             "source": "GAG"
         },
@@ -5344,7 +5329,52 @@
                     "The weapon is particularly potent in maximizing its unique damage type. A critical hit creates an additional special effect: Slashing weapons can tear through defencses or otherwise leave a target more vulnerable. The target's AC is lowered by 2 until the end of its next turn."
                 ]
             }]
+        },
+        {
+            "abbreviation": "CLOA",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Cloak",
+                "entries": [
+                    "Cloaks is a supplementary layer that covers the body and protects from environmental hazards such as rain or snow, or provides consealment for the facial features, clothing (including light armor) and hands movement."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "MESO",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Cloak",
+                "entries": [
+                    "Mesolay is the worn protection on top of the underlay that is used to mitigate much of the damage from a blow that penetrates the Overlay. These components provide solid damage reduction to specific types of melee damage and are considered a secondary layer of a warrior's suit of armor."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "OVER",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Cloak",
+                "entries": [
+                    "Overlay is the worn protection on the outside, what a mere layman with no training would call armor. An overlay serves as an impenetrable carapace that stops much of the strength of the blow. The overlay is the main source of Armor Class."
+                ]
+            }]
+        },
+        {
+            "abbreviation": "UNDR",
+            "source": "GAG",
+            "entries": [{
+                "type": "entries",
+                "name": "Underlay",
+                "entries": [
+                    "Underlay is the worn protection directly in contact with the body. It is usually soft and thick clothing that protects the skin from weapon materials. These components are easy to conceal under civil clothing and soak damage from powerful hits that manage to penetrate your external armor."
+                ]
+            }]
         }
+
 
 
 
