@@ -17,23 +17,25 @@
             "version": "0.9",
             "targetSchema": "1.0.0"
         }],
-        "dateAdded": 1573638527
+        "dateAdded": 1573638527,
+        "itemValueConversions": {
+            "SS": [
+                {
+                    "coin": "gp",
+                    "mult": 0.0001
+                },
+                {
+                    "coin": "sp",
+                    "mult": 0.01
+                },
+                {
+                    "coin": "cp",
+                    "mult": 1
+                }
+            ]
+        }
     },
-    "itemValueConversions": {
-        "SS": [{
-                "coin": "pp",
-                "mult": 0.000001
-            },
-            {
-                "coin": "gp",
-                "mult": 0.0001
-            },
-            {
-                "coin": "sp",
-                "mult": 0.01
-            }
-        ]
-    },
+    
     "item": [{
             "name": "Aketon",
             "type": "LA",
@@ -1567,7 +1569,7 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "value": 10,
+            "value": 1,
             "dmg1": "{@dice 1d8}",
             "dmgType": "B",
             "source": "GAG",
@@ -1798,7 +1800,7 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "value": 50,
+            "value": 5,
             "dmg1": "{@dice 1d6}",
             "range": "30/120",
             "dmgType": "P",
@@ -1845,7 +1847,7 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "value": 20,
+            "value": 2,
             "dmg1": "{@dice 1d6}",
             "dmg2": "{@dice 2d4}",
             "dmgType": "B",
@@ -2232,7 +2234,7 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Martial",
-            "value": 70,
+            "value": 7,
             "dmg1": "{@dice 2d4}",
             "dmgType": "B",
             "source": "GAG",
@@ -2331,7 +2333,7 @@
             "rarity": "None",
             "weapon": true,
             "weaponCategory": "Simple",
-            "value": 10,
+            "value": 1,
             "source": "GAG",
             "range": "20/60",
             "property": [
@@ -4192,7 +4194,7 @@
             "name": "Sling Pellet",
             "type": "A",
             "rarity": "None",
-            "value": 10,
+            "value": 1,
             "source": "GAG",
             "quantity": 20,
             "entries": [
@@ -4206,7 +4208,7 @@
             "name": "Blowgun Needle",
             "type": "A",
             "rarity": "None",
-            "value": 10,
+            "value": 1,
             "source": "GAG",
             "quantity": 20,
             "entries": [
