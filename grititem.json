@@ -5562,7 +5562,7 @@
             "source": "GAG",
             "entries": [{
                 "type": "entries",
-                "name": "Cloak",
+                "name": "Mesolay",
                 "entries": [
                     "Mesolay is the worn protection on top of the underlay that is used to mitigate much of the damage from a blow that penetrates the Overlay. These components provide solid damage reduction to specific types of melee damage and are considered a secondary layer of a warrior's suit of armor."
                 ]
@@ -5573,7 +5573,7 @@
             "source": "GAG",
             "entries": [{
                 "type": "entries",
-                "name": "Cloak",
+                "name": "Overlay",
                 "entries": [
                     "Overlay is the worn protection on the outside, what a mere layman with no training would call armor. An overlay serves as an impenetrable carapace that stops much of the strength of the blow. The overlay is the main source of Armor Class."
                 ]
