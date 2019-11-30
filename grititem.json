@@ -15,7 +15,8 @@
             ],
             "url": "https://github.com/Matsozetex/dnd",
             "version": "0.9",
-            "targetSchema": "1.0.0"
+            "targetSchema": "1.0.0",
+            "color": "ff00dd"
         }],
         "dateAdded": 1573638527,
         "itemValueConversions": {
