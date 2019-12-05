@@ -2861,7 +2861,8 @@
             "source": "GAG",
             "property": [
                 "LITE",
-                "LIMT"
+                "LIMT",
+                "THRO"
             ],
             "entries": [
                 "Simple Thrown Weapons",
@@ -2881,7 +2882,8 @@
             "dmgType": "P",
             "source": "GAG",
             "property": [
-                "LITE"
+                "LITE",
+                "THRO"
 
             ],
             "entries": [
@@ -2902,7 +2904,8 @@
             "source": "GAG",
             "property": [
                 "LITE",
-                "PELL"
+                "PELL",
+                "A"
 
             ],
             "entries": [
@@ -2923,7 +2926,8 @@
             "dmgType": "P",
             "source": "GAG",
             "property": [
-                "TWOH"
+                "TWOH",
+                "A"
 
             ],
             "entries": [
@@ -2946,7 +2950,8 @@
             "property": [
 
                 "PELL",
-                "TWOH"
+                "TWOH",
+                "A"
 
             ],
             "entries": [
@@ -2969,7 +2974,8 @@
             "property": [
                 "BRUT",
                 "STR9",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -2990,7 +2996,8 @@
             "source": "GAG",
             "property": [
                 "BRUT",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3012,7 +3019,8 @@
             "property": [
                 "BRUT",
                 "STR1",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3035,7 +3043,8 @@
                 "BRUT",
                 "LIMN",
                 "STR1",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3058,7 +3067,8 @@
                 "BRUT",
                 "LIMN",
                 "STR9",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3081,7 +3091,8 @@
                 "BRUT",
                 "LIMN",
                 "STR3",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3108,7 +3119,8 @@
                 "STR3",
                 "TWOH",
                 "VOLL",
-                "WOUP"
+                "WOUP",
+                "A"
             ],
             "entries": [
                 "Martial Bows",
@@ -3130,7 +3142,8 @@
             "property": [
                 "LITE",
                 "L",
-                "PTBK"
+                "PTBK",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3153,7 +3166,8 @@
                 "LITE",
                 "LOA5",
                 "MAG6",
-                "PTBK"
+                "PTBK",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3176,7 +3190,8 @@
             "property": [
                 "LOA1",
                 "STCK",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3199,7 +3214,8 @@
                 "LOA2",
                 "MAG2",
                 "STCK",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3221,7 +3237,8 @@
             "property": [
                 "LOA5",
                 "MAG6",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3244,7 +3261,8 @@
                 "H",
                 "LOA2",
                 "STCK",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3267,7 +3285,8 @@
                 "H",
                 "LOA4",
                 "MAG2",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3290,7 +3309,8 @@
                 "H",
                 "LOA7",
                 "MAG6",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3313,7 +3333,8 @@
                 "CAL3",
                 "LOA1",
                 "STCK",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3336,7 +3357,8 @@
                 "LD",
                 "PELL",
                 "STCK",
-                "TWOH"
+                "TWOH",
+                "A"
             ],
             "entries": [
                 "Simple Crossbows",
@@ -3356,7 +3378,8 @@
             "dmgType": "P",
             "source": "GAG",
             "property": [
-                "LD"
+                "LD",
+                "A"
             ],
             "entries": [
                 "Other Martial Ranged Weapons",
@@ -3376,7 +3399,8 @@
             "dmgType": "P",
             "source": "GAG",
             "property": [
-                "LD"
+                "LD",
+                "A"
             ],
             "entries": [
                 "Other Martial Ranged Weapons",
@@ -3399,7 +3423,8 @@
                 "LOA4",
                 "TWOH",
                 "MIS2",
-                "SUN3"
+                "SUN3",
+                "A"
             ],
             "entries": [
                 "Medieval Firearms",
@@ -3424,7 +3449,8 @@
                 "MAG2",
                 "TWOH",
                 "MIS2",
-                "SUN3"
+                "SUN3",
+                "A"
             ],
             "entries": [
                 "Medieval Firearms",
@@ -3450,7 +3476,8 @@
                 "MAG2",
                 "TWOH",
                 "MIS2",
-                "SUN3"
+                "SUN3",
+                "A"
             ],
             "entries": [
                 "Medieval Firearms",
@@ -3474,7 +3501,8 @@
                 "LOA3",
                 "PTBK",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3499,7 +3527,8 @@
                 "LOA3",
                 "PTBK",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3523,7 +3552,8 @@
                 "LOA3",
                 "PTBK",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3547,7 +3577,8 @@
                 "LITE",
                 "LO12",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3571,7 +3602,8 @@
                 "LOA3",
                 "PTBK",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3595,7 +3627,8 @@
                 "LOA7",
                 "PTBK",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3618,7 +3651,8 @@
                 "LOA9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3642,7 +3676,8 @@
                 "LOA9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3666,7 +3701,8 @@
                 "LOA6",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3689,7 +3725,8 @@
                 "LOA6",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3713,7 +3750,8 @@
                 "LOA6",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3737,7 +3775,8 @@
                 "LOA9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3761,7 +3800,8 @@
                 "LOA2",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3784,7 +3824,8 @@
                 "LOA2",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3809,7 +3850,8 @@
                 "MAG9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3832,7 +3874,8 @@
                 "LOA9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3857,7 +3900,8 @@
                 "LOA6",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3881,7 +3925,8 @@
                 "MAG3",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3904,7 +3949,8 @@
                 "LOA1",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3928,7 +3974,8 @@
                 "LOA9",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3953,7 +4000,8 @@
                 "MAG2",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -3977,7 +4025,8 @@
                 "LOA2",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -4001,7 +4050,8 @@
                 "LOA6",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -4026,7 +4076,8 @@
                 "MAG2",
                 "TWOH",
                 "VELO",
-                "MIS1"
+                "MIS1",
+                "A"
             ],
             "entries": [
                 "Renaissance Firearms",
@@ -4051,7 +4102,8 @@
                 "LITE",
                 "MAG2",
                 "PTBK",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
@@ -4075,7 +4127,8 @@
                 "LITE",
                 "MAG6",
                 "PTBK",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
@@ -4098,7 +4151,8 @@
                 "CAL2",
                 "LOA2",
                 "TWOH",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
@@ -4121,7 +4175,8 @@
                 "CAL3",
                 "LD",
                 "TWOH",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
@@ -4145,7 +4200,8 @@
                 "LOA3",
                 "MAG7",
                 "TWOH",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
@@ -4170,7 +4226,8 @@
                 "LOA1",
                 "MAG2",
                 "TWOH",
-                "VELO"
+                "VELO",
+                "A"
             ],
             "entries": [
                 "Industrial Firearms",
