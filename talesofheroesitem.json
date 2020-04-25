@@ -1,0 +1,184 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "TOH",
+            "abbreviation": "TOHI",
+            "full": "Items for Tales of Heroes",
+            "authors": [
+                "Matsozetex"
+            ],
+            "convertedBy": [
+                "Matsozetex#8320"
+            ],
+            "url": "https://github.com/Matsozetex/dnd",
+            "version": "1.9",
+            "targetSchema": "1.0.0",
+            "color": "#a142f5"
+        }]
+        },
+        "item":[{
+            "name": "Padded Arrows (20)",
+            "type": "A",
+            "rarity": "None",
+            "value":300,
+            "source":"TOH",
+            "quantity":20,
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"These arrows allow for bows to deal non-lethal damage at the cost of halving range."
+					]
+				}
+            ],
+            "property":[
+                "S"
+            ],
+            "weight": 1
+
+        },
+        {
+            "name": "Buckler",
+            "type": "S",
+            "rarity": "None",
+            "value": 2000,
+            "ac": 1,
+            "property": [
+                "L",
+                "F",
+                "S"
+            ],
+            "source": "TOH",
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The buckler has a special property to be used as an off-hand weapon, dealing 1d4 damage."
+					]
+				}
+            ],
+            "weight": 3
+        },
+        {
+            "name": "Sap",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 100,
+            "dmg1": "{@dice 1d4}",
+            "dmgType": "B",
+            "source": "TOH",
+            "property": [
+                "F",
+                "L"
+            ],
+            "weight": 1
+            
+        },
+        {
+            "name": "Sabre",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "dmg1": "{@dice 2d4}",
+            "dmgType": "S",
+            "source": "TOH",
+            "property": [
+                "F"
+
+            ],
+            "weight": 4
+        },
+        {
+            "name": "Estoc",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 2500,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "TOH",
+            "property": [
+                "F"
+
+            ],
+            "weight": 3
+        },
+        {
+            "name": "Elven Curveblade",
+            "type": "M",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 10000,
+            "dmg1": "{@dice 1d10}",
+            "dmgType": "S",
+            "source": "TOH",
+            "property": [
+                "F",
+                "2H"
+            ],
+            "weight": 7
+        },
+        {
+            "name": "Greatbow",
+            "type": "R",
+            "rarity": "None",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 15000,
+            "dmg1": "{@dice 1d12}",
+            "range": "200/800",
+            "dmgType": "P",
+            "source": "TOH",
+            "property": [
+                "A",
+                "H",
+                "2H",
+                "S"
+            ],
+            "weight": 4,
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This can use strength as opposed dexterity when attack rolls and damage rolls. If firing this weapon when within 30ft of your target you roll with disadvantage."
+					]
+				}
+            ]
+        },
+        {
+            "name": "Greatbow Arrows (20)",
+            "type": "A",
+            "rarity": "None",
+            "value":1000,
+            "source":"TOH",
+            "quantity":20,
+            "entries":[
+                "Ammunition for Greatbows."
+            ],
+            
+            "weight": 2
+        },
+        {
+            "name":"Flask of Community",
+            "source":"TOH",
+            "tier":"major",
+            "rarity":"uncommon",
+            "wonderous": true,
+            "weight": 1,
+            "entries":[
+                "This flask is made out of electrum of wood has the power to contain many potions. It acts as a storage location for potions, and when being drunk from a creature can declare what potion they want to drink.","During a long rest, you may focus on the flask to duplicate the flask, the new and old flask share storage spaces, there only may be 10 flasks in existence at the same time."
+
+            ]
+        }
+    ]
+
+}
