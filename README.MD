@@ -1,8 +1,6 @@
-This repository contains one JSON object for use with BetterR20-5eTools and 5eTools.
+This repository contains different JSON objects that act as conversion for Roll20 and 5etools for various bits of content and homebrew I use in my campaign or that I make for others.
 
 Grit and Glory Items:
-
-This is strictly a personal project, the actual grit and glory item list can be found at: https://github.com/TheGiddyLimit/homebrew.
 
 For the purpose of streamlining combat, properties that usually give wounds or affect creatures that are wounded have different effects. Also for the sake of balancing some properties have been completely changed.
 
@@ -19,7 +17,11 @@ Note on how slots work, it is based on properties or practicality:
 - It decreases by 2 if it is extremely small, like darts
 
 
-Versatile Ranger:
+Versatile Ranger (WIP):
 
-Seeing as ranger doesn't really support a good backstory and a functional character being possible this conversion is to be done.
+Seeing as ranger doesn't really support a good backstory and a functional character being possible this conversion is to be done. A user has this already in this format however it is out of date, see this file as an update.
 
+
+Tales of Heroes Items (ongoing):
+
+This json serves as a general homebrew document to whatever items my players can dream up and whatever I can put them for later reference and concrete balancing. 
