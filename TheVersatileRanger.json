@@ -28,6 +28,8 @@
 			"str",
 			"dex"
 		],
+		"spellcastingAbility": "wis",
+		"casterProgression": "1/2",
 		"classTableGroups": [{
 			"title": "Spell Slots per Spell Level",
 			"colLabels": [
@@ -281,7 +283,7 @@
 									"type": "entries",
 									"name": "Grassland Adaptation",
 									"entries": [
-										"You experience the exhaustion effects of the level below your current level of exhaustion, instead of the usual effects. You cannot die of exhaustion. "
+										"You experience the exhaustion effects of the level below your current level of exhaustion, instead of the usual effects."
 									]
 								},
 								{
@@ -1759,8 +1761,7 @@
 		"classes": {
 			"fromClassList": [{
 				"name": "Ranger",
-				"source": "TheVersatileRanger",
-				"color": "03fc94"
+				"source": "TheVersatileRanger"
 			}]
 		},
 		"entries": [
