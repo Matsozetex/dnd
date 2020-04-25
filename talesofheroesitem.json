@@ -164,7 +164,6 @@
             "entries":[
                 "Ammunition for Greatbows."
             ],
-            
             "weight": 2
         },
         {
@@ -172,10 +171,10 @@
             "source":"TOH",
             "tier":"major",
             "rarity":"uncommon",
-            "wonderous": true,
+            "wondrous": true,
             "weight": 1,
             "entries":[
-                "This flask is made out of electrum of wood has the power to contain many potions. It acts as a storage location for potions, and when being drunk from a creature can declare what potion they want to drink.","During a long rest, you may focus on the flask to duplicate the flask, the new and old flask share storage spaces, there only may be 10 flasks in existence at the same time."
+                "This flask is made out of electrum and wood has the power to contain many potions. It acts as a storage location for potions, and when being drunk, a creature can declare what potion they want to drink and that potion will flow out of its spout.","During a long rest, you may focus on the flask to duplicate the flask, the new and old flask share storage spaces, there only may be 10 flasks in existence at the same time."
 
             ]
         }
