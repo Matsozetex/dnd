@@ -19,7 +19,7 @@
         "item":[{
             "name": "Padded Arrows (20)",
             "type": "A",
-            "rarity": "None",
+            "rarity": "none",
             "value":300,
             "source":"TOH",
             "quantity":20,
@@ -41,7 +41,7 @@
         {
             "name": "Buckler",
             "type": "S",
-            "rarity": "None",
+            "rarity": "none",
             "value": 2000,
             "ac": 1,
             "property": [
@@ -64,7 +64,7 @@
         {
             "name": "Sap",
             "type": "M",
-            "rarity": "None",
+            "rarity": "none",
             "weapon": true,
             "weaponCategory": "Simple",
             "value": 100,
@@ -81,7 +81,7 @@
         {
             "name": "Sabre",
             "type": "M",
-            "rarity": "None",
+            "rarity": "none",
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
@@ -97,7 +97,7 @@
         {
             "name": "Estoc",
             "type": "M",
-            "rarity": "None",
+            "rarity": "none",
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 2500,
@@ -113,7 +113,7 @@
         {
             "name": "Elven Curveblade",
             "type": "M",
-            "rarity": "None",
+            "rarity": "none",
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 10000,
@@ -129,7 +129,7 @@
         {
             "name": "Greatbow",
             "type": "R",
-            "rarity": "None",
+            "rarity": "none",
             "weapon": true,
             "weaponCategory": "Martial",
             "value": 15000,
@@ -157,7 +157,7 @@
         {
             "name": "Greatbow Arrows (20)",
             "type": "A",
-            "rarity": "None",
+            "rarity": "none",
             "value":1000,
             "source":"TOH",
             "quantity":20,
