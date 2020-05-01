@@ -232,6 +232,34 @@
 					]
 				}
             ]
+        },
+        {
+            "name": "Handgonne",
+            "type": "R",
+            "rarity": "none",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 85000,
+            "dmg1": "{@dice 2d6}",
+            "range": "25/100",
+            "dmgType": "B",
+            "source": "TOH",
+            "property": [
+                "A",
+                "S",
+                "LD",
+                "2H"
+            ],
+            "weight": 20,
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon cannot be used by a creature with a strength score of 15 or lower."
+					]
+				}
+            ]
         }
     ]
 
