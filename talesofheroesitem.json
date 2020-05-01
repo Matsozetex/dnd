@@ -149,7 +149,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"This can use strength as opposed dexterity when attack rolls and damage rolls. If firing this weapon when within 30ft of your target you roll with disadvantage."
+						"This can use strength as opposed dexterity for attack rolls and damage rolls. If firing this weapon when within 30ft of your target, you roll with disadvantage."
 					]
 				}
             ]
@@ -176,6 +176,61 @@
             "entries":[
                 "This flask is made out of electrum and wood has the power to contain many potions. It acts as a storage location for potions, and when being drunk, a creature can declare what potion they want to drink and that potion will flow out of its spout.","During a long rest, you may focus on the flask to duplicate the flask, the new and old flask share storage spaces, there only may be 10 flasks in existence at the same time."
 
+            ]
+        },
+        {
+            "name": "Blunderbuss",
+            "type": "R",
+            "rarity": "none",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "value": 35000,
+            "dmg1": "{@dice 1d8}",
+            "range": "10/40",
+            "dmgType": "P",
+            "source": "TOH",
+            "property": [
+                "A",
+                "S",
+                "H",
+                "LD"
+            ],
+            "weight": 4,
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon can hit a second target if it is within 5ft of the first target. The attack roll and damage roll is the same for hitting both targets."
+					]
+				}
+            ]
+        },
+        {
+            "name": "Bayonet",
+            "type": "M",
+            "rarity": "none",
+            "weapon": true,
+            "weaponCategory": "Simple",
+            "value": 400,
+            "dmg1": "{@dice 1d4}",
+            "range": "10",
+            "dmgType": "P",
+            "source": "TOH",
+            "property": [
+                "F",
+                "L",
+                "S"
+            ],
+            "weight": 4,
+            "entries":[
+                {
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon may be attached to the end of a firearm or crossbow to make it convenient to use in melee."
+					]
+				}
             ]
         }
     ]
