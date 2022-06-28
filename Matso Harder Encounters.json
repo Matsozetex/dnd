@@ -1,0 +1,267 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MatsoHarderEncounters",
+				"abbreviation": "MHE",
+				"full": "Matso Harder Encounters",
+				"url": "",
+                "version": "1656396698",
+				"authors": [
+					"Bergen Matso"
+				],
+				"convertedBy": []
+			}
+		],
+        "dateAdded": 1656396698,
+        "dateLastModified": 1656396698,
+	},
+	"monsters":[
+		
+			{
+				"name": "Xardorok Sunblight (Despot)",
+				"source": "MatsoHarderEncounters",
+				"size": [
+					"L"
+				],
+				"type": {
+					"type": "humanoid",
+					"tags": [
+						"dwarf"
+					]
+				},
+				"alignment": [
+					"L",
+					"E"
+				],
+				"ac": [
+					{
+						"ac": 19,
+						"from": [
+							"{@item plate mail|PHB}",
+							"natural armor"
+						]
+					}
+				],
+				"hp": {
+					"formula": "14d8 + 56",
+					"average": 119
+				},
+				"speed": {
+					"walk": 25
+				},
+				"str": 20,
+				"dex": 11,
+				"con": 18,
+				"int": 12,
+				"wis": 14,
+				"cha": 18,
+				"save": {
+					"wis": "+4",
+					"cha": "+7",
+					"con": "+8"
+				},
+				"skill": {
+					"arcana": "+4",
+					"deception": "+7",
+					"intimidation": "+7"
+				},
+				"senses": [
+					"darkvision 120 ft."
+				],
+				"passive": 12,
+				"resist": [
+					"poison"
+				],
+				"languages": [
+					"Common",
+					"Dwarvish"
+				],
+				"cr": "12",
+				"spellcasting": [
+					{
+						"name": "Innate Spellcasting",
+						"headerEntries": [
+							"Xardorok's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+						],
+						"will": [
+							"{@spell eldritch blast} (see \"Actions\" below)",
+							"{@spell invisibility}",
+							"{@spell mage hand}"
+						],
+						"daily": {
+							"1e": [
+								"{@spell counterspell}",
+								"{@spell hold person}",
+								"{@spell misty step}",
+								"{@spell stinking cloud}",
+								"{@spell suggestion}"
+							]
+						},
+						"ability": "cha",
+						"type": "spellcasting"
+					}
+				],
+				"trait": [
+					{
+						"name": "Duergar Resilience",
+						"entries": [
+							"Xardorok has advantage on saving throws against poison, spells, and illusions, as well as to resist being {@condition charmed} or {@condition paralyzed}."
+						]
+					},
+					{
+						"name": "Sunlight Sensitivity",
+						"entries": [
+							"While in sunlight, Xardorok has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						]
+					},
+					{
+						"name": "Magic Resistance",
+						"entries": [
+							"The Xardorok Sunblight has advantage on saving throws against spells and other magical effects."
+						]
+					},
+					{
+						"name": "Psychic Engine",
+						"entries": [
+							"When the Xardorok suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 {{@dice 4d6}} psychic damage to each creature within 5 feet of it."
+						]
+					}
+				],
+				"action": [
+					{
+						"name": "Multiattack",
+						"entries": [
+							"Xardorok makes two iron fist attacks and two stomping foot attacks. It can replace one of these attacks with an Eldritch Blast or a Flame Jet."
+						]
+					},
+					{
+						"name": "Eldritch Blast (Cantrip)",
+						"entries": [
+							"{@atk rs} {@hit 8} to hit, range 120 ft., three creatures. {@h}9 ({@damage 1d10 + 4}) force damage."
+						]
+					},
+					{
+						"name": "Spiked Gauntlet",
+						"entries": [
+							"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d8 + 5}) piercing damage. If the target is a Large or smaller creature, it must make a successful {@dc 17} Strength saving throw or be thrown up to 30 feet away in a straight line. The target is knocked {@condition prone} and then takes 10 ({{@dice 3d6}}) bludgeoning damage."
+						]
+					},
+					{
+						"name": "Stomping Foot",
+						"entries": [
+							"{@atk mw} {@hit 9} to hit, reach 5ft., one target. {@h} 9 ({@damage 1d8 + 5}) bludgeoning damage, or {@h} 18 ({@damage 3d8 + 5}) bludgeoning damage to a {@condition prone} target."
+						]
+					},
+					{
+						"name": "Flame Jet",
+						"entries": [
+							"Xardorok spews flames in a line 100 feet long and 5 feet wide. Each creature must make a {@dc 16} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save, or half as much damage on a successful one."
+						]
+					}
+				],
+				"reaction": [
+					{
+						"name": "Hellish Rebuke (2/Day)",
+						"entries": [
+							"When Xardorok is damaged by a creature within 60 feet of him that he can see, the creature that damaged him is engulfed in hellish flames and must make a {@dc 15} Dexterity saving throw, taking 16 ({@damage 3d10}) fire damage on a failed save, or half as much damage on a successful one."
+						]
+					}
+				],
+				"traitTags": [
+					"Magic Resistance",
+					"Sunlight Sensitivity"
+				],
+				"senseTags": [
+					"SD"
+				],
+				"actionTags": [
+					"Multiattack"
+				],
+				"languageTags": [
+					"C",
+					"D"
+				],
+				"damageTags": [
+					"B",
+					"F",
+					"O",
+					"P"
+				],
+				"damageTagsSpell": [
+					"O"
+				],
+				"spellcastingTags": [
+					"I"
+				],
+				"miscTags": [
+					"MW",
+					"AOE"
+				],
+				"conditionInflict": [
+					"prone"
+				],
+				"conditionInflictSpell": [
+					"paralyzed"
+				],
+				"hasFluff": true,
+				"hasFluffImages": true,
+				"tokenUrl": "https://5e.tools/img/IDRotF/Xardorok Sunblight.png",
+				"fluff": {
+					"name": "Xardorok Sunblight",
+					"source": "IDRotF",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Xardorok Sunblight leads the Sunblight clan of duergar which, until recently, dwelled in the subterranean depths beneath the Spine of the World. In the guise of Deep Duerra, the duergar god of conquest, the archdevil Asmodeus visited Xardorok and urged him to conquer Icewind Dale, beginning with Ten-Towns.",
+										{
+											"type": "entries",
+											"name": "Dark Obsession",
+											"entries": [
+												"Xardorok is obsessed with chardalyn and can't stand the thought of anyone else possessing it. He must have all the chardalyn that Icewind Dale has to offer and is using his ample supply to forge a dragon, which he plans to unleash upon Ten-Towns. See the {@adventure sidebar|IDRotF|0|Chardalyn} for more information about chardalyn."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Father of Nine",
+											"entries": [
+												"Xardorok has been married three times and has sired nine children. He killed his first wife, Thizrun, for plotting to assassinate him. His second wife, Yrraska, was killed in a tunnel collapse along with two of their daughters. His third wife, Marral, was killed during a raid against a mind flayer enclave, along with another daughter and three sons. Xardorok killed his eldest son, Ulthoon, son of Thizrun, for plotting to overthrow him. His surviving offspring are two sons given to him by Marral, named Durth and Nildar."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Clad in Chardalyn",
+											"entries": [
+												"Xardorok wears the following nonmagical items fashioned from chardalyn: a nine-spired crown (two intact spires representing his two surviving sons, and seven partially broken-off spires representing his seven dead children), a suit of chain mail, and a spiked gauntlet."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "bestiary/IDRotF/Xardorok Sunblight.jpg"
+							}
+						}
+					]
+				},
+				"conditionImmune": [
+					"charmed",
+					"exhaustion",
+					"frightened",
+					"paralyzed",
+					"poisoned"
+				]
+			}
+		
+	]
+}
